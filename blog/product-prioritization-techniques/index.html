@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="title" content="Roadmunk Blog - Product Management and Product Roadmaps">
+<meta name="description" content="In-depth features, interviews, tips, and advice for modern product managers. Subscribe to Roadmunk's blog and stay up to date on the latest product management trends.">
+<link rel="shortcut icon" href="../wp-content/themes/roadmunk_v2/assets/img/favicon.ico">
+<title>Product Prioritization Techniques: A Map and Guided Tour</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://roadmunk.com/blog/xmlrpc.php">
+
+<!-- This site is optimized with the Yoast SEO plugin v4.4 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Product prioritization is a top concern for product managers. Although it’s not what we are hired to do, it’s something that we have to do."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="index.html" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Product prioritization is a top concern for product managers. Although it’s not what we are hired to do, it’s something that we have to do." />
+<meta name="twitter:title" content="Product Prioritization Techniques: A Map and Guided Tour" />
+<meta name="twitter:site" content="@roadmunkapp" />
+<meta name="twitter:image" content="../wp-content/uploads/2016/10/allsorts.gif" />
+<meta name="twitter:creator" content="@roadmunkapp" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='https://js.hs-scripts.com' />
+<link rel='dns-prefetch' href='https://a.optnmnstr.com' />
+<link rel='dns-prefetch' href='https://s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Roadmunk Blog &raquo; Feed" href="../feed/index.rss" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/roadmunk.com\/blog\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.3"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='et1-bloodfm-menu-icon-css'  href='../wp-content/plugins/delete-all-comments-of-website/include/sweetalert-ver=1.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bcct_custom_style-css'  href='../wp-content/uploads/bcttstyle-ver=1.0.css' type='text/css' media='all' />
+<link rel='stylesheet' id='roadmunk-style-css'  href='../wp-content/themes/roadmunk_v2/style-ver=4.7.3.css' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-style-css'  href='../wp-content/themes/roadmunk_v2/public/css/custom.min-ver=4.7.3.css' type='text/css' media='all' />
+<link rel='stylesheet' id='et-googleFonts-css'  href='https://fonts.googleapis.com/css?family=Source+Sans+Pro&amp;ver=4.7.3' type='text/css' media='all' />
+<script type='text/javascript' src='../wp-content/plugins/delete-all-comments-of-website/include/sweetalert-dev-ver=1.js'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery-ver=1.12.4.js'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery-migrate.min-ver=1.4.1.js'></script>
+<script type='text/javascript' src='../wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker-ver=1.5.1.js'></script>
+<script type='text/javascript' data-cfasync="false" id="omapi-script" async="async" src='https://a.optnmnstr.com/app/js/api.min.js?ver=1.1.6.1'></script>
+<link rel='https://api.w.org/' href='../wp-json/index.json' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc.php-rsd.xml" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.7.3" />
+<link rel='shortlink' href='index.html' />
+<link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embed-url=https---roadmunk.com-blog-product-prioritization-techniques-.json" />
+<link rel="alternate" type="text/xml+oembed" href="../wp-json/oembed/1.0/embed-url=https---roadmunk.com-blog-product-prioritization-techniques-&amp;format=xml.xml" />
+
+<!-- Google Tag Manager for WordPress by DuracellTomi - http://duracelltomi.com -->
+<script data-cfasync="false" type="text/javascript">
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || []
+	dataLayer.push({"pagePostType":"post","pagePostType2":"single-post","pageCategory":["product-strategy"],"pageAttributes":["feature-prioritization","prioritization","product-management","product-manager","product-managers","product-prioritization","product-roadmap","roadmapping"],"pagePostAuthor":"Daniel Zacarias"});
+</script>
+<script data-cfasync="false">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NZM6BLH');</script>
+<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager for WordPress by DuracellTomi -->	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-37519519-1', 'auto');
+		ga('send', 'pageview');
+
+		</script>
+
+<!-- Facebook Open Graph protocol plugin NEEDS an admin or app ID to work, please visit the plugin settings page! -->
+<link rel="icon" href="../wp-content/uploads/2018/01/favicon.png" sizes="32x32" />
+<link rel="icon" href="../wp-content/uploads/2018/01/favicon.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="../wp-content/uploads/2018/01/favicon.png" />
+<meta name="msapplication-TileImage" content="https://roadmunk.com/blog/wp-content/uploads/2018/01/favicon.png" />
+</head>
+
+<body class="post-template-default single single-post postid-1249 single-format-standard group-blog">
+	<div class="search-modal">
+		<form method="get" class="search-form compact-form" action="../index.html">
+			<input type="search" class="search-field" placeholder="Enter keyword..." autocomplete="off" value="" name="s">
+			<button type="submit" class="search-submit compact-submit"><span class="fa fa-search"></span></button>
+		</form>
+		<span class="search-toggle fa fa-times"></span>
+	</div>
+
+	<div class="menu-modal">
+		<div class="menu-modal-header">
+			<img class="logo" src="../wp-content/themes/roadmunk_v2/assets/img/roadmunk-logo-b.png" alt="Roadmunk"/>
+			<span class="menu-toggle fa fa-times"></span>
+		</div>
+		<div id="navbar-mobile" class="navbar"><ul id="menu-main-nav" class="nav navbar-nav navbar-nav-mobile"><li id="menu-item-571" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-571"><a title="Roadmapping" href="../category/roadmapping/index.html">Roadmapping</a></li>
+<li id="menu-item-661" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-661"><a title="Product Strategy" href="../category/product-strategy/index.html">Product Strategy</a></li>
+<li id="menu-item-3595" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3595"><a title="Podcast" href="../category/podcast/index.html">Podcast</a></li>
+<li id="menu-item-636" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-636"><a title="Culture" href="../category/culture/index.html">Culture</a></li>
+<li id="menu-item-637" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-637"><a title="Influencers" href="../category/influencers/index.html">Influencers</a></li>
+<li id="menu-item-574" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-574"><a title="Updates" href="../category/updates/index.html">Updates</a></li>
+<li class="menu-item menu-item-free-trial"><a href="https://app.roadmunk.com/login/#/signup" title="Create a Roadmap"><button type="button" class="btn btn-trial">Create a Roadmap</button></a></li></ul></div>	</div>
+
+	
+	<span id="roadmunk_main_link">
+		<a href="../../index.html" target="_blank">
+			<img src="../wp-content/themes/roadmunk_v2/assets/img/roadmunk-back.svg" alt="Go To Roadmunk.com"/>
+			<img id="website-hover" src="../wp-content/themes/roadmunk_v2/assets/img/roadmunk-back-hover.svg" alt="Go To Roadmunk.com"/>
+		</a>
+	</span><!--//roadmunk_main_link-->
+
+	<div class="container main-container">
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<a class="navbar-brand" href="../index.html">
+						<img src="../wp-content/themes/roadmunk_v2/assets/img/roadmunk-blog.svg" alt="Roadmunk Logo" />
+					</a>
+				</div>
+				<button type="button" class="navbar-toggle">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<ul id="menu-roadmunk-1" class="menu-roadmunk-search-mobile nav visible-xs-inline-block visible-sm-inline-block">
+					<li class="menu-item menu-item-search">
+						<a href="#" title="Search Roadmunk"><img data-alt-src="https://roadmunk.com/blog/wp-content/themes/roadmunk_v2/assets/img/search_b.png" src="../wp-content/themes/roadmunk_v2/assets/img/search.png"></a>
+					</li>
+				</ul>
+				<ul id="menu-main-nav-1" class="nav navbar-nav"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-571"><a title="Roadmapping" href="../category/roadmapping/index.html">Roadmapping</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-661"><a title="Product Strategy" href="../category/product-strategy/index.html">Product Strategy</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3595"><a title="Podcast" href="../category/podcast/index.html">Podcast</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-636"><a title="Culture" href="../category/culture/index.html">Culture</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-637"><a title="Influencers" href="../category/influencers/index.html">Influencers</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-574"><a title="Updates" href="../category/updates/index.html">Updates</a></li>
+</ul>				<ul class="nav navbar-nav navbar-nav-extra">
+					<li class="menu-item menu-item-search">
+						<a href="#" title="Search Roadmunk">
+							<img class="img-bottom" src="../wp-content/themes/roadmunk_v2/assets/img/search_b.png">
+							<img class="img-top" src="../wp-content/themes/roadmunk_v2/assets/img/search.png">
+						</a>
+					</li>
+					<li class="menu-item menu-item-free-trial">
+						<a href="https://app.roadmunk.com/login/#/signup" title="Start Roadmapping"><button type="button" class="btn btn-trial">Start Roadmapping</button></a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+			
+				<div class="row">
+					<div class="site-main-inner col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+						<div class="floating-icons">
+	<li><a class="entry-social-twitter round" href="https://twitter.com/intent/tweet?text=Product+prioritization+techniques%3A+A+map+%26%23038%3B+guided+tour&amp;url=https%3A%2F%2Froadmunk.com%2Fblog%2Fproduct-prioritization-techniques%2F&amp;via=RoadmunkApp" target="_blank">Share on Twitter</a></li>
+		<li><a class="entry-social-facebook round" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Froadmunk.com%2Fblog%2Fproduct-prioritization-techniques%2F" target="_blank">Share on Facebook</a></li>
+		<li><a class="entry-social-linkedin round" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Froadmunk.com%2Fblog%2Fproduct-prioritization-techniques%2F&amp;title=Product%20prioritization%20techniques:%20A%20map%20&amp;%20guided%20tour" target="_blank">Share on Linkedin</a></li></div>
+<article id="post-1249" class="post-1249 post type-post status-publish format-standard has-post-thumbnail hentry category-product-strategy tag-feature-prioritization tag-prioritization tag-product-management tag-product-manager tag-product-managers tag-product-prioritization tag-product-roadmap tag-roadmapping">
+	<div class="entry-category"><span class="byline byline-cat"> <a href="../category/product-strategy/index.html" alt="View all posts in Product Strategy">Product Strategy</a> | 
+		<span class='span-reading-time'> 19 min read</span>
+		</span></div>
+	<header class="entry-header-featured">
+		<h1 class="entry-title">Product prioritization techniques: A map &#038; guided tour</h1>		<a href="index.html" title="Product prioritization techniques: A map &#038; guided tour">
+			<img width="748" height="398" src="../wp-content/uploads/2016/10/allsorts.gif" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />		</a>
+		<div class="entry-meta-featured">
+			<div class="entry-auth-share clearfix">
+					<div id="entry-auth-share-l">
+						<span class="byline byline-author byline-author-image"><img alt='' src='../wp-content/uploads/2016/10/Daniel-Zacarias-300x300.jpg' class='avatar avatar-32 photo' height='32' width='32' /></span>
+						<span class="byline byline-author"> <span class="author vcard"><a class="url fn n" href="../author/danielz/index.html">Daniel Zacarias</a></span></span>			
+					</div>
+					<div id="entry-auth-share-r">
+						
+	<div class="entry-social">
+		<a class="entry-social-twitter" href="https://twitter.com/intent/tweet?text=Product+prioritization+techniques%3A+A+map+%26%23038%3B+guided+tour&amp;url=https%3A%2F%2Froadmunk.com%2Fblog%2Fproduct-prioritization-techniques%2F&amp;via=RoadmunkApp" target="_blank">Share on Twitter</a>
+		<a class="entry-social-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Froadmunk.com%2Fblog%2Fproduct-prioritization-techniques%2F" target="_blank">Share on Facebook</a>
+		<a class="entry-social-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Froadmunk.com%2Fblog%2Fproduct-prioritization-techniques%2F&amp;title=Product%20prioritization%20techniques:%20A%20map%20&amp;%20guided%20tour" target="_blank">Share on Linkedin</a>
+	</div>
+					</div>
+				</div>		</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p><strong>Prioritization is a top concern for most Product Managers.</strong> It’s by far one of the most popular topics on PM blogs, Q&amp;A sites and other online communities.</p>
+<p>Although it’s not <em><strong>what we are hired to do</strong></em>, it’s <strong>something <em>that we have to do</em></strong> to achieve our real goal: creating successful products that bring value to our customers and to the business.</p>
+<p>The need to prioritize comes from a very simple fact: we just <strong>don’t have enough resources to <a href="http://www.mironov.com/4laws1/" target="_blank">work on everything we can come up with.</a></strong></p>
+<p>Thus, we need a process to determine the sets (and sequence) of things that should be done on the product to deliver the most value at each point in time, given our constraints.</p>
+<p>If we break this statement down, a core group of questions then need to be answered:</p>
+<ul>
+<li>How can we know what’s valuable? How valuable is it? Valuable to whom?</li>
+<li>How can we define the set of things that should go together in a product release? How should we sequence those releases?</li>
+<li>How can we get the necessary buy-in to follow through and get these things to the market?</li>
+<li>How can we know if our assumptions are right? Are we on the right track? Are we really delivering value? Could we do any better?</li>
+</ul>
+<!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Blog signup inline --><div id="om-ytoapcdbhazgdychkbmg-holder"></div><script>var ytoapcdbhazgdychkbmg,ytoapcdbhazgdychkbmg_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){ytoapcdbhazgdychkbmg_poll(function(){if(window['om_loaded']){if(!ytoapcdbhazgdychkbmg){ytoapcdbhazgdychkbmg=new OptinMonsterApp();return ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="https://a.optnmstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;ytoapcdbhazgdychkbmg=new OptinMonsterApp();ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster -->
+<h1>What this guide is all about</h1>
+<p>If you search around, you’ll find countless articles with recommendations, techniques and approaches to this very hard problem. However, each method’s usefulness will depend on the specific product or project where it’s applied. Your prioritization needs may vary vastly.</p>
+<p>Here’s what you will get from this guide covering popular product prioritization techniques:</p>
+<ul>
+<li><strong>A map, in the form of a <em>Periodic Table</em></strong> to help you make sense of what each technique has to offer;</li>
+<li><strong>An overview of each method</strong>, with graphics and links to more in-depth resources;</li>
+<li><strong>5 commonalities and takeaways from all these methods.</strong></li>
+</ul>
+<hr />
+<h2>The Periodic Table of Product Prioritization Techniques</h2>
+<p>When I started working on this guide, I immediately felt the need to visually organize all of these techniques in a way that made sense and showed the context in which each of them is valuable.</p>
+<p>With this mind, I found two dimensions that fulfilled these requirements and the result was the sort of <strong>Periodic Table</strong> you see below.</p>
+<p><img class="wp-image-1280 aligncenter" src="../wp-content/uploads/2016/10/Priority_periodic-table-2-283x300.png" alt="Priority_periodic table 2" width="600" height="637" srcset="../wp-content/uploads/2016/10/Priority_periodic-table-2-283x300.png 283w, ../wp-content/uploads/2016/10/Priority_periodic-table-2.png 690w" sizes="(max-width: 600px) 100vw, 600px" /></p>
+<p>A full version of this guide is available at my website, <strong><a href="http://foldingburritos.com/" target="_blank">Folding Burritos</a></strong>, which includes descriptions of all 20 techniques included in the table. For this post, I have selected the 9 methods I use most frequently:</p>
+<ol>
+<li><a href="#kano">The Kano Model</a></li>
+<li><a href="#buyafeature">Buy a Feature</a></li>
+<li><a href="#storymapping">Story Mapping</a></li>
+<li><a href="#prunethetree">Prune the Product Tree</a></li>
+<li><a href="#scorecard">Scorecard</a></li>
+<li><a href="#kjmethod">KJ Method</a></li>
+<li><a href="#valuevscost">Value vs. Cost</a></li>
+<li><a href="#featurebuckets">Feature Buckets</a></li>
+<li><a href="#ianmcallister">Ian McAllister&#8217;s Framework</a></li>
+</ol>
+<p>The horizontal axis tracks <strong>how oriented a method is towards getting input from the inside or the outside world.</strong> In other words, how much it depends on data and opinions from people external to the core product development team.</p>
+<p>This dimension reflects the fact that sometimes you need involvement from the outside (e.g. end customers or stakeholders within the company) to help you prioritize. However, in other cases you might want to follow a simpler process with the development team or by yourself.</p>
+<p>The vertical axis shows <strong>how quantitative is the method prescribed by each technique.</strong> That is, how much of it is based on expert (personal) opinions instead of some kind of metric, classification, voting or ranking.</p>
+<p>Some people feel more comfortable around quantitative approaches and being supported by numbers (either for themselves or for people “higher-up”). In other instances, you need to work on the qualitative side if what you’re trying to achieve is not quantifiable or if it doesn’t make sense in your context.</p>
+<p>Every technique was placed in the table taking into consideration what I believe to be their relative positions along these two dimensions. Individual locations might be debatable, but I think this is a good starting point to navigate them.</p>
+<p>The next section presents an overview of each technique, including pointers to other relevant and in-depth resources.</p>
+<h1 id="kano">The Kano Model</h1>
+<p><a href="http://en.wikipedia.org/wiki/Noriaki_Kano" target="_blank">Noriaki Kano</a>, a Japanese researcher and consultant, published a paper in 1984 with a set of ideas and techniques that help us determine our customers’ (and prospects’) satisfaction with product features. These ideas are commonly called the Kano Model and are based upon the following premises:</p>
+<ul>
+<li>Customers’ satisfaction with our product’s features depends on the level of functionality that is provided (how much or how well they’re implemented);</li>
+<li>Features can be classified into four categories;</li>
+<li>You can determine how customers feel about a feature through a questionnaire.</li>
+</ul>
+<p><strong>1. Satisfaction vs. Functionality</strong></p>
+<p>Kano proposes two dimensions to represent how customers feel about our products:</p>
+<ul>
+<li>one that goes from total satisfaction (also called Delight and Excitement) to total dissatisfaction (or Frustration);</li>
+<li>and another called Investment, Sophistication or Implementation, which represents how much of a given feature the customer gets, how well we’ve implemented it, or how much we’ve invested in its development.</li>
+</ul>
+<p><strong>2. The Four Categories of Features</strong><br />
+Features can fall into four categories, depending on how customers react to the provided level of Functionality.</p>
+<p><img class="aligncenter wp-image-1253 size-full" src="../wp-content/uploads/2016/10/FullKanoModel.png" alt="The Four Categories of Features in the Kano Model" width="393" height="393" srcset="../wp-content/uploads/2016/10/FullKanoModel.png 393w, ../wp-content/uploads/2016/10/FullKanoModel-150x150.png 150w, ../wp-content/uploads/2016/10/FullKanoModel-300x300.png 300w" sizes="(max-width: 393px) 100vw, 393px" /></p>
+<ul>
+<li><strong>Performance</strong><br />
+Some product features behave as what we might intuitively think that Satisfaction works: the more we provide, the more satisfied our customers become.</li>
+<li><strong>Must-be</strong><br />
+Other product features are simply expected by customers. If the product doesn’t have them, it will be considered to be incomplete or just plain bad. This type of features is usually called Must-be or Basic Expectations.</li>
+<li><strong>Attractive</strong><br />
+There are unexpected features which, when presented, cause a positive reaction. These are usually called Attractive, Exciters or Delighters.</li>
+<li><strong>Indifferent</strong><br />
+Naturally, there are also features towards which we feel indifferent. Those which their presence (or absence) doesn’t make a real difference in our reaction towards the product.</li>
+</ul>
+<p><strong>3. Determining how customers feel through a questionnaire</strong><br />
+In order to uncover our customer’s perceptions towards the product’s attributes, we need to use <strong>the Kano questionnaire</strong>. It consists of a pair of questions for each feature we want to evaluate:</p>
+<ul>
+<li>One asks our customers how they feel if they have the feature;</li>
+<li>The other asks how they feel if they did not have the feature.</li>
+</ul>
+<p>The first and second questions are respectively called the functional and dysfunctional forms. To each “how do you feel if you had / did not have this feature,” the possible answers are:</p>
+<ul>
+<li>I like it</li>
+<li>I expect it</li>
+<li>I am neutral</li>
+<li>I can tolerate it</li>
+<li>I dislike it</li>
+</ul>
+<p>For each answer-pair, we use this table to determine the category where the respondents falls, letting us know how he or she feels about the feature.</p>
+<p><img class="aligncenter wp-image-1254" src="../wp-content/uploads/2016/10/EvalTable-Mod-300x166.png" alt="Scoring table for Kano question pairs" width="600" height="333" srcset="../wp-content/uploads/2016/10/EvalTable-Mod-300x166.png 300w, ../wp-content/uploads/2016/10/EvalTable-Mod.png 656w" sizes="(max-width: 600px) 100vw, 600px" /></p>
+<p>From the individual responses and resulting categories you can go into two levels of analysis:</p>
+<ul>
+<li><strong>Discrete:</strong> each answer-pair is classified using the table above and feature’s category will be the most frequent across all respondents;</li>
+<li><strong>Continuous:</strong> each functional and dysfunctional answer gets a numerical score, which can then be averaged over all respondents and plotted on a 2D graph.</li>
+</ul>
+<p>As a general rule of thumb, features should be prioritized such that this order is followed: <b>Must-Be &gt; Performance &gt; Attractive &gt; Indifferent.</b></p>
+<p>There are <strong>a lot more details</strong> that are worth exploring about this method. I wrote <strong>an extensive, in-depth <a href="http://foldingburritos.com/kano-model/" target="_blank">guide to the Kano model</a></strong> that explains the entire process and gives you a step-by-step guide on how to use it.</p>
+<h1 id="buyafeature">Buy a Feature</h1>
+<p><em>Buy a Feature</em> is a fun <a href="http://www.amazon.com/Innovation-Games-Creating-Breakthrough-Collaborative/dp/0321437292" target="_blank">innovation game</a> that can be played collaboratively or individually. Here’s how it works:</p>
+<p>A set of features that need to be prioritized are presented to a group of buyers (our customers);</p>
+<ol>
+<li>Each buyer gets a budget of play money to spend on features;</li>
+<li>Each feature is priced according to some measure of cost (complexity, effort, actual cost to develop, etc.) — as long as it’s the same criteria for all features, you can use any one you prefer;</li>
+<li>Each player’s budget should be between a third to half of the total cost for all features;</li>
+<li>It’s possible to play the game in one of two ways:
+<ul>
+<li><strong>Individually</strong> — Players are told to use their budget to buy the features that are most important to them;</li>
+<li><strong>Collaboratively</strong> — Using a pricing scale that makes some features too expensive for individual buyers to purchase. This forces collaboration and negotiation between players to buy features that are valued by multiple players.</li>
+</ul>
+</li>
+<li>As players buy features, collect the money and ask them to explain why they’re buying it;</li>
+<li>The game ends when the money runs out or when players have bought all the features they’re interested in (explain to them beforehand that it’s OK for money to be left over).</li>
+</ol>
+<p>This will yield a valuable set of insights on the most important features for customers, as we can analyze which features got bought the most, the reasons for their purchase and which collaborative bids were made on expensive items.</p>
+<p>To get more data, multiple instances of the game can be played (in groups of 8 people at most). Also, for large feature sets, you can <a href="http://www.slideshare.net/innovgames/why-buy-a-feature-is-great-at-prioritizing-features" target="_blank">set up a championship</a> where popular features are bubbled up through multiple phases of games.</p>
+<p>Buy a Feature is best played in person due to its collaborative character, but there are <a href="http://www.innovationgames.com/buy-a-feature/" target="_blank">online solutions</a> if that’s what you need.</p>
+<p>Check out <a href="http://www.uxforthemasses.com/buy-the-feature/" target="_blank">this article</a> for a more detailed game explanation and templates for feature cards and play money notes.</p>
+<p><strong>A side-note for Project Managers</strong><br />
+This method is also very useful for internal or consulting projects that are not exposed to the market, by involving stakeholders as the buyers in the game. It’s a great way to build strategy for the project, consensus on what’s most important, and communicate to stakeholders the notion that features have different development costs.</p>
+<h1 id="storymapping">Story Mapping</h1>
+<p>Story Maps were first introduced by Jeff Patton in <a href="http://agileproductdesign.com/writing/how_you_slice_it.pdf" target="_blank">this 2005 article</a> and followed-up <a href="http://jpattonassociates.com/the-new-backlog/" target="_blank">by another one</a> writing up his more recent experience. Both are excellent reads that I can’t recommend highly enough.</p>
+<p>The main idea behind Story Maps is that single-list product backlogs are a terrible way to organize and prioritize the work that needs to be done. A richer structure is necessary.</p>
+<p>In very broad strokes, a Story Map is organized like this:</p>
+<ul>
+<li>There’s a horizontal axis that represents <strong>usage sequence</strong>;
+<ul>
+<li>User stories (or “tasks”) are placed along this axis, in the sequence in which they are performed by the user;</li>
+</ul>
+</li>
+<li>The vertical axis stands for <strong>criticality</strong>;
+<ul>
+<li>User stories (or “tasks”) are arranged vertically as to how important they are (from top to bottom);</li>
+<li>Equally important stories can be kept at the same height, but keep in mind that, in general, it’s important to differentiate stories’ relative importance to be able to create better release plans.</li>
+</ul>
+</li>
+<li>Groups of related user stories can be grouped as Activities:
+<ul>
+<li>Create a vertical line to separate groups of stories from others;</li>
+<li>For example, an activity may be “managing email,” with “send an email to one or more addresses” being a user task;</li>
+<li>Activities sit above the vertical axis and don’t have any usage sequence, they “just are” — these activities compose the major attributes for the product and can’t be prioritized (think “you can’t prioritize a car’s motor over its wheels”)</li>
+</ul>
+</li>
+</ul>
+<p><img class="aligncenter wp-image-1256" src="../wp-content/uploads/2016/10/story-map-884x654-300x222.png" alt="Story Map" width="600" height="444" srcset="../wp-content/uploads/2016/10/story-map-884x654-300x222.png 300w, ../wp-content/uploads/2016/10/story-map-884x654-768x568.png 768w, ../wp-content/uploads/2016/10/story-map-884x654.png 884w" sizes="(max-width: 600px) 100vw, 600px" /></p>
+<p>There are many advantages to this kind of backlog organization, but the most relevant to prioritization and execution are these:</p>
+<ul>
+<li>It’s a visual tool that lets customers, stakeholders and development team members share a common understanding of what the system does;</li>
+<li>It very clearly defines how to incrementally release product iterations that deliver complete working releases with increasing sophistication — this is Alistair Cockburn’s concept of the <a href="http://alistair.cockburn.us/Walking+skeleton" target="_blank">walking skeleton</a>.
+<ul>
+<li>To define releases, create horizontal lines along the map, selecting stories with equivalent criticality levels;</li>
+<li>This leads to complete end-to-end versions of the product and consequently to faster delivery and market validation (crucial at the <a href="https://en.wikipedia.org/wiki/Minimum_viable_product" target="_blank">MVP</a> stage.)</li>
+</ul>
+</li>
+</ul>
+<p><img class="wp-image-1257 aligncenter" src="../wp-content/uploads/2016/10/story-map-release-884x566-300x192.png" alt="Release planning with Story Maps: &quot;breadth-first implementation&quot; " width="600" height="384" srcset="../wp-content/uploads/2016/10/story-map-release-884x566-300x192.png 300w, ../wp-content/uploads/2016/10/story-map-release-884x566-768x492.png 768w, ../wp-content/uploads/2016/10/story-map-release-884x566.png 884w" sizes="(max-width: 600px) 100vw, 600px" /></p>
+<p>In my personal opinion, the main drawback for this structure (and the necessary time investment to create and groom it) is that it’s too heavy for projects or products in highly dynamic contexts. That is, when visibility into the future shape of the product is not great (e.g. sub 3 to 6 months), I prefer <a href="http://foldingburritos.com/articles/2015/07/06/organizing-a-large-product-backlog/">a different (but related) approach</a>.</p>
+<h1 id="prunethetree">Prune the Product Tree</h1>
+<p>Another <a href="http://www.amazon.com/Innovation-Games-Creating-Breakthrough-Collaborative/dp/0321437292" target="_blank">innovation game</a> from Luke Hohmann. <a href="http://www.innovationgames.com/prune-the-product-tree/" target="_blank">Prune the Product Tree</a> is about shaping the product’s direction towards market needs, but also understanding if some product areas are being left behind.</p>
+<p>The analogy in the game is that the product is a tree that will be pruned to our liking. Although gardeners do this by cutting parts of the tree, <strong>the goal is to shape</strong> — it’s not about the cutting.</p>
+<p>Here’s <a href="https://msdn.microsoft.com/en-us/library/hh765981(v=vs.120).aspx#Prune">how it works</a>:</p>
+<ul>
+<li>Draw a large tree on a whiteboard or sheet of paper;</li>
+<li>Thick limbs represent core product areas and its outermost branches represent currently available features;</li>
+<li>Write potential new features on some Post-It notes;</li>
+<li>Ask customers and stakeholders to place their desired features on the tree, thus defining its next phase of growth.</li>
+</ul>
+<p>From here you may extract valuable data points. Is the tree growing in a balanced way? Are specific areas growing disproportionately larger? Are previously under-developed areas growing now?</p>
+<p>Having a shared view of the entire span of the product with customers can be very insightful when planning new releases. From this visual balance you derive relative value among features, understand which strategic shifts might need to be done and which areas of the product are good candidates for being dropped in the future.</p>
+<h1 id="scorecard">Scorecard</h1>
+<p>The <a href="http://techproductmanagement.com/product_management_scorecard/" target="_blank">Scorecard</a> is another <a href="https://www.google.com/?q=scorecard+prioritization" target="_blank">popular</a> technique. The goal is to prioritize features over a set of criteria that have been negotiated with stakeholders. Here’s <a href="https://twitter.com/delizalde" target="_blank">Daniel Elizalde</a>’s sensible take on the subject:</p>
+<ul>
+<li>Start with a clear strategy that has been validated by users;</li>
+<li>Select the features that are most related to the overall strategy for the next release;</li>
+<li>Define a criteria and weights for scoring;</li>
+<li>Meet with stakeholders and fine-tune the criteria and weights;</li>
+<li>Go over all candidate features/themes and assign a score (e.g. from 1 to 100) on their respective impact for each criterion.</li>
+</ul>
+<p><img class="wp-image-1259 aligncenter" src="../wp-content/uploads/2016/10/scorecard-table-884x255-300x87.png" alt="Scorecard table" width="499" height="144" srcset="../wp-content/uploads/2016/10/scorecard-table-884x255-300x87.png 300w, ../wp-content/uploads/2016/10/scorecard-table-884x255-768x222.png 768w, ../wp-content/uploads/2016/10/scorecard-table-884x255.png 884w" sizes="(max-width: 499px) 100vw, 499px" /></p>
+<p><a href="https://www.mountaingoatsoftware.com/tools/theme-scoring" target="_blank">Another way</a> to allow full use of the point scale is to identify a feature/theme that is considered to be in the middle of it for each criterion. Then, score all other features in comparison to that one; a shorter scale (from 1 to 5) will work best in this approach.</p>
+<p>The scorecard can be a useful exercise for companies to evaluate what they believe is the relative impact on strategic objectives for a group of possible new features.</p>
+<p>There is however very valid criticism for this method:</p>
+<ul>
+<li>Is it scoring the right things? (i.e. are scoring categories really aligned with the product strategy?)</li>
+<li>Are weights and scores “cooked” to prioritize features already favored by opinion and politics, while at the same time give the appearance of objective analysis?</li>
+<li>It can lead to fragmented products, unfocused from their Unique Value Proposition.</li>
+</ul>
+<h1 id="kjmethod">KJ Method</h1>
+<p>One final Japanese technique in this overview. The <a href="https://www.uie.com/articles/kj_technique/" target="_blank">KJ Method</a> is a technique devised by <a href="https://en.wikipedia.org/wiki/Jiro_Kawakita" target="_blank">Jiro Kawakita</a> as a group process to establish priorities. It quickly produces “objective group consensus out of a collection of subjective, opinionated data.” It’s on the Internal side of techniques as the way its usage is described is mostly targeted at stakeholders within the same organization.</p>
+<p>UIE describes an 8-step process for any group size in under an hour. First, ensure you have the following preconditions:</p>
+<ul>
+<li>Removable sticky notes in two colors;</li>
+<li>Room with lots of wall space;</li>
+<li>One person to be the facilitator (moving the group from one step to the next);</li>
+<li>Whiteboard or flip-chart for the final ranking step.</li>
+</ul>
+<p>With all of the above, the facilitator follows this process:</p>
+<ul>
+<li><strong>Determine a Focus Question.</strong> The focus question drives the results. Every session will have its own focus question (e.g. “Who are our users?” or “What goals do users have when they come to our site?” etc.)</li>
+<li><strong>Organize the Group.</strong> People in the group should be from different parts of the organization, to get more diverse perspectives.</li>
+<li><strong>Put Opinions (or Data) onto Sticky Notes.</strong> Putting one item on each sticky note, each group participant is asked to brainstorm as many items as they can think of.</li>
+<li><strong>Put Sticky Notes on the Wall.</strong> Each participant puts their sticky notes up on the wall in random order. They also read other people’s contributions. If they think of something else that should go on the wall, at any time, they can just add it to the collection.</li>
+<li><strong>Group Similar Items.</strong> Once everyone has added their contributions to the wall, the facilitator instructs the group to start grouping similar items in another part of the room.</li>
+<li><strong>Naming Each Group.</strong> Each participant is asked to assign a name to every group, using the second color of sticky notes.</li>
+<li><strong>Voting for the Most Important Groups.</strong> Participants are asked to individually use their own viewpoint to choose which groups he or she believes are most important to answering the focus question.</li>
+<li><strong>Ranking the Most Important Groups.</strong> This is the final and most important step. All individual sticky notes are placed on the whiteboard and ordered by number of votes. Participants can combine similar groups, which adds their votes and moves them up the ranking. When three to four groups have much higher ranking than the rest, the facilitator may stop the exercise.</li>
+</ul>
+<p>Because of the combination of free individual opinion through voting and the enforced unanimous consensus in the final step, this method can quickly converge to a group buy-in of priorities. This helps any teams that depend upon stakeholders’ participation and agreement on the product strategy and priorities.</p>
+<h1 id="valuevscost">Value vs. Cost</h1>
+<p>This is a very common prioritization technique with the advantage of also being very simple. Features are scored on their Value and Cost of implementation. <strong>Those with the best ratios will have higher priority.</strong></p>
+<p>Also called <a href="http://tynerblain.com/blog/2008/10/20/planning-sprints-part-2/" target="_blank"><em>bang for the buck</em></a>, the inherent ROI-like analysis in this method feels intuitive and is also embedded within other prioritization techniques.</p>
+<p>The main goal with this method is that we try to <a href="http://tynerblain.com/blog/2007/07/31/prioritization-and-value-maximization/" target="_blank"><strong>maximize value delivery</strong></a> over time. That is, for a given release timeframe, we work on the most valuable items we can fit in the period.</p>
+<p>To visualize this technique, use a Value vs. Cost graph. Scatter plot all features being considered, with regards to their score in each dimension. Then, prioritization rankings will be visible as the slopes of the lines going from the origin to each feature. The higher the slope, the higher the priority.</p>
+<p><img class="aligncenter wp-image-1260" src="../wp-content/uploads/2016/10/value-vs-cost-884x736-300x250.png" alt="Value vs. Cost Prioritization" width="400" height="333" srcset="../wp-content/uploads/2016/10/value-vs-cost-884x736-300x250.png 300w, ../wp-content/uploads/2016/10/value-vs-cost-884x736-768x639.png 768w, ../wp-content/uploads/2016/10/value-vs-cost-884x736.png 884w" sizes="(max-width: 400px) 100vw, 400px" /></p>
+<p>However, one thing to look out for is the tendency to prioritize low-cost, low-value items (which have good Value/Cost ratios). As Teresa Torres <a href="http://www.producttalk.org/2014/02/the-simplest-and-most-important-question-you-face-as-a-product-leader/" target="_blank">writes</a>:</p>
+<blockquote><p>“If you use time-to-build to prioritize what to build next, you’ll end up with a product full of easy solutions.”</p></blockquote>
+<p>As usual, just carefully consider what comes out of prioritization methods and use them as guidelines and not definitive answers.</p>
+<h1 id="featurebuckets">Feature Buckets</h1>
+<p>The <a href="http://blog.adamnash.com/2009/07/22/guide-to-product-planning-three-feature-buckets/" target="_blank">Feature Buckets</a> technique by <a href="https://twitter.com/adamnash" target="_blank">Adam Nash</a> is also very popular on <a href="https://www.quora.com/What-are-the-best-ways-to-prioritize-a-list-of-product-features/answer/Adam-Nash" target="_blank">Quora</a>.</p>
+<p>Adam believes that feature prioritization varies a lot across different product types and industries and that’s why he emphasizes that this technique was thought specifically for consumer internet products.</p>
+<p>Feature concepts should be placed in one of four buckets:</p>
+<ul>
+<li><strong>Metrics Movers</strong> — Features that will move the target business and product metrics significantly. There should be specific goals and strategies behind the decision to invest in a product or feature (things like AARRR metrics come in handy here);</li>
+<li><strong>Customer Requests</strong> — These are features that have been requested directly by customers. They are usually incremental enhancements, but it’s important to consider them or else risk alienating users or miss important feedback coming from their usage of the product;</li>
+<li><strong>Delight</strong> — Innovative features that are internally generated based on insights in design or technology. Working on surprising and exciting features is important to delight customers and create a differentiated position in the market (c.f. Kano Model for more on this);</li>
+<li><strong>Strategic</strong> — Features that are included for strategic reasons related to learning or future goals (e.g. experimentation and data gathering).</li>
+</ul>
+<p>A well-balanced product release should typically include features from all of these buckets. The framework is not explicit as to the appropriate distributions among these buckets and to how to prioritize internally within each. These implementation details are left up to the Product Manager to define.</p>
+<h1 id="ianmcallister">Ian McAllister’s Framework</h1>
+<p>I don’t think this framework has an official name (hence the uncreative one I’m using). Given <a href="http://twitter.com/ianmcall" target="_blank">its author’s experience</a> and the huge popularity it has on <a href="https://www.quora.com/What-are-the-best-ways-to-prioritize-a-list-of-product-features/answer/Ian-McAllister" target="_blank">Quora</a>, it’s well worth including in this overview. Here’s how it works:</p>
+<ol>
+<li><strong>Define the important themes for the product or business</strong><br />
+Create a list of the most important themes (e.g. customer acquisition, engagement, activation, ARPU) and select the top three.</li>
+<li><strong>Prioritize and resource the themes</strong><br />
+Define the relative priority for each theme and how much resources you want to invest in each (team members, marketing, etc.)</li>
+<li><strong>Generate project ideas</strong><br />
+Use projects ideas you already have for each theme and come up with new ones. Keep in mind the Pareto principle and focus on the 20% of the project that will get you to 80% of the desired outcome.</li>
+<li><strong>Estimate each project’s potential impact</strong><br />
+Work out the impact you expect from each project, in very broad terms (think order-of-magnitude-similar.)</li>
+<li><strong>Estimate each project’s costs</strong><br />
+With your team’s (and relevant stakeholder’s) help, come up with an estimation for each project’s costs.</li>
+<li><strong>Prioritize project within each theme</strong><br />
+Set priorities considering the projects with the best impact-to-cost ratios.</li>
+</ol>
+<p>You should check out Ian’s <a href="https://www.quora.com/What-are-the-best-ways-to-prioritize-a-list-of-product-features/answer/Ian-McAllister" target="_blank">original answer</a> for more details and to read about the multiple benefits he finds in this framework. Out of those, the one that jumps out to me as <strong>the most useful is to resource themes independently</strong>. That is: pick the important themes and assign team members and other resources beforehand. This <strong>sets you free from constantly struggling to prioritize very different themes that you may be developing in parallel.</strong></p>
+<h1>Key Takeaways</h1>
+<p>After going through all of these techniques you will have probably noticed that <strong>they each have contexts in which they make sense to be used and others when they don’t.</strong> As much as we’d like to, there are no prioritization silver bullets and we have to choose whatever is more appropriate for our product, team, industry, etc. At the same time, <strong>there are important commonalities among these methods that are worth pointing out.</strong></p>
+<p>Let’s go over the <strong>most important takeaways</strong> from this fascinating task we call Prioritizing.</p>
+<h2>1. Prioritize at a high-level</h2>
+<p>Essentially <strong>all prioritization methods work with high-level features (themes) and user goals.</strong> This is important for a couple of reasons:</p>
+<ul>
+<li>The focus is on providing value to the user and not the minutia (at least at first);</li>
+<li>You don’t waste as much time if/when the strategy changes;</li>
+<li>After working out the strategy and high-level priorities, the team should take care of finding the best tactics to get there.</li>
+</ul>
+<h2>2. Set goals, measure and adjust</h2>
+<p>Another common characteristic among many techniques is their focus on Effectiveness. They have an underlying notion that our motivation to prioritize is that we’re going after some goal with a measurable effect (impact, ROI, usage, improved business metric, etc.).</p>
+<p><strong>The objective is not to set priorities and ship them.</strong> The objective is to <strong>constantly be aware if what we’re doing is really adding value and working out as expected</strong>; when it’s not, we will at least have some clues as to what needs adjustment.</p>
+<h2>3. Don’t do it alone</h2>
+<p><strong>Prioritization should not be a solo effort.</strong> With the exception of very simple methods, almost all of them involve someone else in the process. Be they customers, stakeholders or team members, it’s very rare that the Product Manager alone will set the overall priorities. <strong>We’re just in charge of a process</strong> and the product <a href="http://blog.cauvin.org/2011/12/who-owns-product.html" target="_blank">belongs to the team</a>.</p>
+<p>Getting the most external input we can gets us buy-in and confidence that what gets prioritized is effectively valuable. And even then, we’re only sure after measuring the actual results.</p>
+<h2>4. Quantitative vs. Qualitative</h2>
+<p><strong>Quantitative does not mean better than qualitative (and vice-versa).</strong> For instance, a common pitfall when using quantitative prioritization methods is that people associate numbers with precision and confidence. Seeing formulas, ratios and rankings usually makes us feel more assured as to the robustness and objectivity of some type of analysis, but these can be gamed. You should keep this in mind both for yourself and when presenting results to other people — these things are guidelines and not infallible outcomes.</p>
+<p><strong>Know what you’re getting out of the method</strong> and when to use it. These things are tools, not oracles.</p>
+<h2>5. External vs. Internal</h2>
+<p>The External and Internal distinction that we’ve used in this guide relates to how much external involvement there is in the prioritization process. The scale goes something like this: You &lt; Team &lt; Stakeholders &lt; Customers.</p>
+<p>Again, it all depends on the results you’re trying to get. I’ve personally found it useful to think about it in these terms:</p>
+<ul>
+<li><strong>External techniques</strong> are better for prioritizing<strong> abstract outcomes</strong>;</li>
+<li><strong>Internal techniques</strong> are better for prioritizing <strong>concrete solutions</strong>.</li>
+</ul>
+<p><strong>The value of External techniques</strong><br />
+In broad terms, external techniques are most useful when you’re trying to navigate through a large set of candidate features, looking to:</p>
+<ul>
+<li>Identify the most valuable ones for your customers – knowing their baseline and performance expectations and also what delights them;</li>
+<li>Getting buy-in and consensus from a group of key stakeholders in larger organizations;</li>
+<li>Gauging which features are not bringing value or actively displeasing customers so you can decide whether to improve or to drop them;</li>
+<li>Getting clients in consulting projects to participate and sign-off on the development strategy and release plan.</li>
+</ul>
+<p>Since you’re dealing mostly with “the outside world” is only natural that discussions and prioritization here happen at a more abstract level of user outcomes, goals and high-level features.</p>
+<p><strong>The value of Internal techniques</strong><br />
+Because you’re involving people that are closer to the product and technology, these techniques are best for prioritizing among more concrete and problems. That is, they’re less exploratory as end users are less involved (if at all). Thus, they work best whenever you have to:</p>
+<ul>
+<li>Further refine the results obtained from one of the more externally oriented techniques;</li>
+<li>Prioritize a set of features and ideas that you’re confident are aligned with the product strategy and customers’ expectations;</li>
+<li>Work on internal projects without much (or no) contact with the market;</li>
+<li>Quickly prioritize low level features and requirements.</li>
+</ul>
+<p>With all of these techniques and takeaways in hand, it’s now up to you. Mix and match them. Make changes. But above all, go out and build great products.</p>
+<hr />
+<p><em>This is a condensed version of Daniel Zacarias’ epic guide, <a href="http://foldingburritos.com/product-prioritization-techniques/" target="_blank">20 Product Prioritization Techniques: A Map and Guided Tour</a>. To read the full guide (or download a PDF version), visit <a href="http://www.foldingburritos.com" target="_blank">Folding Burritos</a>. Daniel also wrote an awesome <a href="http://foldingburritos.com/kano-model/" target="_blank">guide to The Kano Model</a>. You should read that, too.</em></p>
+<p><em>Once you&#8217;ve figured out the prioritization technique(s) for you, start applying it to your roadmap. Use our <a href="../../roadmap-templates-utm_source=blog&amp;utm_content=prioritization.html" target="_blank">customizable template library</a> to get started. </em></p>
+			</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+			<div class="row"><div class="author-section-top">Author</div></div>
+	<div class="row author-section">
+		<div class="col-sm-2 col-xs-12">
+			<div class="author-image author-image-article">
+				<img src="../wp-content/uploads/2016/10/Daniel-Zacarias-300x300.jpg" alt="danielz"/>
+			</div>
+		</div>
+		<div class="col-sm-6 col-xs-12">
+			<div class="author-meta author-meta-article">
+				<h2><a href="../author/danielz/index.html">Daniel Zacarias</a></h2>
+				<p>Product Management Consultant</p>
+			</div>
+		</div>
+		<div class="col-sm-4 col-xs-12">
+			<div class="entry-social entry-social-article"><a class="entry-social-twitter" href="https://twitter.com/listentodaniel" target="_blank">Share on Twitter</a><a class="entry-social-linkedin" href="https://www.linkedin.com/in/dzacarias" target="_blank">Share on Linkedin</a></div>		</div>
+	</div><!--//row-->
+	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+					</div>
+				</div><!--row-->
+				<div class="related-posts row">
+					<h4>Related Posts</h4>							<div class="col-xs-12 col-sm-4">
+								
+<article id="post-3995" class="post row post-3995 type-post status-publish format-standard has-post-thumbnail hentry category-podcast tag-amazon tag-gustavo-melo tag-podcast tag-product-culture tag-product-management tag-product-management-podcast tag-product-manager tag-product-managers tag-product-team tag-product-to-product">
+	<div class="entry-image col-xs-12 ">
+			    <a href="../gustavo-melo/index.html" title="Product to Product: Amazon&#8217;s Gustavo Melo on reversing a tense team culture">
+	    	<img width="1501" height="801" src="../wp-content/uploads/2018/05/s2e6-gustavo-2.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Product to Product - Gustavo Melo" srcset="../wp-content/uploads/2018/05/s2e6-gustavo-2.png 1501w, ../wp-content/uploads/2018/05/s2e6-gustavo-2-300x160.png 300w, ../wp-content/uploads/2018/05/s2e6-gustavo-2-768x410.png 768w, ../wp-content/uploads/2018/05/s2e6-gustavo-2-1024x546.png 1024w" sizes="(max-width: 1501px) 100vw, 1501px" />	    </a>
+			</div><!--//entry-image-->
+		<div class="entry-wrapper col-xs-12 ">
+		<div class="entry-category small"><span class="byline byline-cat"> <a href="../category/podcast/index.html" alt="View all posts in Podcast">Podcast</a> | 
+		<span class='span-reading-time'> 18 min read</span>
+		</span></div>
+		<div class="entry-meta">
+			<h1 class="entry-title entry-title-sm"><a href="../gustavo-melo/index.html" rel="bookmark">Product to Product: Amazon&#8217;s Gustavo Melo on reversing a tense team culture</a></h1>			<div class="entry-auth-share clearfix">
+				<div id="entry-auth-share-l">
+					<span class="byline byline-author"> <span class="author vcard"><a class="url fn n" href="../author/tarif/index.html">Tarif Rahman</a></span></span>
+				</div>
+		  </div>		</div><!-- .entry-meta -->
+	</div><!--//entry-meta-->
+	
+</article><!-- #post-## -->							</div>
+										<div class="col-xs-12 col-sm-4">
+								
+<article id="post-3969" class="post row post-3969 type-post status-publish format-standard has-post-thumbnail hentry category-podcast tag-ben-mills tag-benjamin-mills tag-head-of-product tag-podcast tag-product-leadership tag-product-management tag-product-management-career tag-product-management-podcast tag-product-manager tag-product-managers tag-product-team-lead tag-product-to-product tag-venmo">
+	<div class="entry-image col-xs-12 ">
+			    <a href="../ben-mills/index.html" title="Product to Product: Venmo&#8217;s Ben Mills on the messiness of leading a product team">
+	    	<img width="1501" height="801" src="../wp-content/uploads/2018/05/s2e5-benjamin.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Product to Product - Ben Mills" srcset="../wp-content/uploads/2018/05/s2e5-benjamin.png 1501w, ../wp-content/uploads/2018/05/s2e5-benjamin-300x160.png 300w, ../wp-content/uploads/2018/05/s2e5-benjamin-768x410.png 768w, ../wp-content/uploads/2018/05/s2e5-benjamin-1024x546.png 1024w" sizes="(max-width: 1501px) 100vw, 1501px" />	    </a>
+			</div><!--//entry-image-->
+		<div class="entry-wrapper col-xs-12 ">
+		<div class="entry-category small"><span class="byline byline-cat"> <a href="../category/podcast/index.html" alt="View all posts in Podcast">Podcast</a> | 
+		<span class='span-reading-time'> 21 min read</span>
+		</span></div>
+		<div class="entry-meta">
+			<h1 class="entry-title entry-title-sm"><a href="../ben-mills/index.html" rel="bookmark">Product to Product: Venmo&#8217;s Ben Mills on the messiness of leading a product team</a></h1>			<div class="entry-auth-share clearfix">
+				<div id="entry-auth-share-l">
+					<span class="byline byline-author"> <span class="author vcard"><a class="url fn n" href="../author/tarif/index.html">Tarif Rahman</a></span></span>
+				</div>
+		  </div>		</div><!-- .entry-meta -->
+	</div><!--//entry-meta-->
+	
+</article><!-- #post-## -->							</div>
+										<div class="col-xs-12 col-sm-4">
+								
+<article id="post-3953" class="post row post-3953 type-post status-publish format-standard has-post-thumbnail hentry category-podcast tag-brian-donohue tag-intercom tag-michelle-fitzpatrick tag-podcast tag-product-conviction tag-product-management tag-product-management-podcast tag-product-manager tag-product-managers tag-product-strategy tag-product-to-product">
+	<div class="entry-image col-xs-12 ">
+			    <a href="../brian-donohue-michelle-fitzpatrick/index.html" title="Product to Product: Intercom&#8217;s Brian Donohue &#038; Michelle Fitzpatrick on building your product conviction">
+	    	<img width="1501" height="801" src="../wp-content/uploads/2018/04/s2e4-brian-michelle.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="roduct to Product - Brian Donohue and Michelle Fitzpatrick" srcset="../wp-content/uploads/2018/04/s2e4-brian-michelle.png 1501w, ../wp-content/uploads/2018/04/s2e4-brian-michelle-300x160.png 300w, ../wp-content/uploads/2018/04/s2e4-brian-michelle-768x410.png 768w, ../wp-content/uploads/2018/04/s2e4-brian-michelle-1024x546.png 1024w" sizes="(max-width: 1501px) 100vw, 1501px" />	    </a>
+			</div><!--//entry-image-->
+		<div class="entry-wrapper col-xs-12 ">
+		<div class="entry-category small"><span class="byline byline-cat"> <a href="../category/podcast/index.html" alt="View all posts in Podcast">Podcast</a> | 
+		<span class='span-reading-time'> 25 min read</span>
+		</span></div>
+		<div class="entry-meta">
+			<h1 class="entry-title entry-title-sm"><a href="../brian-donohue-michelle-fitzpatrick/index.html" rel="bookmark">Product to Product: Intercom&#8217;s Brian Donohue &#038; Michelle Fitzpatrick on building your product conviction</a></h1>			<div class="entry-auth-share clearfix">
+				<div id="entry-auth-share-l">
+					<span class="byline byline-author"> <span class="author vcard"><a class="url fn n" href="../author/tarif/index.html">Tarif Rahman</a></span></span>
+				</div>
+		  </div>		</div><!-- .entry-meta -->
+	</div><!--//entry-meta-->
+	
+</article><!-- #post-## -->							</div>
+							</div>
+				<div class="row">
+					<div class="comments-wrapper col-xs-12">
+											</div>
+				</div>
+					</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+<a href="#" id="back-to-top" title="Back to top">&uarr;</a>
+
+<footer class="footer-main text-center">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 col-sm-offset-1 col-sm-4">
+				<span class="links"><h3><a href="../../index.html" target="_blank" style="margin-top:20px;">ROADMUNK HOME</a></h3></span>
+				<h3><a href="../../company.html" target="_blank">CONTACT US</a></h3>
+				<p>&copy; 2012 - 2018 ROADMUNK</p>
+			</div>
+			<div class="col-xs-12 col-sm-offset-3 col-sm-4">
+				<div class="social-footer">
+					
+		<div class="entry-social">
+			<a class="entry-social-footer-twitter" href="https://twitter.com/RoadmunkApp" target="_blank">Share on Twitter</a>
+			<a class="entry-social-footer-facebook" href="https://www.facebook.com/roadmunkapp/" target="_blank">Share on Facebook</a>
+			<a class="entry-social-footer-linkedin" href="https://www.linkedin.com/company/roadmunk" target="_blank">Share on Linkedin</a>
+		</div>				</div>
+			</div>
+		</div>
+	</div><!--//container-->
+</footer>
+
+</div> <!-- /container -->
+
+<script src="https://my.hellobar.com/8017b704ff36e7c871f49fbaf71bf0b9b83e47fb.js" type="text/javascript" async="async"></script>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZM6BLH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- DO NOT COPY THIS SNIPPET! &mdash; HubSpot Identification Code -->
+<script type="text/javascript">
+(function(d,w) {
+w._hsq = w._hsq || [];
+w._hsq.push(["setContentType", "blog-post"]);
+})(document, window);
+</script>
+<!-- End of HubSpot Identification Code &mdash; DO NOT COPY THIS SNIPPET! -->
+
+<!-- Start of Async HubSpot Analytics Code for WordPress v1.2.1 -->
+<script type="text/javascript" id="hs-script-loader" async defer src="https://js.hs-scripts.com/2108146.js"></script>
+<!-- End of Async HubSpot Analytics Code -->
+<!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Podcast Popup --><div id="om-yt6cvuonqjhgqmwlccq0-holder"></div><script>var yt6cvuonqjhgqmwlccq0,yt6cvuonqjhgqmwlccq0_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){yt6cvuonqjhgqmwlccq0_poll(function(){if(window['om_loaded']){if(!yt6cvuonqjhgqmwlccq0){yt6cvuonqjhgqmwlccq0=new OptinMonsterApp();return yt6cvuonqjhgqmwlccq0.init({"u":"25630.670437","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="https://a.optnmstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;yt6cvuonqjhgqmwlccq0=new OptinMonsterApp();yt6cvuonqjhgqmwlccq0.init({"u":"25630.670437","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster --><div style="position:absolute;overflow:hidden;clip:rect(0 0 0 0);height:1px;width:1px;margin:-1px;padding:0;border:0"><div class="omapi-shortcode-helper">[if lte IE 8]</div><div class="omapi-shortcode-parsed">[if lte IE 8]</div></div>	    <script type="text/javascript">var ytoapcdbhazgdychkbmg_shortcode = true;var yt6cvuonqjhgqmwlccq0_shortcode = true;</script>
+	    <script type='text/javascript'>
+/* <![CDATA[ */
+var leadin_wordpress = {"userRole":"visitor","pageType":"post","leadinPluginVersion":"6.1.2"};
+/* ]]> */
+</script>
+<script type='text/javascript' async defer src='https://js.hs-scripts.com/1984688.js?ver=4.7.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ajaxpagination = {"ajaxurl":"https:\/\/roadmunk.com\/blog\/wp-admin\/admin-ajax.php","query_vars":"{\"page\":\"\",\"name\":\"product-prioritization-techniques\"}"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../wp-content/themes/roadmunk_v2/public/js/script.min-ver=4.7.3.js'></script>
+<script type='text/javascript' src='../wp-content/themes/roadmunk_v2/public/js/theme.min-ver=4.7.3.js'></script>
+<script type='text/javascript' src='../wp-content/plugins/mousewheel-smooth-scroll/js/wpmss-step=100&amp;speed=400&amp;ver=1.php'></script>
+<script type='text/javascript' src='../wp-includes/js/wp-embed.min-ver=4.7.3.js'></script>
+	    <script type="text/javascript">var omapi_localized = { ajax: 'https://roadmunk.com/blog/wp-admin/admin-ajax.php?optin-monster-ajax-route=1', nonce: '7a6b04c857' };</script>
+	    </div><!--container-->
+</body>
+</html>

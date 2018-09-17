@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Rhys Mohun &#8211; Roadmunk Blog</title>
+	<atom:link href="https://roadmunk.com/blog/author/rhysmohun/feed/" rel="self" type="application/rss+xml" />
+	<link>https://roadmunk.com/blog</link>
+	<description>Product Management and Product Roadmaps</description>
+	<lastBuildDate>Fri, 29 Jun 2018 19:44:12 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.3</generator>
+
+<image>
+	<url>https://roadmunk.com/blog/wp-content/uploads/2018/01/favicon.png</url>
+	<title>Rhys Mohun &#8211; Roadmunk Blog</title>
+	<link>https://roadmunk.com/blog</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Team Collaboration with Comments</title>
+		<link>https://roadmunk.com/blog/commenting/</link>
+		<pubDate>Mon, 28 Mar 2016 22:51:16 +0000</pubDate>
+		<dc:creator><![CDATA[Rhys Mohun]]></dc:creator>
+				<category><![CDATA[Updates]]></category>
+		<category><![CDATA[product roadmap]]></category>
+		<category><![CDATA[product roadmaps]]></category>
+		<category><![CDATA[roadmap]]></category>
+		<category><![CDATA[roadmapping]]></category>
+		<category><![CDATA[roadmunk]]></category>
+		<category><![CDATA[roadmunk features]]></category>
+		<category><![CDATA[updates]]></category>
+
+		<guid isPermaLink="false">http://roadmunkblog.wpengine.com/?p=101</guid>
+		<description><![CDATA[<p>Users now have the ability to make — you guessed it — comments on individual items within a roadmap. This has pretty big implications for the way product people plan their strategy.</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/commenting/">Team Collaboration with Comments</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Today&#8217;s a big day here at Roadmunk. We&#8217;ve gone and done it &#8211; we made planning as a team<em> </em>more collaborative with the brand-new <strong>Commenting</strong> release!  Are we a little proud of ourselves?</p>
+<figure id="attachment_103" style="width: 500px" class="wp-caption aligncenter"><img class="wp-image-103 size-full" src="https://roadmunk.com/blog/wp-content/uploads/2016/02/philster.gif" alt="Phil says yeah" width="500" height="200" /><figcaption class="wp-caption-text">Phil thinks so. Photo: <a href="http://phil-dumbphy.tumblr.com/post/52895128089/congratulations-ty-on-winning-monte-carlos-best" target="_blank">Tumblr</a></figcaption></figure>
+<h2>What is Commenting?</h2>
+<p>This release means a lot to users who plan as a team (and by our data that&#8217;s over 4 out of 5 users). The purpose of Commenting is to offer users a centralized place for planning. The system is made up of several important and related features:</p>
+<ul>
+<li><strong>Leave comments on roadmap items</strong></li>
+<li><strong>Send @mentions to individual users</strong></li>
+<li><strong>Get notified about @mentions</strong></li>
+<li><strong>Reviewers have a voice</strong></li>
+</ul>
+<!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Blog signup inline --><div id="om-ytoapcdbhazgdychkbmg-holder"></div><script>var ytoapcdbhazgdychkbmg,ytoapcdbhazgdychkbmg_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){ytoapcdbhazgdychkbmg_poll(function(){if(window['om_loaded']){if(!ytoapcdbhazgdychkbmg){ytoapcdbhazgdychkbmg=new OptinMonsterApp();return ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="https://a.optnmstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;ytoapcdbhazgdychkbmg=new OptinMonsterApp();ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster -->
+<h3>Leave comments on roadmap items</h3>
+<p>Users now have the ability to make &#8212; you guessed it &#8212; comments on individual items within a roadmap. This has pretty big implications for the way product people plan their strategy.</p>
+<p><img class="alignnone wp-image-337 size-full" src="https://roadmunk.com/blog/wp-content/uploads/2016/03/A_commenting_ver2.png" alt="commenting ascii" width="521" height="901" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/03/A_commenting_ver2.png 521w, https://roadmunk.com/blog/wp-content/uploads/2016/03/A_commenting_ver2-173x300.png 173w" sizes="(max-width: 521px) 100vw, 521px" /></p>
+<h4><img class="alignleft wp-image-108" src="https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-01-150x150.png" alt="commenting" width="48" height="48" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-01-150x150.png 150w, https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-01.png 217w" sizes="(max-width: 48px) 100vw, 48px" /><br />
+Track consensus in one, shared space</h4>
+<p>Right, while true &#8220;consensus&#8221; may be a mythical thing in many organizations, managers can now chase down that buy-in where the planning <em>happens.</em> It lets stakeholders see the vision in a shared space where they&#8217;re able to be heard. Now Roadmunk users are planning in context, providing crystal-clear clarity to team members with item-specific conversations.</p>
+<blockquote><p>The purpose of Commenting is to offer users a centralized place for planning.</p></blockquote>
+<h4><img class="alignleft wp-image-111" src="https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-04-150x150.png" alt="planning documents" width="48" height="48" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-04-150x150.png 150w, https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-04.png 208w" sizes="(max-width: 48px) 100vw, 48px" /><br />
+Include and update important planning documents</h4>
+<p>Context is very important. We asked our users how they collaborate on complex projects leading into roadmapping. We learned that teams leave comments in PDF margins, highlight sections of a shared Google doc, attach screenshots into emails, or make suggestions directly on marketing creative with a Photoshop overlay. That&#8217;s a bit of a problem, because not everyone involved in planning will have access to those files. Still, those files are critical to the planning process.</p>
+<p>Roadmunk has just cleared away the accessibility issue. Now files can be linked using an item description&#8217;s <strong>markdown</strong>, and teams maintain that context by making comments directly in the roadmap (think Trello).</p>
+<p><img class="alignnone size-full wp-image-331" src="https://roadmunk.com/blog/wp-content/uploads/2016/03/B_Attachments_ver2.png" alt="attach links using markdown" width="750" height="720" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/03/B_Attachments_ver2.png 750w, https://roadmunk.com/blog/wp-content/uploads/2016/03/B_Attachments_ver2-300x288.png 300w" sizes="(max-width: 750px) 100vw, 750px" /></p>
+<h4><img class="alignleft wp-image-110" src="https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-03-150x150.png" alt="idea capture" width="48" height="48" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-03-150x150.png 150w, https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-03.png 208w" sizes="(max-width: 48px) 100vw, 48px" /><br />
+Gather and discuss ideas outside of dedicated planning meetings</h4>
+<p>In the same vein as above, it&#8217;s important to capture feedback from the source. Not every stakeholder will be fully-prepared for a meeting (or even invited) and that leaves product managers fewer chances to solicit planning feedback. Thanks to Commenting, now users have 24/7 access to roadmaps whenever the idea strikes them.</p>
+<figure id="attachment_114" style="width: 350px" class="wp-caption aligncenter"><img class="wp-image-114 size-full" src="https://roadmunk.com/blog/wp-content/uploads/2016/02/lbgo.gif" alt="capture ideas when they strike" width="350" height="197" /><figcaption class="wp-caption-text">Never miss an idea. Photo: <a href="http://www.reactiongifs.com/sudden-clarity-kelso/" target="_blank">reactiongifs</a></figcaption></figure>
+<h3>Send @mentions to individual users</h3>
+<h4><img class="alignleft wp-image-117" src="https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-05-150x150.png" alt="shared resources" width="48" height="48" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-05-150x150.png 150w, https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-05.png 208w" sizes="(max-width: 48px) 100vw, 48px" /><br />
+Discuss shared product lines with PMs in the portfolio</h4>
+<p>Some product managers share resources, objectives and plans with other managers in the organization. Users have the ability to discuss shared items by tapping an individual using the new @mentions system. Simply use the &#8216;@username&#8217; mention format to send that user a notification within Roadmunk. Teams keep individual contributors accountable for their deliverables.</p>
+<p><img class="alignnone wp-image-339 size-full" src="https://roadmunk.com/blog/wp-content/uploads/2016/03/C_mentions_ver2.png" alt="mention users on a roadmap" width="508" height="622" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/03/C_mentions_ver2.png 508w, https://roadmunk.com/blog/wp-content/uploads/2016/03/C_mentions_ver2-245x300.png 245w" sizes="(max-width: 508px) 100vw, 508px" /></p>
+<h4><img class="alignleft wp-image-121" src="https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-06-150x150.png" alt="escalations" width="48" height="48" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-06-150x150.png 150w, https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-06.png 208w" sizes="(max-width: 48px) 100vw, 48px" /><br />
+Send escalations directly to a user, in-context and with a visible history</h4>
+<p>When it&#8217;s time to bring in the cavalry, send an @mention to direct attention to a particular topic within the roadmap. That user will visit the roadmap with all the context that a plan provides, paired with whatever conversation has already taken place from concerned users. This ability includes reviewer seats, so tie-breakers could conceivably be <em>anyone</em>; customers, board members, executives and third-parties. With great power comes great responsibility.</p>
+<figure id="attachment_119" style="width: 270px" class="wp-caption aligncenter"><img class="wp-image-119 size-full" src="http://roadmunkblog.wpengine.com/wp-content/uploads/2016/02/with-great-power-comes-great-responsibility-spider-man.jpeg" alt="Spiderman knows the struggle" width="270" height="270" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/02/with-great-power-comes-great-responsibility-spider-man.jpeg 270w, https://roadmunk.com/blog/wp-content/uploads/2016/02/with-great-power-comes-great-responsibility-spider-man-150x150.jpeg 150w" sizes="(max-width: 270px) 100vw, 270px" /><figcaption class="wp-caption-text">Your notifications are tingling. Photo: <a href="http://firebirdcrossfit.com/wp-content/uploads/2013/07/with-great-power-comes-great-responsibility-spider-man.jpeg">Firebirdcrossfit</a></figcaption></figure>
+<h3>Get notified about @mentions</h3>
+<h4><img class="alignleft wp-image-123" src="https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-07b-150x150.png" alt="notifications flag" width="48" height="48" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-07b-150x150.png 150w, https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-07b.png 208w" sizes="(max-width: 48px) 100vw, 48px" /><br />
+Get notified when a user has sent a direct @mention</h4>
+<p>Feel popular as your colleagues send you personal @mention comments on your roadmap, asking for your expert input and praising your hard work. There&#8217;s no way anyone will use this as a means to add work to your plate, surely.</p>
+<figure id="attachment_341" style="width: 522px" class="wp-caption alignnone"><img class="wp-image-341 size-full" src="https://roadmunk.com/blog/wp-content/uploads/2016/03/D_notifications_ver2.png" alt="get notified when mentioned" width="522" height="241" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/03/D_notifications_ver2.png 522w, https://roadmunk.com/blog/wp-content/uploads/2016/03/D_notifications_ver2-300x139.png 300w" sizes="(max-width: 522px) 100vw, 522px" /><figcaption class="wp-caption-text">Darn it.</figcaption></figure>
+<h3>Reviewers can leave comments</h3>
+<h4><img class="wp-image-109 alignleft" src="https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-02-150x150.png" alt="reviewers" width="48" height="48" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-02-150x150.png 150w, https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-02.png 208w" sizes="(max-width: 48px) 100vw, 48px" /><br />
+Reviewers can chime in</h4>
+<blockquote><p>Managers can now chase down that buy-in where the planning happens.</p></blockquote>
+<p>While reviewer users are &#8220;non-destructive&#8221; users of the app &#8212; many editors still wanted a way to involve them in the planning process. Today with commenting, those reviewers have a voice. Who are these collaborators? They are often:</p>
+<ul>
+<li>Customers</li>
+<li>Executives</li>
+<li>Partner stakeholders</li>
+<li>Board members</li>
+<li>Sales managers</li>
+<li>Marketing managers</li>
+<li>Customer success leads</li>
+<li>Investors</li>
+</ul>
+<p>Just imagine how much more thorough roadmaps will be, how aligned a team could be, and how satisfied PMs can be when the whole team has had an opportunity to add value.</p>
+<h2>How to use Commenting features</h2>
+<p>We&#8217;ve got a brilliant <a href="http://support.roadmunk.com/creating-and-working-with-items-and-milestones/viewing-and-editing-items/post-item-comments-and-mentions" target="_blank">knowledge base article</a> written by our all-star support &amp; success lead, Noah. (He lives for the praise, leave him a quick note will you?)</p>
+<p>As always, if you find anything we&#8217;ve missed or you need some direct help, find us on Intercom or slide us a quick ticket through support(at)roadmunk(dot)com, everybody.</p>
+<p>Happy roadmapping.</p>
+<p>&#8211; Rhys</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/commenting/">Team Collaboration with Comments</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>What is a product?</title>
+		<link>https://roadmunk.com/blog/what-is-a-product/</link>
+		<pubDate>Tue, 16 Feb 2016 21:12:33 +0000</pubDate>
+		<dc:creator><![CDATA[Rhys Mohun]]></dc:creator>
+				<category><![CDATA[Product Strategy]]></category>
+		<category><![CDATA[product]]></category>
+		<category><![CDATA[product management]]></category>
+		<category><![CDATA[products]]></category>
+		<category><![CDATA[service]]></category>
+		<category><![CDATA[services]]></category>
+
+		<guid isPermaLink="false">http://roadmunkblog.wpengine.com/?p=79</guid>
+		<description><![CDATA[<p>From the 'what is a product' definition to benefits, value, features and how a PM distills this complexity into something customers want.</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/what-is-a-product/">What is a product?</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Let&#8217;s start with the basics. A product is a <strong>good</strong> or a <strong>service</strong> offered to customers for benefits.</p>
+<ul>
+<li><strong>A good</strong> is a tangible or virtual item that provides certain benefits for a customer.<br />
+<em>A delicious cup of coffee is a product.</em></li>
+<li><strong>A service</strong> is a single or package of activities performed to fulfill benefits for the customer.<br />
+<em>A professional haircut is a service.</em></li>
+</ul>
+<figure id="attachment_90" style="width: 640px" class="wp-caption alignnone"><img class="size-large wp-image-90" src="http://roadmunkblog.wpengine.com/wp-content/uploads/2016/02/what_is_a_product-01-1024x405.png" alt="Products are goods and services" width="640" height="253" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/02/what_is_a_product-01-1024x405.png 1024w, https://roadmunk.com/blog/wp-content/uploads/2016/02/what_is_a_product-01-300x119.png 300w, https://roadmunk.com/blog/wp-content/uploads/2016/02/what_is_a_product-01-768x304.png 768w, https://roadmunk.com/blog/wp-content/uploads/2016/02/what_is_a_product-01-750x296.png 750w, https://roadmunk.com/blog/wp-content/uploads/2016/02/what_is_a_product-01-1140x451.png 1140w" sizes="(max-width: 640px) 100vw, 640px" /><figcaption class="wp-caption-text">Physical goods and intangible services are both products.</figcaption></figure>
+<p>Add a little complexity, now. Plenty of goods will come bundled <em>with</em> services as additional benefits, and vice versa. A product is the sum of its features and benefits: the packaging, the support, the logistics, the convenience, the delivery, the speed, the flexibility and any number of perceived benefits. That&#8217;s how sellers differentiate their product from the competition&#8217;s.</p>
+<h3>What is a product manager’s role?</h3>
+<blockquote><p> In a sense, every product is simply a means to satisfying a market.</p></blockquote>
+<p>Concerning <strong>meeting the needs of customers</strong>, a product manager is responsible for finding product-market fit and managing the product&#8217;s lifecycle:</p>
+<ul>
+<li>understanding the needs of the market through research and experiments</li>
+<li>developing a <strong>minimum viable product</strong> that meets those needs affordably</li>
+<li>being flexible and adapting the offering to the changing needs of customers &#8211; either through additional features on an existing product or by releasing all-new products</li>
+</ul>
+<!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Blog signup inline --><div id="om-ytoapcdbhazgdychkbmg-holder"></div><script>var ytoapcdbhazgdychkbmg,ytoapcdbhazgdychkbmg_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){ytoapcdbhazgdychkbmg_poll(function(){if(window['om_loaded']){if(!ytoapcdbhazgdychkbmg){ytoapcdbhazgdychkbmg=new OptinMonsterApp();return ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="https://a.optnmstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;ytoapcdbhazgdychkbmg=new OptinMonsterApp();ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster -->
+<h2>What are benefits?</h2>
+<p>Benefits are the aspects of a product that satisfy a need. Food satisfies hunger, taxis satisfy our need for transportation, music satisfies our desire for entertainment.</p>
+<p>It&#8217;s a great idea to promote a product&#8217;s benefits to customers because they&#8217;re relatable. For example, if I told you that my product has a <em>built-in flux capacitor</em> feature, it wouldn&#8217;t have much meaning to you as a customer. If I told you that the product <em>lets you <a href="https://www.youtube.com/watch?v=Or7P9jfhcZ0" target="_blank">travel back in time</a> </em> &#8230; well now you&#8217;re listening. Always consider how a product adds value to the customer through its benefits.</p>
+<h2>What are features?</h2>
+<p>Every product has features. Features are the identifiable attributes that offer benefits to a customer.</p>
+<ul>
+<li>A non-stick coating on a frying pan is a feature on a physical good.</li>
+<li>Daily room cleaning is a feature of a hotel’s service.</li>
+</ul>
+<figure id="attachment_91" style="width: 640px" class="wp-caption aligncenter"><img class="size-large wp-image-91" src="http://roadmunkblog.wpengine.com/wp-content/uploads/2016/02/what_is_a_product-04-1024x405.png" alt="Features convey benefits" width="640" height="253" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/02/what_is_a_product-04-1024x405.png 1024w, https://roadmunk.com/blog/wp-content/uploads/2016/02/what_is_a_product-04-300x119.png 300w, https://roadmunk.com/blog/wp-content/uploads/2016/02/what_is_a_product-04-768x304.png 768w, https://roadmunk.com/blog/wp-content/uploads/2016/02/what_is_a_product-04-750x296.png 750w, https://roadmunk.com/blog/wp-content/uploads/2016/02/what_is_a_product-04-1140x451.png 1140w" sizes="(max-width: 640px) 100vw, 640px" /><figcaption class="wp-caption-text">The Roadmunk offices could probably use a free room cleaning service&#8230;</figcaption></figure>
+<p>See how the features of a product offer benefits for the consumer? Ask yourself, would you prefer staying at a hotel that <em>has</em> free room cleaning or staying at one that <em>doesn&#8217;t</em>? If you&#8217;re like us&#8230; you&#8217;ll need the room cleaning. That <strong>feature </strong>adds benefits that help buyers choose one hotel&#8217;s product over the competition.</p>
+<h3>What is a product manager’s role?</h3>
+<p>Concerning feature development, product managers are responsible for delivering the right features to the right audience:</p>
+<ul>
+<li>collect feedback from customers and stakeholders, both behavioural and through conversation</li>
+<li>prioritize new features based on market need and the organization&#8217;s ability to deliver</li>
+<li>help introduce those new features to customers through onboarding, marketing and support</li>
+<li>aligning the organization&#8217;s departments to &#8220;go-to-market&#8221; using the shared product roadmap</li>
+</ul>
+<h2>What is value?</h2>
+<blockquote><p>Product managers are responsible for delivering the right features to the right audience.</p></blockquote>
+<p>Customers pay for a product (and its benefits) based on <strong>value</strong>. Every buyer makes up his or her mind a little bit differently, but all customers place a <strong>perceived level of worth</strong> &#8211; called value &#8211; on the collection of benefits offered by a product. That’s the imaginary usefulness a customer believes they will receive from the product. Value is perceived differently from person to person because environment, experience and preferences are unique to everyone.</p>
+<p>Economists call this “utility”, and try to measure how much satisfaction a customer will receive from a product.</p>
+<figure id="attachment_89" style="width: 640px" class="wp-caption aligncenter"><img class="wp-image-89 size-large" src="http://roadmunkblog.wpengine.com/wp-content/uploads/2016/02/what_is_a_product-02-1023x1024.png" alt="Buyers decisions are based on value" width="640" height="641" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/02/what_is_a_product-02-1023x1024.png 1023w, https://roadmunk.com/blog/wp-content/uploads/2016/02/what_is_a_product-02-150x150.png 150w, https://roadmunk.com/blog/wp-content/uploads/2016/02/what_is_a_product-02-300x300.png 300w, https://roadmunk.com/blog/wp-content/uploads/2016/02/what_is_a_product-02-768x769.png 768w, https://roadmunk.com/blog/wp-content/uploads/2016/02/what_is_a_product-02-750x751.png 750w, https://roadmunk.com/blog/wp-content/uploads/2016/02/what_is_a_product-02.png 1024w" sizes="(max-width: 640px) 100vw, 640px" /><figcaption class="wp-caption-text">Customers weigh the benefits of a product against the costs.</figcaption></figure>
+<h3>What is a product manager’s role?</h3>
+<p>PMs work to prove that their products provide great value by <i> marketing </i> their product properly. Conveying benefits to customers in such a way that the product is perceived as authentic, affordable and satisfying:</p>
+<ul>
+<li>working with marketing and product marketing teams to create compelling benefits copy</li>
+<li>asking a reasonable price for the product to balance the benefits in a customer&#8217;s buying decision</li>
+<li>identifying the most attractive benefits through market research</li>
+</ul>
+<h2>What is a product lifecycle?</h2>
+<p>Most products won’t last forever. As customers’ needs and expectations change, older products in the market will be perceived as less valuable &#8212; to the point where customers aren’t willing to pay the same price they used to. If a company continued making the <i> same </i>obsolete<i> </i>product and charging the <i> same </i> price regardless of the market’s new expectations, eventually customers would refuse to purchase it. The value doesn&#8217;t meet the price.</p>
+<figure id="attachment_92" style="width: 640px" class="wp-caption aligncenter"><img class="wp-image-92" src="http://roadmunkblog.wpengine.com/wp-content/uploads/2016/02/what_is_a_product-05.png" alt="product lifecycle" width="640" height="640" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/02/what_is_a_product-05.png 1024w, https://roadmunk.com/blog/wp-content/uploads/2016/02/what_is_a_product-05-150x150.png 150w, https://roadmunk.com/blog/wp-content/uploads/2016/02/what_is_a_product-05-300x300.png 300w, https://roadmunk.com/blog/wp-content/uploads/2016/02/what_is_a_product-05-768x768.png 768w, https://roadmunk.com/blog/wp-content/uploads/2016/02/what_is_a_product-05-750x750.png 750w" sizes="(max-width: 640px) 100vw, 640px" /><figcaption class="wp-caption-text">Even products endure the circle of life.</figcaption></figure>
+<p>Products necessarily entire “retirement”, known to product managers as <strong>maturity</strong> and <strong> end-of-life</strong>. Sellers have a variety of alternatives to deal with the market and fill the gap made by an obsolete product:</p>
+<ul>
+<li><strong>Updated versions</strong> of an old product will offer more relevant benefits for customers. PM&#8217;s call these <em>generations</em>.<br />
+<em><em>Eg. a newer format music player or the next generation of mobile phone.</em></em></li>
+<li>An <strong>all-new</strong> product might enter the market and take the old product’s place.<br />
+<em><em>Eg. digital film, ballpoint pens, combustion engines, personal computers.</em></em></li>
+<li>Some products will simply <strong>retire</strong> forever because customers don’t have the same needs any longer.<br />
+<em>Eg. disco.<br />
+</em></li>
+</ul>
+<h3>What is a product manager’s role?</h3>
+<blockquote><p>Always consider how a product adds value to the customer through its benefits.</p></blockquote>
+<p>It&#8217;s the product team&#8217;s job to satisfy their customers&#8217; needs. In a sense, every product is simply <em>a means to satisfying a market</em>. If the market shifts, organizations need to adopt a <strong>new strategic roadmap</strong> to meet those needs:</p>
+<ul>
+<li>attracting new markets to sell mature products, new selling channels or new delivery formats</li>
+<li>identifying new benefits within mature products</li>
+<li>modifying existing products to address new customer needs</li>
+<li>developing entirely new products to address customer needs</li>
+</ul>
+<p>If you&#8217;re unsure about how to start meeting those needs with a strategic roadmap, our <a href="https://roadmunk.com/roadmap-templates?utm_source=blog&amp;utm_content=whatisaproduct" target="_blank">template library</a> can help with that.</p>
+<h2>Products deliver benefits to customers</h2>
+<p>That&#8217;s what a product is! Quick review:</p>
+<ul>
+<li>Products are <strong>goods</strong> and <strong><strong>services<br />
+</strong></strong></li>
+<li>They offer <strong>benefits</strong> to satisfy customer <strong><strong>needs<br />
+</strong></strong></li>
+<li><strong>Features</strong> convey those benefits</li>
+<li>Customers make a <strong>buying decision</strong> based on <strong>value</strong> versus <strong>price</strong></li>
+</ul>
+<p>Knowing all that, let&#8217;s put it into practice. What <strong>price </strong>do you think the Roadmunk team would be <strong>willing to pay</strong> to watch their favorite baseball team together, live in Toronto?</p>
+<figure id="attachment_93" style="width: 640px" class="wp-caption aligncenter"><img class="wp-image-93" src="http://roadmunkblog.wpengine.com/wp-content/uploads/2016/02/rm-benefits.jpg" alt="Roadmunk @ Blue Jays 2015" width="640" height="640" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/02/rm-benefits.jpg 1024w, https://roadmunk.com/blog/wp-content/uploads/2016/02/rm-benefits-150x150.jpg 150w, https://roadmunk.com/blog/wp-content/uploads/2016/02/rm-benefits-300x300.jpg 300w, https://roadmunk.com/blog/wp-content/uploads/2016/02/rm-benefits-768x768.jpg 768w, https://roadmunk.com/blog/wp-content/uploads/2016/02/rm-benefits-750x750.jpg 750w" sizes="(max-width: 640px) 100vw, 640px" /><figcaption class="wp-caption-text">Now what if we told you that baseball team had their best season in years?</figcaption></figure>
+<p>Some products will never have too high a price. Happy roadmapping, everyone.</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/what-is-a-product/">What is a product?</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>The opportunity in cute UI</title>
+		<link>https://roadmunk.com/blog/the-opportunity-in-cute-ui/</link>
+		<pubDate>Sat, 13 Feb 2016 17:01:53 +0000</pubDate>
+		<dc:creator><![CDATA[Rhys Mohun]]></dc:creator>
+				<category><![CDATA[Product Strategy]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[product design]]></category>
+		<category><![CDATA[product designer]]></category>
+		<category><![CDATA[product strategy]]></category>
+		<category><![CDATA[ui]]></category>
+		<category><![CDATA[user experience]]></category>
+		<category><![CDATA[user interface]]></category>
+		<category><![CDATA[ux]]></category>
+
+		<guid isPermaLink="false">http://roadmunkblog.wpengine.com/?p=83</guid>
+		<description><![CDATA[<p>A day ago I was listening in on a live support call from a customer out in Texas. He had a really friendly, appreciative attitude and thanked us for the assistance &#8211; but before he logged off he said something that stuck with me all night: “Oh, that’s cute.” Now, we’ll take all the praise we can get. It&#8217;s just that Roadmunk support [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/the-opportunity-in-cute-ui/">The opportunity in cute UI</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p><span style="font-weight: 400;">A day ago I was listening in on a live support call from a customer out in Texas. He had a really friendly, appreciative attitude and thanked us for the assistance &#8211; but before he logged off he said something that stuck with me all night:</span></p>
+<p><span style="font-weight: 400;">“Oh, that’s cute.”</span></p>
+<p><span style="font-weight: 400;">Now, we’ll take all the praise we can get. It&#8217;s just that Roadmunk support teams typically hear words like “helpful”, or “smart” or “cool”. But <em>cute</em> was a first. </span><span style="font-weight: 400;">This blog post is all about how that introduced us to </span><span style="font-weight: 400;">a great opportunity.</span></p>
+<h2><span style="font-weight: 400;">What was so cute, exactly?</span></h2>
+<p><span style="font-weight: 400;">No, this isn’t the furry-fluffy kind of cute. Sorry, cute baby seal. </span></p>
+<figure style="width: 397px" class="wp-caption aligncenter"><img src="http://38.media.tumblr.com/72d2089f6eba2436534813ee21f144bc/tumblr_inline_nbpel5WSAh1riqfqx.gif" alt="Awwww baby seal" width="397" height="223" /><figcaption class="wp-caption-text">Photo: thecutestofthecute.tumblr.com</figcaption></figure>
+<p><span style="font-weight: 400;">Believe it or not, he was referring to our </span><span style="font-weight: 400;">legend modal</span><span style="font-weight: 400;"> on the right-side of the Roadmunk timeline view. It was just a coincidence that he noticed and commented on this feature. It might even be the first time you’ve seen it too. (It’s been there since our colors update.) We’re not surprised some users missed it, and that’s important.</span></p>
+<figure id="attachment_84" style="width: 504px" class="wp-caption aligncenter"><img class="wp-image-84 size-full" src="http://roadmunkblog.wpengine.com/wp-content/uploads/2016/02/modal.png" alt="cute hidden modal" width="504" height="552" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/02/modal.png 504w, https://roadmunk.com/blog/wp-content/uploads/2016/02/modal-274x300.png 274w" sizes="(max-width: 504px) 100vw, 504px" /><figcaption class="wp-caption-text">Not the most obvious of UI elements, is it</figcaption></figure>
+<p><span style="font-weight: 400;">What did </span><i><span style="font-weight: 400;">cute</span></i><span style="font-weight: 400;"> mean from a user’s experience? We dug around a bit to find out. We uncovered threads from other support cases that had similar language, and they all had the same few themes.</span></p>
+<!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Blog signup inline --><div id="om-ytoapcdbhazgdychkbmg-holder"></div><script>var ytoapcdbhazgdychkbmg,ytoapcdbhazgdychkbmg_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){ytoapcdbhazgdychkbmg_poll(function(){if(window['om_loaded']){if(!ytoapcdbhazgdychkbmg){ytoapcdbhazgdychkbmg=new OptinMonsterApp();return ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="https://a.optnmstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;ytoapcdbhazgdychkbmg=new OptinMonsterApp();ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster -->
+<h2><span style="font-weight: 400;">The elements of cute UI</span></h2>
+<p><span style="font-weight: 400;">Some data mining revealed common themes from our sample support cases. Users who were responding using language like “neat”, “handy” and “convenient” had the same characteristics:</span></p>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">they discovered something new during the support call</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">they were pleasantly surprised by what they learned</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">the feature or item would be useful to them in some way</span></li>
+</ol>
+<p><span style="font-weight: 400;">And more often than not, the feature in question wasn’t the intended topic of the call in the first place. It was a </span><a href="https://www.youtube.com/watch?v=_Tq5vXk0wTk"><span style="font-weight: 400;">happy accident</span></a><span style="font-weight: 400;">. We wanted find more of these.</span></p>
+<p><span style="font-weight: 400;">How do we identify these features? We narrowed down the following criteria:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">the feature’s UI is unobtrusive</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">the feature is pleasantly helpful</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">the feature is not frequently utilized</span></li>
+</ul>
+<figure style="width: 331px" class="wp-caption aligncenter"><img src="http://i.imgur.com/AGIXgM8.gif" alt="cute ui elements doggie door" width="331" height="231" /><figcaption class="wp-caption-text">Some features pack massive value into a small container. Source: Reddit</figcaption></figure>
+<p><span style="font-weight: 400;">By this logic, there are limitless cute features within the Roadmunk app when we consider how unique our users are. We’ve seen some outrageously-creative use cases for Roadmunk roadmaps, and we know our users all build roadmaps differently. That means there are different under-utilized, helpful features for every user. Try one of our <a href="https://roadmunk.com/roadmap-templates?utm_source=blog&amp;utm_content=cuteui" target="_blank">20+ customizable templates</a> for yourself and see which features are for you.</span></p>
+<h2><span style="font-weight: 400;">How you can find value for your app</span></h2>
+<p><span style="font-weight: 400;">From this experiment we concluded that there’s</span><i><span style="font-weight: 400;"> opportunity </span></i><span style="font-weight: 400;">in cute UI. A feature that meets the cute criteria is probably worth a look by a PM. Is it being under-utilized? Look for the clues:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">are useful features hard to access?</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">is there hidden potential in simple UI elements?</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">have a handful of users reacted positively to these features in the past?</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">does your support team frequently offer this feature as a solution?</span></li>
+</ul>
+<p><span style="font-weight: 400;">Tip: ask your support teams for any insight into features that frequently but discreetly solve customer problems. </span></p>
+<h2><span style="font-weight: 400;">Plan to be adorable</span></h2>
+<blockquote><p>There are different under-utilized, helpful features for every user</p></blockquote>
+<p><span style="font-weight: 400;">Product managers can capitalize on cute feature opportunities: planning ahead making useful UI elements more prominent, combining items, shifting divs, etc. Balancing new UI opportunities alongside planned feature releases is a challenge solved by the product roadmap. We’ve </span><a href="http://try.roadmunk.com/product-roadmap-template/"><span style="font-weight: 400;">example feature release roadmap templates</span></a><span style="font-weight: 400;"> available if you need a foundation to start from. From all of us here at Roadmunk, plan happy everyone.</span></p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/the-opportunity-in-cute-ui/">The opportunity in cute UI</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Building A Case With A Product Manager At-Law</title>
+		<link>https://roadmunk.com/blog/building-a-case-with-a-product-manager-at-law/</link>
+		<pubDate>Mon, 01 Feb 2016 20:53:18 +0000</pubDate>
+		<dc:creator><![CDATA[Rhys Mohun]]></dc:creator>
+				<category><![CDATA[Influencers]]></category>
+		<category><![CDATA[blog]]></category>
+		<category><![CDATA[resource]]></category>
+
+		<guid isPermaLink="false">http://roadmunkblog.wpengine.com/?p=51</guid>
+		<description><![CDATA[<p>Roadmunk's own PM brings a unique angle to delivering great products: the truth.</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/building-a-case-with-a-product-manager-at-law/">Building A Case With A Product Manager At-Law</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Sameena enters the office prepped like she’s walking into a courtroom.</p>
+<p>She has a plan to triage the needs of Roadmunk’s customers, her team and her stakeholders. She’s heard the arguments from all sides and is ready to defend complex, integrated decisions that will affect the future of the entire product management community. Roadmunk’s attorney-turned-product manager Sameena Velshi isn’t taking any nonsense. Where on earth did we <em>find<em> her?</em></em></p>
+<p>What may seem like an unconventional transition to some was actually a fluid, goal-driven career move for Sameena:</p>
+<p>“A lot of the skills in legal training are similar for product,” she says. “It’s all about distilling information.”</p>
+<p>Just a year after she became an attorney-at-law for both the State of New York and the Law Society of Upper Canada, Sameena was working for Outside Intelligence Inc., a search application startup based in Toronto. It was under the mentorship of Outside’s CEO Dan Adamson – formerly an architect at Microsoft – that Sameena learned the ins-and-outs of product management and received what she describes as her “entire education in startups, software development, and technology.”</p>
+<h2>Ask the right questions to find the truth</h2>
+<p>Product managers compile vast amounts of data through developer feedback and communication apps like Intercom, and lawyers do the same with dates and facts to build compelling cases. Sameena thrives in process. As a law student she articled for an intellectual property firm, drafting software patents meticulously. But the data collection is the easy part, she says. The difficulty lies in deciding which areas to focus on.</p>
+<blockquote><p>“It’s all about distilling information.”</p></blockquote>
+<p>As product manager, Sameena has to ask provocative questions every day that lead her closer to a single product truth within Roadmunk:</p>
+<ul>
+<li>What’s the most important use case for the product right now?</li>
+<li>Which feature updates do we prioritize to help the sales team close as quickly as possible?</li>
+<li>How can I help the developers with backlog issues to keep them moving forward?</li>
+<li>How do we reduce our technical debt?</li>
+<li>How do I translate this massive collection of feedback into something actionable for everyone?</li>
+</ul>
+<p>Asking insightful questions helps Sameena acts as a buffer for Roadmunk’s development team, simplifying the data and distilling it into a single story for the group.</p>
+<!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Blog signup inline --><div id="om-ytoapcdbhazgdychkbmg-holder"></div><script>var ytoapcdbhazgdychkbmg,ytoapcdbhazgdychkbmg_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){ytoapcdbhazgdychkbmg_poll(function(){if(window['om_loaded']){if(!ytoapcdbhazgdychkbmg){ytoapcdbhazgdychkbmg=new OptinMonsterApp();return ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="https://a.optnmstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;ytoapcdbhazgdychkbmg=new OptinMonsterApp();ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster -->
+<h2>Data on trial</h2>
+<p>So there’s the data-crunching side to product management, finding a single product truth from it &#8212; but how does that truth interface with the rest of the team? How do product requirements / customer feedback / design tests translate into a new feature for a tool like Roadmunk?</p>
+<p>“You can’t do anything without seeing the world the way your users see it, for example,” she says. ”With our customers we know what kind of data to be searching for.”</p>
+<p>It was Sameena’s user-focused, empathetic approach to defining product strategy that’s helped Roadmunk build smart and build fast. She spends hours debating all sides of a feature design with different groups to collect the most detailed use case possible. Everyone at Roadmunk knows that feeling, walking out of a meeting with Sameena.</p>
+<p>“At the end of the day, no one should walk away from a team meeting feeling they’ve lost. Everybody owns product, and we all add to its growth.”</p>
+<h2>Let the evidence show…</h2>
+<p>She’s always looking to expand the product. After six months engaging users of the app, Sameena knows that Roadmunk has a long way to go and the potential is endless. Users have shared a wealth of innovative cases with Roadmunk’s support and product teams.</p>
+<blockquote><p>“As our user base grows, we’re seeing a major opportunity for market expansion.”</p></blockquote>
+<p>“For the first two years we’ve been focused on product roadmapping&#8211;which is very specific&#8211;and it’s about to become really exciting as Roadmunk can be employed in a number of other management and planning applications,” she says. “As our user base grows, we’re seeing a major opportunity for market expansion.”</p>
+<p>The app’s ultimate goal is alignment and transparency, something that Sameena believes will be used by everyone. Going by her own data, Sameena’s product management intuition is telling her that Roadmunk’s story is only getting started.</p>
+<p>“I want Roadmunk to be the next whiteboard,” she says. “The shared place where people come together to plan the future.”</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/building-a-case-with-a-product-manager-at-law/">Building A Case With A Product Manager At-Law</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Live Filters</title>
+		<link>https://roadmunk.com/blog/live-filters/</link>
+		<pubDate>Tue, 03 Nov 2015 16:29:17 +0000</pubDate>
+		<dc:creator><![CDATA[Rhys Mohun]]></dc:creator>
+				<category><![CDATA[Updates]]></category>
+
+		<guid isPermaLink="false">http://roadmunkblog.wpengine.com/?p=60</guid>
+		<description><![CDATA[<p>Curate roadmap views instantly with Live Filters.</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/live-filters/">Live Filters</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3>Curate views instantly.</h3>
+<p>Hey product people. It didn’t take many rounds of feedback to hear you loud and clear &#8211; Roadmunk users were asking for a way to add items to multiple views and generate new views from that data. After all, our users are counting on Roadmunk to create beautiful roadmaps <em>quickly</em>. Introducing our latest milestone: <strong>Live Filters</strong>.</p>
+<h3>Work smarter <em>and</em> faster</h3>
+<p>We’ll help you curate your roadmap for any audience to tell a simple, relevant story. Live Filters will help roadmap creators quickly plot items across multiple views. Users can instantly pivot their data and save a view to revisit later:</p>
+<ul>
+<li>Timebox your items within a specific time range.</li>
+<li>Isolate specific teams, statuses or any other field instantly.</li>
+<li>Create focused, thematic roadmaps to share with specific audiences.</li>
+</ul>
+<!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Blog signup inline --><div id="om-ytoapcdbhazgdychkbmg-holder"></div><script>var ytoapcdbhazgdychkbmg,ytoapcdbhazgdychkbmg_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){ytoapcdbhazgdychkbmg_poll(function(){if(window['om_loaded']){if(!ytoapcdbhazgdychkbmg){ytoapcdbhazgdychkbmg=new OptinMonsterApp();return ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="https://a.optnmstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;ytoapcdbhazgdychkbmg=new OptinMonsterApp();ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster -->
+<h3>Consider a use case:</h3>
+<p>Roadmunk has a new marketing guy, Rhys. He’s brilliant, ruggedly handsome and now writes the Roadmunk blog you’re reading.</p>
+<p>In the next few weeks he has some pretty demanding web projects to complete, and he needs to align his UX and web teams to coordinate the Q4 deliverables. Before walking into his next web meeting he sits down to adjust his master marketing roadmap to display <em>only the relevant information</em> for his meeting. Cue Live Filtering.</p>
+<div class="text-center">
+<figure style="width: 1901px" class="wp-caption alignnone"><img src="https://roadmunk.com/images/blog/lf-1.png" alt="Marketing roadmap" width="1901" height="913" /><figcaption class="wp-caption-text">Rhys starts with his marketing roadmap. No filters are applied.</figcaption></figure>
+</div>
+<p>&nbsp;</p>
+<div class="text-center">
+<figure style="width: 1901px" class="wp-caption alignnone"><img src="https://roadmunk.com/images/blog/lf-2.png" alt="Filtering views" width="1901" height="913" /><figcaption class="wp-caption-text">Rhys is filtering his roadmap to show Q4 items only. Notice the active ‘FILTERED BY:’ indication above the filtering categories. His next step will be to isolate his web, mobile and UX/design teams.</figcaption></figure>
+</div>
+<p>&nbsp;</p>
+<div class="text-center">
+<figure style="width: 1901px" class="wp-caption alignnone"><img src="https://roadmunk.com/images/blog/lf-3.png" alt="" width="1901" height="913" /><figcaption class="wp-caption-text">How easy was that? Now the roadmap is showing only web, mobile and UX items in the Q4 time range.</figcaption></figure>
+</div>
+<p>&nbsp;</p>
+<div class="text-center">
+<figure style="width: 802px" class="wp-caption alignnone"><img src="https://roadmunk.com/images/blog/lf-4.png" alt="" width="802" height="620" /><figcaption class="wp-caption-text">Last, Rhys exports his Q4 roadmap to a concise, Powerpoint-sized PNG image he’ll use in his meeting.</figcaption></figure>
+</div>
+<p>With Live Filters, Roadmunk users can pivot their data and instantly create new views for their audience. Being the clever type, Rhys decides to save this view for use later. In the future if Rhys wants to revisit this arrangement again, he just needs to recall this view from the view menu.</p>
+<h3>Start writing your own product stories</h3>
+<p>Feel free to experiment with Live Filters starting today &#8211; once you log in (or refresh if you’re still busily roadmapping as we update) you’ll notice the filter menu in the top right corner of the screen, next to the familiar layout and colors menus.</p>
+<p>For an overview of Live Filters, visit our <a href="http://support.roadmunk.com/creating-and-working-with-items-and-milestones/viewing-and-editing-items/filter-items">FAQ and Support</a> article describing the feature in detail.</p>
+<p>Happy roadmapping.</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/live-filters/">Live Filters</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Weekly Planning</title>
+		<link>https://roadmunk.com/blog/62-2/</link>
+		<pubDate>Wed, 02 Sep 2015 16:31:59 +0000</pubDate>
+		<dc:creator><![CDATA[Rhys Mohun]]></dc:creator>
+				<category><![CDATA[Updates]]></category>
+
+		<guid isPermaLink="false">http://roadmunkblog.wpengine.com/?p=62</guid>
+		<description><![CDATA[<p>Weekly Planning Roadmunk is thrilled to announce that we now support weekly planning. Even More Granularity With the increasing flexibility required by teams to meet the speed of agile and shifting priorities, the immediate future becomes just as important as the medium and long-term objectives that management demand. While it is important to keep the future in [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/62-2/">Weekly Planning</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3>Weekly Planning</h3>
+<p>Roadmunk is thrilled to announce that we now support weekly planning.</p>
+<h3>Even More Granularity</h3>
+<p>With the increasing flexibility required by teams to meet the speed of agile and shifting priorities, the immediate future becomes just as important as the medium and long-term objectives that management demand.</p>
+<!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Blog signup inline --><div id="om-ytoapcdbhazgdychkbmg-holder"></div><script>var ytoapcdbhazgdychkbmg,ytoapcdbhazgdychkbmg_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){ytoapcdbhazgdychkbmg_poll(function(){if(window['om_loaded']){if(!ytoapcdbhazgdychkbmg){ytoapcdbhazgdychkbmg=new OptinMonsterApp();return ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="https://a.optnmstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;ytoapcdbhazgdychkbmg=new OptinMonsterApp();ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster -->
+<p>While it is important to keep the future in mind we know, through speaking to hundreds of Product Managers, the true daily users want to see what lays in front of their teams. Now you can visualize plans down to the weekly level.</p>
+<div class="text-center"><img src="https://roadmunk.com/images/blog/tlweeks.png" alt="" /></div>
+<h3>Who is weekly planning for?</h3>
+<p>Weekly planning is applicable to all product owners and planners. Our recommendation is to lay out your immediate roadmap using the weekly method, while projects that sit further out can get broken down into months, quarters or 6-month views.</p>
+<div class="text-center"><img src="https://roadmunk.com/images/blog/slweeks.png" alt="" /></div>
+<h3>&#8220;When can I start planning in weeks?&#8221;</h3>
+<p>Weekly planning is available for all Roadmunk plans and will be available to all users immediately.</p>
+<p>Log in as usual and existing roadmaps will have the option to break into weeks. New roadmaps will have the same option.</p>
+<p>To learn more about weeks and get in touch with the team simply connect with us at: <a href="mailto:support@roadmunk.com">support@roadmunk.com</a></p>
+<p>Happy roadmapping!</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/62-2/">Weekly Planning</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Reviewer Mode</title>
+		<link>https://roadmunk.com/blog/reviewer-mode/</link>
+		<pubDate>Tue, 23 Jun 2015 19:19:36 +0000</pubDate>
+		<dc:creator><![CDATA[Rhys Mohun]]></dc:creator>
+				<category><![CDATA[Updates]]></category>
+
+		<guid isPermaLink="false">http://roadmunkblog.wpengine.com/?p=64</guid>
+		<description><![CDATA[<p>Reviewer mode is here! We&#8217;ve been exploring ways to collaborate and communicate with stakeholders. Consider that egg cracked. We are thrilled to introduce an all-new tier of Roadmunk user &#8211; the reviewer. The reviewer model is the next step in teamwork, ensuring that your strategic vision remains a collaborative effort with visibility for those who need it. We built the reviewer for organizations that have [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/reviewer-mode/">Reviewer Mode</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3>Reviewer mode is here!</h3>
+<p>We&#8217;ve been exploring ways to collaborate and communicate with stakeholders. Consider that egg cracked. We are thrilled to introduce an all-new tier of Roadmunk user &#8211; the reviewer.</p>
+<p>The reviewer model is the next step in teamwork, ensuring that your strategic vision remains a collaborative effort with visibility for those who need it.</p>
+<p>We built the reviewer for organizations that have tight protocols and specific security requirements. The following are the primary reasons and differentiators of the reviewers mode to other options we offer:</p>
+<ul>
+<li>Reviewers can navigate through all roadmap views and can download exports with customized options</li>
+<li>Reviewers can leverage Google SSO</li>
+<li>In the next iteration Reviewer will have the capability to comment on roadmap items</li>
+<li>Reviewer can be viewed as more secure as only those with the proper login information and permission would have access whereas URL is available to anyone who has the URL (hence the optional password)</li>
+</ul>
+<h3>Who is the Reviewer Model ideal for?</h3>
+<ul>
+<li>The reviewer model is perfect for companies who have executives, stakeholders or developers (really anyone) that want real-time, on-demand access into a roadmaps. (It&#8217;s also for PM&#8217;s who know editor permissions are a safely-guarded responsibility!)</li>
+<li>It&#8217;s great for ensuring roadmap integrity and securing access to plans.</li>
+<li>External sxtakeholders: if you have clients, partners, or affiliates that need access to information specific to them then this is the feature for you!</li>
+</ul>
+<h3>How do you begin using Reviewer Mode?</h3>
+<p>Reviewer will only be available to our Business, Professional, and Enterprise packages. Reviewers are priced at $5/user with volume discounts available for organization wide access (contact support@roadmunk.com for details on these discounts).</p>
+<p>If you have an existing Roadmunk account, simply head over to your account settings and into the billing section where you can add as many reviewer users as you need. To learn more about how to manage and add reviewers, <a href="http://support.roadmunk.com/creating-and-working-with-roadmaps/sharing-and-collaborating-on-roadmaps/add-viewers-to-your-roadmaps" target="_blank">we have an article for you right here.</a> Written with care.</p>
+<p>As always,</p>
+<p>Happy roadmapping.</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/reviewer-mode/">Reviewer Mode</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>JIRA Integration</title>
+		<link>https://roadmunk.com/blog/jira/</link>
+		<pubDate>Mon, 20 Apr 2015 20:02:45 +0000</pubDate>
+		<dc:creator><![CDATA[Rhys Mohun]]></dc:creator>
+				<category><![CDATA[Updates]]></category>
+
+		<guid isPermaLink="false">http://roadmunkblog.wpengine.com/?p=67</guid>
+		<description><![CDATA[<p>Useful roadmapping data can often be found sitting untouched in development tools, not getting the proper visibility and remaining pretty useless to the organization. There&#8217;s gold in them hills. So we got the shovels out and struck gold with Roadmunk&#8217;s brand-new JIRA integration! Pull JIRA issues into Roadmunk and plot them into your favorite view. Here are some things to know [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/jira/">JIRA Integration</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Useful roadmapping data can often be found sitting untouched in development tools, not getting the proper visibility and remaining pretty useless to the organization. There&#8217;s gold in them hills. So we got the shovels out and struck gold with Roadmunk&#8217;s brand-new JIRA integration! Pull JIRA issues into Roadmunk and plot them into your favorite view. Here are some things to know about our first version&#8217;s capabilities:</p>
+<ul>
+<li>Import up to 200 JIRA issues and related meta data per roadmap</li>
+<li>Ability to map JIRA and Roadmunk fields</li>
+<li>Currently we only support the cloud version of JIRA (Server is coming soon…)</li>
+<li>You can use your own JIRA login, but it is strongly recommended to use an administrative account to avoid permissions problems</li>
+<li>The description field will not be formatted as Roadmunk uses mark-down and JIRA uses HTML (we will be addressing in due time; it may be recommend to avoid mapping this field)</li>
+</ul>
+<!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Blog signup inline --><div id="om-ytoapcdbhazgdychkbmg-holder"></div><script>var ytoapcdbhazgdychkbmg,ytoapcdbhazgdychkbmg_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){ytoapcdbhazgdychkbmg_poll(function(){if(window['om_loaded']){if(!ytoapcdbhazgdychkbmg){ytoapcdbhazgdychkbmg=new OptinMonsterApp();return ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="https://a.optnmstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;ytoapcdbhazgdychkbmg=new OptinMonsterApp();ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster -->
+<h3>How to import JIRA Issues into Roadmunk</h3>
+<p><b>Step 1:</b> Navigate to the Table View and click on the JIRA icon.</p>
+<div class="text-center"><img src="https://roadmunk.com/images/blog/jirastep0.png" alt="" /></div>
+<p><b>Step 2:</b> Enter your login information to your JIRA Cloud Server account.</p>
+<div class="text-center"><img src="https://roadmunk.com/images/blog/jirastep1.png" alt="" /></div>
+<p><b>Step 3:</b> Using the three filters provided (Project, Status, Issue Type) you can narrow down which JIRA issues you’d like to import. Note: You can import from multiple projects into a single roadmap.</p>
+<div class="text-center"><img src="https://roadmunk.com/images/blog/jirastep2.png" alt="" /></div>
+<p>&nbsp;</p>
+<p><b>Step 4:</b> Choose which JIRA fields and data you’d like to import selecting “Add Field Mapping”.</p>
+<div class="text-center"><img src="https://roadmunk.com/images/blog/jirastep3.png" alt="" /></div>
+<p>&nbsp;</p>
+<p><b>Step 5:</b> Import away!</p>
+<div class="text-center"><img src="https://roadmunk.com/images/blog/jirastep4.png" alt="" /></div>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/jira/">JIRA Integration</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Fuzzy Time</title>
+		<link>https://roadmunk.com/blog/fuzzy-time/</link>
+		<pubDate>Wed, 04 Feb 2015 16:00:21 +0000</pubDate>
+		<dc:creator><![CDATA[Rhys Mohun]]></dc:creator>
+				<category><![CDATA[Updates]]></category>
+
+		<guid isPermaLink="false">http://roadmunkblog.wpengine.com/?p=69</guid>
+		<description><![CDATA[<p>Roadmapping is about painting a future vision and that often doesn’t include dates. It’s important to track and keep those roadmap items in plain sight. Roadmunk has now introduced the ability to create future buckets that remove the concept of dates from roadmap items. As part of our first version, we will be supporting both [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/fuzzy-time/">Fuzzy Time</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Roadmapping is about painting a future vision and that often doesn’t include dates. It’s important to track and keep those roadmap items in plain sight. Roadmunk has now introduced the ability to create future buckets that remove the concept of dates from roadmap items. As part of our first version, we will be supporting both the Table and Swimlane View (stay tuned for the Timeline View).</p>
+<!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Blog signup inline --><div id="om-ytoapcdbhazgdychkbmg-holder"></div><script>var ytoapcdbhazgdychkbmg,ytoapcdbhazgdychkbmg_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){ytoapcdbhazgdychkbmg_poll(function(){if(window['om_loaded']){if(!ytoapcdbhazgdychkbmg){ytoapcdbhazgdychkbmg=new OptinMonsterApp();return ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="https://a.optnmstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;ytoapcdbhazgdychkbmg=new OptinMonsterApp();ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster -->
+<h3>How to create a bucket</h3>
+<p>On Table View click the settings icon the <b>Date</b> field and select <b>Edit</b> Bucket (note anywhere there is a date dropdown you can edit buckets)</p>
+<div class="text-center"><img src="https://roadmunk.com/images/blog/fuzzyedit.png" alt="" /></div>
+<p>From here, create buckets using the dialogue that can act as future periods. (ie. Upcoming, Soon, Medium Term, Ideas, Future etc.). You may order buckets the way you want them to appear on the Swimlane.</p>
+<div class="text-center"><img src="https://roadmunk.com/images/blog/fuzzycreate.png" alt="" /></div>
+<h3>Choose a Bucket</h3>
+<p>You can choose a bucket from Date dropdown using the picker as shown below. Additionally they can edited from any item’s cards.</p>
+<div class="text-center"><img src="https://roadmunk.com/images/blog/fuzzychoose.png" alt="" /></div>
+<h3>Swimlane View</h3>
+<p>To view your buckets on the swimlane view, choose either Month, Quarter, Half or Year. Buckets that have items will show up &#8212; and if they don’t you can use the plus icon to add them.</p>
+<div class="text-center"><img src="https://roadmunk.com/images/blog/fuzzysl.png" alt="" /></div>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/fuzzy-time/">Fuzzy Time</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

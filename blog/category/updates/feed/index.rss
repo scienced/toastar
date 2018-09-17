@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Updates &#8211; Roadmunk Blog</title>
+	<atom:link href="https://roadmunk.com/blog/category/updates/feed/" rel="self" type="application/rss+xml" />
+	<link>https://roadmunk.com/blog</link>
+	<description>Product Management and Product Roadmaps</description>
+	<lastBuildDate>Fri, 29 Jun 2018 19:44:12 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.3</generator>
+
+<image>
+	<url>https://roadmunk.com/blog/wp-content/uploads/2018/01/favicon.png</url>
+	<title>Updates &#8211; Roadmunk Blog</title>
+	<link>https://roadmunk.com/blog</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Product Updates: Numeric Fields + Milestone improvements for more flexible roadmapping</title>
+		<link>https://roadmunk.com/blog/numeric-fields/</link>
+		<pubDate>Thu, 30 Nov 2017 13:11:19 +0000</pubDate>
+		<dc:creator><![CDATA[Nick Gray]]></dc:creator>
+				<category><![CDATA[Updates]]></category>
+		<category><![CDATA[milestones]]></category>
+		<category><![CDATA[numeric fields]]></category>
+		<category><![CDATA[product management]]></category>
+		<category><![CDATA[product manager]]></category>
+		<category><![CDATA[product roadmap]]></category>
+		<category><![CDATA[product updates]]></category>
+		<category><![CDATA[roadmap]]></category>
+		<category><![CDATA[roadmapping]]></category>
+		<category><![CDATA[roadmunk]]></category>
+		<category><![CDATA[roadmunk features]]></category>
+
+		<guid isPermaLink="false">https://roadmunk.com/blog/?p=3744</guid>
+		<description><![CDATA[<p>We've added Numeric Fields and made Milestone improvements to help you visualize your strategy in even more detail.</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/numeric-fields/">Product Updates: Numeric Fields + Milestone improvements for more flexible roadmapping</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>We’re back with another release, and this time we’ve added optimizations to make Roadmunk more flexible to the way our users want to build and present roadmaps. We’ve added Numeric Fields. Plus Milestones are now more customizable.</p>
+<h1>Add numbers to your roadmaps</h1>
+<p><img class="aligncenter size-full wp-image-3748" src="https://roadmunk.com/blog/wp-content/uploads/2017/11/numeric_fields.png" alt="Numeric Fields - Table View" width="999" height="304" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/11/numeric_fields.png 999w, https://roadmunk.com/blog/wp-content/uploads/2017/11/numeric_fields-300x91.png 300w, https://roadmunk.com/blog/wp-content/uploads/2017/11/numeric_fields-768x234.png 768w" sizes="(max-width: 999px) 100vw, 999px" /></p>
+<p>You can now add numbers to your roadmap with our newest Field Type. Numeric Fields support three different formats:</p>
+<ul>
+<li>General numbers</li>
+<li>Percentages</li>
+<li>Currencies (dollars, euros, and pounds)</li>
+</ul>
+<p>Numeric Fields can be added to your roadmap within your Items Table. Click on the Add Field (+) icon in the top nav and select Create New Field.</p>
+<p>Within the New Field dialog, select “Numeric” in the &#8220;Type&#8221; drop-down. From here you can select a numeric format. Check out <a href="http://support.roadmunk.com/creating-and-working-with-fields/create-and-add-fields-to-a-roadmap" target="_blank"><strong>this article</strong></a> for a detailed walkthrough.</p>
+<p><img class="aligncenter size-full wp-image-3750" src="https://roadmunk.com/blog/wp-content/uploads/2017/11/numeric_fields-field_dialog.png" alt="Numeric Fields - Field Dialog" width="1762" height="822" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/11/numeric_fields-field_dialog.png 1762w, https://roadmunk.com/blog/wp-content/uploads/2017/11/numeric_fields-field_dialog-300x140.png 300w, https://roadmunk.com/blog/wp-content/uploads/2017/11/numeric_fields-field_dialog-768x358.png 768w, https://roadmunk.com/blog/wp-content/uploads/2017/11/numeric_fields-field_dialog-1024x478.png 1024w" sizes="(max-width: 1762px) 100vw, 1762px" /></p>
+<p><span style="font-weight: 400;">You can filter your roadmap using Numeric Fields. Items can be hidden or displayed based on the value entered into its Numeric Field. You can choose to only show items that are:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Lower than a numeric value</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Higher than a numeric value</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">In between two numeric values</span></li>
+</ul>
+<p><img class="alignnone size-full wp-image-3768" src="https://roadmunk.com/blog/wp-content/uploads/2017/11/num-filter-1.png" alt="" width="1774" height="947" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/11/num-filter-1.png 1774w, https://roadmunk.com/blog/wp-content/uploads/2017/11/num-filter-1-300x160.png 300w, https://roadmunk.com/blog/wp-content/uploads/2017/11/num-filter-1-768x410.png 768w, https://roadmunk.com/blog/wp-content/uploads/2017/11/num-filter-1-1024x547.png 1024w" sizes="(max-width: 1774px) 100vw, 1774px" /></p>
+<p><strong>User impact</strong>. Use a scale to indicate the impact an item will have on user happiness. For example: a feature that will improve the core experience for most users gets an impact score of 7. A 1-10 scale (10 being the most impactful) can help product teams prioritize which features to build first and which ones to push out a few months.</p>
+<p><strong>Effort estimates</strong>. A 1-10 scale can also be used to indicate the estimated effort required to complete roadmap items. Take into account time, number of tasks and amount of people required to get the job done. If a feature update requires a week of planning, no design work and two weeks of engineering, give it an effort score of 1.</p>
+<p><strong>Identify reach</strong>. Percentages can be used to identify how much of your user base will be affected (let’s say 25% for example) by a new performance update or feature release.</p>
+<p><strong>Convey confidence</strong>. You can also use percentages to indicate how confident you are in building and releasing a feature within the allotted time. The fewer unknowns or bottlenecks, the higher the confidence score.</p>
+<p><strong>Set budgets</strong>. Currency can be used in your roadmap to indicate the how much it will cost to complete items, like building a new feature.</p>
+<p><strong>Predict revenue</strong>. Add monetary values to your roadmap items to plan for projected revenue growth. For example: “Launching this feature will result in an additional $3,000 in MRR.”</p>
+<h1>Milestones have been improved for flexibility</h1>
+<p><img class="aligncenter size-full wp-image-3751" src="https://roadmunk.com/blog/wp-content/uploads/2017/11/milestones_improvement.gif" alt="Milestones Improvements" width="1200" height="291" /></p>
+<p><span style="font-weight: 400;">Milestones are a popular Roadmunk feature used to highlight important dates on a roadmap––like big releases, industry events, and key hires. We’ve tweaked Milestones to make them more customizable to how you want to create and present roadmaps.</span></p>
+<p><img class="alignnone size-full wp-image-3769" src="https://roadmunk.com/blog/wp-content/uploads/2017/11/milestones-only-1.png" alt="" width="1791" height="1235" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/11/milestones-only-1.png 1791w, https://roadmunk.com/blog/wp-content/uploads/2017/11/milestones-only-1-300x207.png 300w, https://roadmunk.com/blog/wp-content/uploads/2017/11/milestones-only-1-768x530.png 768w, https://roadmunk.com/blog/wp-content/uploads/2017/11/milestones-only-1-1024x706.png 1024w" sizes="(max-width: 1791px) 100vw, 1791px" /></p>
+<p><span style="font-weight: 400;">Milestone labels can be configured to only display dates for a less-cluttered view. And you can now filter your roadmaps to only show milestones. This can be configured within the Formats tab located in your roadmap’s top nav.</span></p>
+<p>For roadmaps with many Milestones, this functionality provides a clean view of important dates and deliverables.</p>
+<p><img class="alignnone size-full wp-image-3770" src="https://roadmunk.com/blog/wp-content/uploads/2017/11/milestones-pivot-1.png" alt="" width="1774" height="698" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/11/milestones-pivot-1.png 1774w, https://roadmunk.com/blog/wp-content/uploads/2017/11/milestones-pivot-1-300x118.png 300w, https://roadmunk.com/blog/wp-content/uploads/2017/11/milestones-pivot-1-768x302.png 768w, https://roadmunk.com/blog/wp-content/uploads/2017/11/milestones-pivot-1-1024x403.png 1024w" sizes="(max-width: 1774px) 100vw, 1774px" /></p>
+<p><span style="font-weight: 400;">Users can now pivot their roadmaps by milestone type to group all similar milestones (events, for example) together – like the example above.</span></p>
+<hr />
+<p><em>We’re so excited to launch these Roadmunk updates. If you’re not a Roadmunk user, <a href="https://app.roadmunk.com/login/?utm_source=blog&amp;utm_content=numericfields#/signup" target="_blank">sign up</a> to check out Numeric Fields, Milestones, and all of our features (plus our library of <a href="https://roadmunk.com/roadmap-templates?utm_source=blog&amp;utm_content=numericfields" target="_blank">25+ roadmap templates</a>).</em></p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/numeric-fields/">Product Updates: Numeric Fields + Milestone improvements for more flexible roadmapping</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Introducing Key Dates for more detailed visualizations of initiatives</title>
+		<link>https://roadmunk.com/blog/key-dates/</link>
+		<pubDate>Tue, 24 Oct 2017 15:08:24 +0000</pubDate>
+		<dc:creator><![CDATA[Nick Gray]]></dc:creator>
+				<category><![CDATA[Updates]]></category>
+		<category><![CDATA[key dates]]></category>
+		<category><![CDATA[milestones]]></category>
+		<category><![CDATA[product management]]></category>
+		<category><![CDATA[product manager]]></category>
+		<category><![CDATA[product roadmap]]></category>
+		<category><![CDATA[product updates]]></category>
+		<category><![CDATA[roadmapping]]></category>
+		<category><![CDATA[roadmunk]]></category>
+		<category><![CDATA[roadmunk features]]></category>
+
+		<guid isPermaLink="false">https://roadmunk.com/blog/?p=3601</guid>
+		<description><![CDATA[<p>We just launched a brand new feature so you can add even more visual detail to your roadmaps. Say hello to Key Dates.</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/key-dates/">Introducing Key Dates for more detailed visualizations of initiatives</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>At Roadmunk, we believe that roadmaps are communication tools and, to be more specific, <strong>visual communication tools</strong>. The journey that a roadmap is illustrating has to be crystal clear from beginning to end—be it how a new product will hit the market or how an organization’s IT infrastructure will evolve</p>
+<p>So, we’re launching <strong>a brand new feature</strong> to add an extra layer of visual detail to our users’ roadmaps: <strong>Key Dates</strong>.</p>
+<p>This new feature allows teams to align around important dates at a granular level. At its most simple, this feature can be used to call out important events within a roadmap item, like the due date of a deliverable. Key Dates also break up lengthy roadmap items to <strong>provide visibility into how progress is being benchmarked.</strong></p>
+<p>We&#8217;ve made adding Key Dates to a roadmap really simple. You can create and access Key Dates in the &#8220;Fields&#8221; tab of an item card. There are six icons that can be used to represent each Key Date.</p>
+<p><img class="alignnone size-full wp-image-3641 aligncenter" src="https://roadmunk.com/blog/wp-content/uploads/2017/10/key-dates-calendar-3.png" alt="" width="717" height="538" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/10/key-dates-calendar-3.png 717w, https://roadmunk.com/blog/wp-content/uploads/2017/10/key-dates-calendar-3-300x225.png 300w" sizes="(max-width: 717px) 100vw, 717px" /></p>
+<p><span style="font-weight: 400;">We understand that items get delayed, and <strong>we built Key Dates so that they’re relative to an item</strong>. If an entire item is dragged three months into the future, the key dates will move with the item.  </span></p>
+<p>We also built this feature with two more granular use cases in mind:</p>
+<p style="padding-left: 30px;">1. Visualizing the <strong>stages</strong> of a roadmap item.<br />
+2. Using Key Dates to mark <strong>decision points</strong>.</p>
+<h2>Using Key Dates to visualize an item’s stages</h2>
+<p>A common product management tactic is to bucket progress into stages, like design &gt; development &gt; QA &gt; release.</p>
+<p>Key Dates make it really easy to visualize stages within a roadmap item and to allocate windows of time for each stage’s completion. They also <strong>foster alignment around the expected completion of each stage</strong>.</p>
+<p>The roadmap example below showcases how Key Dates can be used to visualize stages.</p>
+<p><img class="alignnone size-full wp-image-3628" src="https://roadmunk.com/blog/wp-content/uploads/2017/10/keydates-phases.png" alt="" width="1501" height="538" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/10/keydates-phases.png 1501w, https://roadmunk.com/blog/wp-content/uploads/2017/10/keydates-phases-300x108.png 300w, https://roadmunk.com/blog/wp-content/uploads/2017/10/keydates-phases-768x275.png 768w, https://roadmunk.com/blog/wp-content/uploads/2017/10/keydates-phases-1024x367.png 1024w" sizes="(max-width: 1501px) 100vw, 1501px" /></p>
+<p>For the most crystal clear communication, we recommend attributing meaning to the icons. For example: only using ♦︎ for “Release” will make it easy for anyone viewing the roadmap to understand, at a glance, that the final goal of an item is for it to be released into the wild.</p>
+<h2>Using Key Dates as decision points</h2>
+<p><span style="font-weight: 400;">The second use case is employing Key Dates as decision points—or gates—within an item. <strong>Each Key Date indicates that a team needs to determine whether they can or cannot move forward</strong> based on the status of important deliverables, risk analysis, available resources, etc. An example of a phase-gate item is below.</span></p>
+<p><img class="alignnone size-full wp-image-3630" src="https://roadmunk.com/blog/wp-content/uploads/2017/10/keydates-phase-gate.png" alt="" width="1500" height="507" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/10/keydates-phase-gate.png 1500w, https://roadmunk.com/blog/wp-content/uploads/2017/10/keydates-phase-gate-300x101.png 300w, https://roadmunk.com/blog/wp-content/uploads/2017/10/keydates-phase-gate-768x260.png 768w, https://roadmunk.com/blog/wp-content/uploads/2017/10/keydates-phase-gate-1024x346.png 1024w" sizes="(max-width: 1500px) 100vw, 1500px" /></p>
+<h1>What Key Dates are not: Milestones</h1>
+<p><span style="font-weight: 400;">Milestones are a popular Roadmunk feature used to highlight important achievements on a roadmap—but we see them as the macro version of Key Dates.</span></p>
+<p><img class="alignnone size-full wp-image-3631" src="https://roadmunk.com/blog/wp-content/uploads/2017/10/keydates-milestones.png" alt="" width="1500" height="509" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/10/keydates-milestones.png 1500w, https://roadmunk.com/blog/wp-content/uploads/2017/10/keydates-milestones-300x102.png 300w, https://roadmunk.com/blog/wp-content/uploads/2017/10/keydates-milestones-768x261.png 768w, https://roadmunk.com/blog/wp-content/uploads/2017/10/keydates-milestones-1024x347.png 1024w" sizes="(max-width: 1500px) 100vw, 1500px" /></p>
+<p>Milestones are used to call out high-level dates that are important to an entire organization—like the launch of a new product. <strong>Key Dates are added to a roadmap for project-level alignment</strong>—a more micro roadmapping detail.</p>
+<hr />
+<p><em><span style="font-weight: 400;">We’re so excited to launch this brand new Roadmunk feature. To find out how to add Key Dates to your roadmap, check out this </span><a href="http://support.roadmunk.com/creating-and-working-with-roadmaps/add-key-dates-to-your-timeline"><b>how-to</b></a><span style="font-weight: 400;">. If you’re not a Roadmunk user, </span><a href="https://app.roadmunk.com/login/#/signup" target="_blank"><b>sign up</b></a><span style="font-weight: 400;"> to check out Key Dates and </span><a href="https://roadmunk.com/features" target="_blank"><b>all of our features</b></a><span style="font-weight: 400;"> (plus our library of 25+ </span><a href="https://roadmunk.com/roadmap-templates" target="_blank"><b>roadmap templates</b></a><span style="font-weight: 400;">).</span></em></p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/key-dates/">Introducing Key Dates for more detailed visualizations of initiatives</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>The new, more powerful Roadmunk</title>
+		<link>https://roadmunk.com/blog/new-roadmunk/</link>
+		<pubDate>Tue, 20 Jun 2017 14:03:10 +0000</pubDate>
+		<dc:creator><![CDATA[Eleni Deacon]]></dc:creator>
+				<category><![CDATA[Updates]]></category>
+		<category><![CDATA[product manager]]></category>
+		<category><![CDATA[product roadmap]]></category>
+		<category><![CDATA[product roadmapping]]></category>
+		<category><![CDATA[product updates]]></category>
+		<category><![CDATA[roadmunk]]></category>
+
+		<guid isPermaLink="false">https://roadmunk.com/blog/?p=2366</guid>
+		<description><![CDATA[<p>We made it easier than ever to share strategy across your entire organization. </p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/new-roadmunk/">The new, more powerful Roadmunk</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Today we’re launching some game-changing updates inside Roadmunk that make it easier than ever to share strategy across your entire organization. Since launching Roadmunk, we’ve been obsessed with making roadmapping <strong>fast</strong>, <strong>simple</strong> and <strong>collaborative</strong>. Now we’re taking roadmapping to the next level—what we like to think of as &#8220;roadmapping at scale.&#8221;</p>
+<p><strong>Here’s how we see it.</strong></p>
+<p>You’ve got one user. Let’s call her Jen. She makes a roadmap, shares it, gets alignment. Great.</p>
+<p>Now let’s say Jen has a colleague, Claudia, who works in another part of the organization. She’s also making a strategy. She uses a totally different tool and shares it in a totally different meeting. Fine. But what happens when Jen and Claudia need to <strong>see how their strategies line up?</strong></p>
+<p>It can get complicated and finicky, especially when everyone’s roadmaps live in different places and tools.</p>
+<p>Our new system makes it easy to see the biggest picture, no matter how complex or sprawling your organization. Users can <strong>roll up multiple roadmaps into a Master</strong>, but it’s<strong> a lot more than that</strong>: we’ve overhauled our navigation and added a bunch of new features to make roadmapping more intuitive and collaborative. Here’s a quick tour of our new platform.</p>
+<!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Blog signup inline --><div id="om-ytoapcdbhazgdychkbmg-holder"></div><script>var ytoapcdbhazgdychkbmg,ytoapcdbhazgdychkbmg_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){ytoapcdbhazgdychkbmg_poll(function(){if(window['om_loaded']){if(!ytoapcdbhazgdychkbmg){ytoapcdbhazgdychkbmg=new OptinMonsterApp();return ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="https://a.optnmstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;ytoapcdbhazgdychkbmg=new OptinMonsterApp();ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster -->
+<h2>Master roadmapping</h2>
+<p>Roadmaps aren’t tactical documents. They’re high-level strategies. <strong>Master roadmapping</strong> creates transparency at the highest level by offering a bird’s-eye view of what’s happening across your entire organization. Roll up views from multiple roadmaps into a shareable, editable Master. See—at a glance—how different <strong>teams</strong>, <strong>products</strong>, <strong>product lines</strong> or <strong>programs</strong> fit together.</p>
+<p><img class="alignnone size-full wp-image-2373" src="https://roadmunk.com/blog/wp-content/uploads/2017/06/master.png" alt="Master Roadmapping" width="1504" height="834" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/06/master.png 1504w, https://roadmunk.com/blog/wp-content/uploads/2017/06/master-300x166.png 300w, https://roadmunk.com/blog/wp-content/uploads/2017/06/master-768x426.png 768w, https://roadmunk.com/blog/wp-content/uploads/2017/06/master-1024x568.png 1024w" sizes="(max-width: 1504px) 100vw, 1504px" /></p>
+<p><strong>A few more things you can do with Master Roadmapping:</strong></p>
+<ul>
+<li>Masters can be visualized in <strong>timeline</strong> or <strong>swimlane </strong></li>
+<li>Edit, attach files and comment on Masters (same as you would any other roadmap)</li>
+<li>Any changes to your Master will be reflected in the original roadmap, and vice-versa</li>
+<li>Organize your Master by any field: Date, Status, Owner—whatever is valuable to your audience.</li>
+<li>Filter the data represented in your Master, so you’re always showing what’s relevant</li>
+</ul>
+<p>Our <a href="http://support.roadmunk.com/" target="_blank">support centre</a> has more information on how to use Master Roadmapping. You can also watch <a href="https://www.youtube.com/watch?v=1NqCQfy24CI&amp;t=4s" target="_blank">this walkthrough</a> or <a href="mailto:support@roadmunk.com">contact our customer success</a> team for some hands-on help.</p>
+<p><a href="https://www.youtube.com/watch?v=SccAUfRg7_M&amp;list=PLt4hNYAIL6uavPJGzLI0RREHSIrsQbMg3"><img class="alignnone size-full wp-image-2378" src="https://roadmunk.com/blog/wp-content/uploads/2017/06/video-link.png" alt="" width="1131" height="348" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/06/video-link.png 1131w, https://roadmunk.com/blog/wp-content/uploads/2017/06/video-link-300x92.png 300w, https://roadmunk.com/blog/wp-content/uploads/2017/06/video-link-768x236.png 768w, https://roadmunk.com/blog/wp-content/uploads/2017/06/video-link-1024x315.png 1024w" sizes="(max-width: 1131px) 100vw, 1131px" /></a></p>
+<h2>A central hub for strategy</h2>
+<p>“Roadmapping at scale” also means being able to keep track of all the different roadmaps your organization is using (i.e. not having to dig for email attachments or random files). We’ve introduced a handy dashboard where you can manage your roadmaps and permissions.</p>
+<p><img class="alignnone wp-image-2369 size-full" src="https://roadmunk.com/blog/wp-content/uploads/2017/06/homescreen-animation.gif" alt="Roadmunk dashboard" width="900" height="499" /></p>
+<h2>Templates = zero-effort onboarding</h2>
+<p>We wanted to take all of the friction out of making your first roadmap (or getting teammates to make their first roadmap). So we built <a href="https://roadmunk.com/roadmap-templates" target="_blank">a library of templates</a> filled with customizable roadmaps that match different use cases. Find a template, copy it to your account, then edit from there. We’ve got templates for roadmapping<strong> products,</strong> <strong>projects</strong>, <strong>technology plans</strong>, <strong>marketing strategies</strong>, and lots more.</p>
+<p><img class="alignnone wp-image-2370 size-full" src="https://roadmunk.com/blog/wp-content/uploads/2017/06/templates.png" alt="Roadmunk roadmap templates" width="1524" height="851" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/06/templates.png 1524w, https://roadmunk.com/blog/wp-content/uploads/2017/06/templates-300x168.png 300w, https://roadmunk.com/blog/wp-content/uploads/2017/06/templates-768x429.png 768w, https://roadmunk.com/blog/wp-content/uploads/2017/06/templates-1024x572.png 1024w" sizes="(max-width: 1524px) 100vw, 1524px" /></p>
+<p>From the day we launched Roadmunk, one of our key goals was to make roadmapping <strong>collaborative</strong>. We’re pushing that objective even further, helping users collaborate beyond their own roadmap to have <em><strong>a roadmapping system</strong></em> that covers their whole organization.</p>
+<p>In addition, we&#8217;ve incorporated several new features to enhance your overall roadmapping experience. These include:</p>
+<ul>
+<li><strong>Item activity field</strong>: Track what has happened on items since you last viewed your roadmap.</li>
+</ul>
+<ul>
+<li><strong>Saved filters</strong>: Save and copy filters from one roadmap view to another.</li>
+</ul>
+<ul>
+<li><strong>Starred fields</strong>: Encourage common language and structure across your organization’s roadmaps. (Watch a walkthrough <a href="https://www.youtube.com/watch?v=uiRnOqfUOLM&amp;index=3&amp;list=PLt4hNYAIL6uavPJGzLI0RREHSIrsQbMg3" target="_blank">here</a>.)</li>
+</ul>
+<p>We couldn’t be more excited to share the new Roadmunk—and hear your feedback. Take a look, play around, and don&#8217;t hesitate to <a href="mailto:support@roadmunk.com">get in touch</a>.</p>
+<p><strong>Want to know more? <a href="http://www.roadmunk.com/new-roadmunk" target="_blank">Read the full story on our new system.</a></strong></p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/new-roadmunk/">The new, more powerful Roadmunk</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Just added to your roadmap toolkit: File Attachments and Bulk Editing</title>
+		<link>https://roadmunk.com/blog/file-attachments-bulk-editing/</link>
+		<pubDate>Tue, 07 Jun 2016 22:36:49 +0000</pubDate>
+		<dc:creator><![CDATA[Sameena Velshi]]></dc:creator>
+				<category><![CDATA[Updates]]></category>
+		<category><![CDATA[product roadmap]]></category>
+		<category><![CDATA[product roadmaps]]></category>
+		<category><![CDATA[roadmap]]></category>
+		<category><![CDATA[roadmaps]]></category>
+
+		<guid isPermaLink="false">https://roadmunk.com/blog/?p=503</guid>
+		<description><![CDATA[<p>Our new features make flexibility and collaboration even smoother. Not to mention they’re just straight-up handy. </p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/file-attachments-bulk-editing/">Just added to your roadmap toolkit: File Attachments and Bulk Editing</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p><span style="font-weight: 400;">Building a roadmap isn’t a linear task—it’s a collective, ongoing process. And we just released two features that make flexibility and collaboration that much smoother. Not to mention they’re just straight-up handy. Take a look!</span></p>
+<h2><strong>File Attachments</strong></h2>
+<p>With <a href="http://support.roadmunk.com/creating-and-working-with-items-and-milestones/viewing-and-editing-items/add-view-and-download-item-attachments"><strong>File Attachments</strong></a>, your whole team gets the whole context—without ever leaving your roadmap. We updated our item card and added the ability to attach files. Centralize your planning by uploading external materials directly to your item cards. It could be notes, mocks, screenshots, videos—whatever is relevant to your strategy.</p>
+<p>To attach files to your roadmap, simply click “Attach Files” and select the materials you want to upload. You can also drag-and-drop your files over any item card.</p>
+<p><img class="wp-image-557 size-full aligncenter" src="https://roadmunk.com/blog/wp-content/uploads/2016/06/fileattach-reduced.gif" alt="fileattach-reduced" width="750" height="400" /></p>
+<p>Attachments can be uploaded in batches of up to 10 files, and there&#8217;s no limit on the total number of individual files you can attach to each item card. In a rush? Here&#8217;s a trick: drop a folder of up to 10 files onto your item card. The files will display individually in a list.</p>
+<p>You can attach up to 10MB per item card; overall storage limits vary by plan. Visit our <a href="https://roadmunk.com/pricing">Pricing Page</a> for full details on data allowances for File Attachments.</p>
+<!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Blog signup inline --><div id="om-ytoapcdbhazgdychkbmg-holder"></div><script>var ytoapcdbhazgdychkbmg,ytoapcdbhazgdychkbmg_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){ytoapcdbhazgdychkbmg_poll(function(){if(window['om_loaded']){if(!ytoapcdbhazgdychkbmg){ytoapcdbhazgdychkbmg=new OptinMonsterApp();return ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="https://a.optnmstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;ytoapcdbhazgdychkbmg=new OptinMonsterApp();ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster -->
+<h2><strong>Bulk Editing in Table View</strong></h2>
+<p>Why change items one-by-one when you can change them all at once? Plans evolve. Deadlines get pushed. Sometimes your entire roadmap needs an overhaul. We get that. And now you can integrate changes in a jif with our handy <a href="http://support.roadmunk.com/getting-started/create-and-share-your-first-roadmap/step-4-work-with-items-in-the-items-table"><strong>Bulk Editing</strong></a> feature. Edit multiple items at once, directly from Table View.</p>
+<p>To use Bulk Editing, select multiple items in Table View by simply clicking and dragging, or by clicking individual rows using the “checkmark” column on the far left of your table.</p>
+<p><img class="wp-image-564 size-full aligncenter" src="https://roadmunk.com/blog/wp-content/uploads/2016/06/bulkediting-reduced.gif" alt="bulkediting-reduced" width="750" height="400" /></p>
+<p>Once multiple rows have been selected, click any individual value to change its content. All other selected values in that field will be edited to match. You can bulk edit lists, dates and free-form text. Whatever needs to change!</p>
+<p><span style="font-weight: 400;">Want more detail on <strong>File Attachments</strong> or <strong>Bulk Editing</strong>? <a href="http://support.roadmunk.com/">Visit our knowledge base</a> for a detailed walkthrough on both features.</span></p>
+<p>Happy roadmapping! <img src="https://s.w.org/images/core/emoji/2.2.1/72x72/1f600.png" alt="😀" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/2.2.1/72x72/1f527.png" alt="🔧" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/file-attachments-bulk-editing/">Just added to your roadmap toolkit: File Attachments and Bulk Editing</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Secure your roadmap with Private Cloud and SAML Single Sign-On</title>
+		<link>https://roadmunk.com/blog/secure-roadmap-single-sign-private-cloud/</link>
+		<pubDate>Wed, 01 Jun 2016 15:16:08 +0000</pubDate>
+		<dc:creator><![CDATA[Rhys Mohun]]></dc:creator>
+				<category><![CDATA[Updates]]></category>
+		<category><![CDATA[data security]]></category>
+		<category><![CDATA[features]]></category>
+		<category><![CDATA[product management]]></category>
+		<category><![CDATA[product roadmaps]]></category>
+		<category><![CDATA[product update]]></category>
+		<category><![CDATA[roadmaps]]></category>
+		<category><![CDATA[security]]></category>
+		<category><![CDATA[updates]]></category>
+
+		<guid isPermaLink="false">https://roadmunk.com/blog/?p=471</guid>
+		<description><![CDATA[<p>Security is extremely important to us here at Roadmunk. Which is why we just released two powerful data-protection services.</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/secure-roadmap-single-sign-private-cloud/">Secure your roadmap with Private Cloud and SAML Single Sign-On</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Security is extremely important to us here at Roadmunk. Which is why we’re building powerful data-protection services to meet the needs of any user— from individuals to global companies. We&#8217;re currently working towards our <a href="http://support.roadmunk.com/enterprise-solutions/iso-27001-information-security" target="_blank" data-cke-saved-href="http://support.roadmunk.com/10128-enterprise-solutions/iso-27001-information-security">ISO 27001 certification</a>—but that&#8217;s not all. Today, we’re launching two robust security features: <strong>Private Cloud</strong> and <strong>SAML Single Sign-On</strong>.</p>
+<p>How does this release ensure your company’s security? Here’s the inside look.</p>
+<h2><strong>Private Cloud</strong></h2>
+<p>Enterprise clients requiring additional protection can now store their data in a <a href="http://support.roadmunk.com/enterprise-solutions/private-cloud"><strong>Private Cloud</strong></a>. Hosted on <a href="https://aws.amazon.com/vpc/">Amazon Web Services</a>, this secure server is dedicated to your Roadmunk account.</p>
+<p>Amazon Web Services provides <a href="https://aws.amazon.com/vpc/">a detailed account of their system</a>, which offers both privacy and a high degree of customization. Private Cloud customers also get a company-specific Roadmunk URL, complete with a spiffy branded login portal.</p>
+<p style="text-align: center;"><img class="aligncenter wp-image-496" src="https://roadmunk.com/blog/wp-content/uploads/2016/05/VPC-Login-01-3-261x300.png" alt="VPC-Login-01-3" width="550" height="631" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/05/VPC-Login-01-3-261x300.png 261w, https://roadmunk.com/blog/wp-content/uploads/2016/05/VPC-Login-01-3-768x882.png 768w, https://roadmunk.com/blog/wp-content/uploads/2016/05/VPC-Login-01-3-750x861.png 750w, https://roadmunk.com/blog/wp-content/uploads/2016/05/VPC-Login-01-3.png 805w" sizes="(max-width: 550px) 100vw, 550px" /></p>
+<p style="text-align: left;">Our Private Cloud service allows clients to accelerate the procurement and onboarding process, making it easier than ever to get started with Roadmunk. Companies that require data to be stored in a Private Cloud can now confidently deploy Roadmunk as part of their stack.</p>
+<p style="text-align: left;">Users taking advantage of our Private Cloud functionality will also get access to first-priority customer support. <a href="http://support.roadmunk.com/">Contact Customer Success</a> for more detail about our Private Cloud service.</p>
+<!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Blog signup inline --><div id="om-ytoapcdbhazgdychkbmg-holder"></div><script>var ytoapcdbhazgdychkbmg,ytoapcdbhazgdychkbmg_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){ytoapcdbhazgdychkbmg_poll(function(){if(window['om_loaded']){if(!ytoapcdbhazgdychkbmg){ytoapcdbhazgdychkbmg=new OptinMonsterApp();return ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="https://a.optnmstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;ytoapcdbhazgdychkbmg=new OptinMonsterApp();ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster -->
+<h2><strong>SAML Single Sign-On</strong></h2>
+<p>Streamline your procurement, onboarding and day-to-day use of Roadmunk with <a href="http://support.roadmunk.com/enterprise-solutions/saml-single-sign-on"><strong>SAML Single Sign-On</strong></a> via PingOne and similar identity providers. With this convenient feature, users can access our app through your company’s existing login portal, allowing for both secure and seamless entry to their roadmap.</p>
+<p style="text-align: center;"><img class="wp-image-495 size-full aligncenter" src="https://roadmunk.com/blog/wp-content/uploads/2016/05/SAML-Login-01-01-1.png" alt="SAML-Login-01-01" width="430" height="109" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/05/SAML-Login-01-01-1.png 430w, https://roadmunk.com/blog/wp-content/uploads/2016/05/SAML-Login-01-01-1-300x76.png 300w" sizes="(max-width: 430px) 100vw, 430px" /></p>
+<p style="text-align: left;">Our SAML Single Sign-On release ensures meticulous identity management—it’s a powerful way to administer corporate accounts and protect your documentation. SAML supports a wide range of identity providers, including Microsoft Active Directory, Okta, Bitium, PingOne and more.</p>
+<p style="text-align: left;"><a href="http://support.roadmunk.com/">Contact Customer Success</a> for more information on the Single Sign-On providers we support. (And yes, we have Google SSO, too!)</p>
+<p style="text-align: left;">Happy roadmapping!</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/secure-roadmap-single-sign-private-cloud/">Secure your roadmap with Private Cloud and SAML Single Sign-On</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Team Collaboration with Comments</title>
+		<link>https://roadmunk.com/blog/commenting/</link>
+		<pubDate>Mon, 28 Mar 2016 22:51:16 +0000</pubDate>
+		<dc:creator><![CDATA[Rhys Mohun]]></dc:creator>
+				<category><![CDATA[Updates]]></category>
+		<category><![CDATA[product roadmap]]></category>
+		<category><![CDATA[product roadmaps]]></category>
+		<category><![CDATA[roadmap]]></category>
+		<category><![CDATA[roadmapping]]></category>
+		<category><![CDATA[roadmunk]]></category>
+		<category><![CDATA[roadmunk features]]></category>
+		<category><![CDATA[updates]]></category>
+
+		<guid isPermaLink="false">http://roadmunkblog.wpengine.com/?p=101</guid>
+		<description><![CDATA[<p>Users now have the ability to make — you guessed it — comments on individual items within a roadmap. This has pretty big implications for the way product people plan their strategy.</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/commenting/">Team Collaboration with Comments</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Today&#8217;s a big day here at Roadmunk. We&#8217;ve gone and done it &#8211; we made planning as a team<em> </em>more collaborative with the brand-new <strong>Commenting</strong> release!  Are we a little proud of ourselves?</p>
+<figure id="attachment_103" style="width: 500px" class="wp-caption aligncenter"><img class="wp-image-103 size-full" src="https://roadmunk.com/blog/wp-content/uploads/2016/02/philster.gif" alt="Phil says yeah" width="500" height="200" /><figcaption class="wp-caption-text">Phil thinks so. Photo: <a href="http://phil-dumbphy.tumblr.com/post/52895128089/congratulations-ty-on-winning-monte-carlos-best" target="_blank">Tumblr</a></figcaption></figure>
+<h2>What is Commenting?</h2>
+<p>This release means a lot to users who plan as a team (and by our data that&#8217;s over 4 out of 5 users). The purpose of Commenting is to offer users a centralized place for planning. The system is made up of several important and related features:</p>
+<ul>
+<li><strong>Leave comments on roadmap items</strong></li>
+<li><strong>Send @mentions to individual users</strong></li>
+<li><strong>Get notified about @mentions</strong></li>
+<li><strong>Reviewers have a voice</strong></li>
+</ul>
+<!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Blog signup inline --><div id="om-ytoapcdbhazgdychkbmg-holder"></div><script>var ytoapcdbhazgdychkbmg,ytoapcdbhazgdychkbmg_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){ytoapcdbhazgdychkbmg_poll(function(){if(window['om_loaded']){if(!ytoapcdbhazgdychkbmg){ytoapcdbhazgdychkbmg=new OptinMonsterApp();return ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="https://a.optnmstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;ytoapcdbhazgdychkbmg=new OptinMonsterApp();ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster -->
+<h3>Leave comments on roadmap items</h3>
+<p>Users now have the ability to make &#8212; you guessed it &#8212; comments on individual items within a roadmap. This has pretty big implications for the way product people plan their strategy.</p>
+<p><img class="alignnone wp-image-337 size-full" src="https://roadmunk.com/blog/wp-content/uploads/2016/03/A_commenting_ver2.png" alt="commenting ascii" width="521" height="901" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/03/A_commenting_ver2.png 521w, https://roadmunk.com/blog/wp-content/uploads/2016/03/A_commenting_ver2-173x300.png 173w" sizes="(max-width: 521px) 100vw, 521px" /></p>
+<h4><img class="alignleft wp-image-108" src="https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-01-150x150.png" alt="commenting" width="48" height="48" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-01-150x150.png 150w, https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-01.png 217w" sizes="(max-width: 48px) 100vw, 48px" /><br />
+Track consensus in one, shared space</h4>
+<p>Right, while true &#8220;consensus&#8221; may be a mythical thing in many organizations, managers can now chase down that buy-in where the planning <em>happens.</em> It lets stakeholders see the vision in a shared space where they&#8217;re able to be heard. Now Roadmunk users are planning in context, providing crystal-clear clarity to team members with item-specific conversations.</p>
+<blockquote><p>The purpose of Commenting is to offer users a centralized place for planning.</p></blockquote>
+<h4><img class="alignleft wp-image-111" src="https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-04-150x150.png" alt="planning documents" width="48" height="48" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-04-150x150.png 150w, https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-04.png 208w" sizes="(max-width: 48px) 100vw, 48px" /><br />
+Include and update important planning documents</h4>
+<p>Context is very important. We asked our users how they collaborate on complex projects leading into roadmapping. We learned that teams leave comments in PDF margins, highlight sections of a shared Google doc, attach screenshots into emails, or make suggestions directly on marketing creative with a Photoshop overlay. That&#8217;s a bit of a problem, because not everyone involved in planning will have access to those files. Still, those files are critical to the planning process.</p>
+<p>Roadmunk has just cleared away the accessibility issue. Now files can be linked using an item description&#8217;s <strong>markdown</strong>, and teams maintain that context by making comments directly in the roadmap (think Trello).</p>
+<p><img class="alignnone size-full wp-image-331" src="https://roadmunk.com/blog/wp-content/uploads/2016/03/B_Attachments_ver2.png" alt="attach links using markdown" width="750" height="720" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/03/B_Attachments_ver2.png 750w, https://roadmunk.com/blog/wp-content/uploads/2016/03/B_Attachments_ver2-300x288.png 300w" sizes="(max-width: 750px) 100vw, 750px" /></p>
+<h4><img class="alignleft wp-image-110" src="https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-03-150x150.png" alt="idea capture" width="48" height="48" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-03-150x150.png 150w, https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-03.png 208w" sizes="(max-width: 48px) 100vw, 48px" /><br />
+Gather and discuss ideas outside of dedicated planning meetings</h4>
+<p>In the same vein as above, it&#8217;s important to capture feedback from the source. Not every stakeholder will be fully-prepared for a meeting (or even invited) and that leaves product managers fewer chances to solicit planning feedback. Thanks to Commenting, now users have 24/7 access to roadmaps whenever the idea strikes them.</p>
+<figure id="attachment_114" style="width: 350px" class="wp-caption aligncenter"><img class="wp-image-114 size-full" src="https://roadmunk.com/blog/wp-content/uploads/2016/02/lbgo.gif" alt="capture ideas when they strike" width="350" height="197" /><figcaption class="wp-caption-text">Never miss an idea. Photo: <a href="http://www.reactiongifs.com/sudden-clarity-kelso/" target="_blank">reactiongifs</a></figcaption></figure>
+<h3>Send @mentions to individual users</h3>
+<h4><img class="alignleft wp-image-117" src="https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-05-150x150.png" alt="shared resources" width="48" height="48" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-05-150x150.png 150w, https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-05.png 208w" sizes="(max-width: 48px) 100vw, 48px" /><br />
+Discuss shared product lines with PMs in the portfolio</h4>
+<p>Some product managers share resources, objectives and plans with other managers in the organization. Users have the ability to discuss shared items by tapping an individual using the new @mentions system. Simply use the &#8216;@username&#8217; mention format to send that user a notification within Roadmunk. Teams keep individual contributors accountable for their deliverables.</p>
+<p><img class="alignnone wp-image-339 size-full" src="https://roadmunk.com/blog/wp-content/uploads/2016/03/C_mentions_ver2.png" alt="mention users on a roadmap" width="508" height="622" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/03/C_mentions_ver2.png 508w, https://roadmunk.com/blog/wp-content/uploads/2016/03/C_mentions_ver2-245x300.png 245w" sizes="(max-width: 508px) 100vw, 508px" /></p>
+<h4><img class="alignleft wp-image-121" src="https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-06-150x150.png" alt="escalations" width="48" height="48" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-06-150x150.png 150w, https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-06.png 208w" sizes="(max-width: 48px) 100vw, 48px" /><br />
+Send escalations directly to a user, in-context and with a visible history</h4>
+<p>When it&#8217;s time to bring in the cavalry, send an @mention to direct attention to a particular topic within the roadmap. That user will visit the roadmap with all the context that a plan provides, paired with whatever conversation has already taken place from concerned users. This ability includes reviewer seats, so tie-breakers could conceivably be <em>anyone</em>; customers, board members, executives and third-parties. With great power comes great responsibility.</p>
+<figure id="attachment_119" style="width: 270px" class="wp-caption aligncenter"><img class="wp-image-119 size-full" src="http://roadmunkblog.wpengine.com/wp-content/uploads/2016/02/with-great-power-comes-great-responsibility-spider-man.jpeg" alt="Spiderman knows the struggle" width="270" height="270" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/02/with-great-power-comes-great-responsibility-spider-man.jpeg 270w, https://roadmunk.com/blog/wp-content/uploads/2016/02/with-great-power-comes-great-responsibility-spider-man-150x150.jpeg 150w" sizes="(max-width: 270px) 100vw, 270px" /><figcaption class="wp-caption-text">Your notifications are tingling. Photo: <a href="http://firebirdcrossfit.com/wp-content/uploads/2013/07/with-great-power-comes-great-responsibility-spider-man.jpeg">Firebirdcrossfit</a></figcaption></figure>
+<h3>Get notified about @mentions</h3>
+<h4><img class="alignleft wp-image-123" src="https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-07b-150x150.png" alt="notifications flag" width="48" height="48" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-07b-150x150.png 150w, https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-07b.png 208w" sizes="(max-width: 48px) 100vw, 48px" /><br />
+Get notified when a user has sent a direct @mention</h4>
+<p>Feel popular as your colleagues send you personal @mention comments on your roadmap, asking for your expert input and praising your hard work. There&#8217;s no way anyone will use this as a means to add work to your plate, surely.</p>
+<figure id="attachment_341" style="width: 522px" class="wp-caption alignnone"><img class="wp-image-341 size-full" src="https://roadmunk.com/blog/wp-content/uploads/2016/03/D_notifications_ver2.png" alt="get notified when mentioned" width="522" height="241" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/03/D_notifications_ver2.png 522w, https://roadmunk.com/blog/wp-content/uploads/2016/03/D_notifications_ver2-300x139.png 300w" sizes="(max-width: 522px) 100vw, 522px" /><figcaption class="wp-caption-text">Darn it.</figcaption></figure>
+<h3>Reviewers can leave comments</h3>
+<h4><img class="wp-image-109 alignleft" src="https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-02-150x150.png" alt="reviewers" width="48" height="48" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-02-150x150.png 150w, https://roadmunk.com/blog/wp-content/uploads/2016/02/commenting_icons-02.png 208w" sizes="(max-width: 48px) 100vw, 48px" /><br />
+Reviewers can chime in</h4>
+<blockquote><p>Managers can now chase down that buy-in where the planning happens.</p></blockquote>
+<p>While reviewer users are &#8220;non-destructive&#8221; users of the app &#8212; many editors still wanted a way to involve them in the planning process. Today with commenting, those reviewers have a voice. Who are these collaborators? They are often:</p>
+<ul>
+<li>Customers</li>
+<li>Executives</li>
+<li>Partner stakeholders</li>
+<li>Board members</li>
+<li>Sales managers</li>
+<li>Marketing managers</li>
+<li>Customer success leads</li>
+<li>Investors</li>
+</ul>
+<p>Just imagine how much more thorough roadmaps will be, how aligned a team could be, and how satisfied PMs can be when the whole team has had an opportunity to add value.</p>
+<h2>How to use Commenting features</h2>
+<p>We&#8217;ve got a brilliant <a href="http://support.roadmunk.com/creating-and-working-with-items-and-milestones/viewing-and-editing-items/post-item-comments-and-mentions" target="_blank">knowledge base article</a> written by our all-star support &amp; success lead, Noah. (He lives for the praise, leave him a quick note will you?)</p>
+<p>As always, if you find anything we&#8217;ve missed or you need some direct help, find us on Intercom or slide us a quick ticket through support(at)roadmunk(dot)com, everybody.</p>
+<p>Happy roadmapping.</p>
+<p>&#8211; Rhys</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/commenting/">Team Collaboration with Comments</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Live Filters</title>
+		<link>https://roadmunk.com/blog/live-filters/</link>
+		<pubDate>Tue, 03 Nov 2015 16:29:17 +0000</pubDate>
+		<dc:creator><![CDATA[Rhys Mohun]]></dc:creator>
+				<category><![CDATA[Updates]]></category>
+
+		<guid isPermaLink="false">http://roadmunkblog.wpengine.com/?p=60</guid>
+		<description><![CDATA[<p>Curate roadmap views instantly with Live Filters.</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/live-filters/">Live Filters</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3>Curate views instantly.</h3>
+<p>Hey product people. It didn’t take many rounds of feedback to hear you loud and clear &#8211; Roadmunk users were asking for a way to add items to multiple views and generate new views from that data. After all, our users are counting on Roadmunk to create beautiful roadmaps <em>quickly</em>. Introducing our latest milestone: <strong>Live Filters</strong>.</p>
+<h3>Work smarter <em>and</em> faster</h3>
+<p>We’ll help you curate your roadmap for any audience to tell a simple, relevant story. Live Filters will help roadmap creators quickly plot items across multiple views. Users can instantly pivot their data and save a view to revisit later:</p>
+<ul>
+<li>Timebox your items within a specific time range.</li>
+<li>Isolate specific teams, statuses or any other field instantly.</li>
+<li>Create focused, thematic roadmaps to share with specific audiences.</li>
+</ul>
+<!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Blog signup inline --><div id="om-ytoapcdbhazgdychkbmg-holder"></div><script>var ytoapcdbhazgdychkbmg,ytoapcdbhazgdychkbmg_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){ytoapcdbhazgdychkbmg_poll(function(){if(window['om_loaded']){if(!ytoapcdbhazgdychkbmg){ytoapcdbhazgdychkbmg=new OptinMonsterApp();return ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="https://a.optnmstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;ytoapcdbhazgdychkbmg=new OptinMonsterApp();ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster -->
+<h3>Consider a use case:</h3>
+<p>Roadmunk has a new marketing guy, Rhys. He’s brilliant, ruggedly handsome and now writes the Roadmunk blog you’re reading.</p>
+<p>In the next few weeks he has some pretty demanding web projects to complete, and he needs to align his UX and web teams to coordinate the Q4 deliverables. Before walking into his next web meeting he sits down to adjust his master marketing roadmap to display <em>only the relevant information</em> for his meeting. Cue Live Filtering.</p>
+<div class="text-center">
+<figure style="width: 1901px" class="wp-caption alignnone"><img src="https://roadmunk.com/images/blog/lf-1.png" alt="Marketing roadmap" width="1901" height="913" /><figcaption class="wp-caption-text">Rhys starts with his marketing roadmap. No filters are applied.</figcaption></figure>
+</div>
+<p>&nbsp;</p>
+<div class="text-center">
+<figure style="width: 1901px" class="wp-caption alignnone"><img src="https://roadmunk.com/images/blog/lf-2.png" alt="Filtering views" width="1901" height="913" /><figcaption class="wp-caption-text">Rhys is filtering his roadmap to show Q4 items only. Notice the active ‘FILTERED BY:’ indication above the filtering categories. His next step will be to isolate his web, mobile and UX/design teams.</figcaption></figure>
+</div>
+<p>&nbsp;</p>
+<div class="text-center">
+<figure style="width: 1901px" class="wp-caption alignnone"><img src="https://roadmunk.com/images/blog/lf-3.png" alt="" width="1901" height="913" /><figcaption class="wp-caption-text">How easy was that? Now the roadmap is showing only web, mobile and UX items in the Q4 time range.</figcaption></figure>
+</div>
+<p>&nbsp;</p>
+<div class="text-center">
+<figure style="width: 802px" class="wp-caption alignnone"><img src="https://roadmunk.com/images/blog/lf-4.png" alt="" width="802" height="620" /><figcaption class="wp-caption-text">Last, Rhys exports his Q4 roadmap to a concise, Powerpoint-sized PNG image he’ll use in his meeting.</figcaption></figure>
+</div>
+<p>With Live Filters, Roadmunk users can pivot their data and instantly create new views for their audience. Being the clever type, Rhys decides to save this view for use later. In the future if Rhys wants to revisit this arrangement again, he just needs to recall this view from the view menu.</p>
+<h3>Start writing your own product stories</h3>
+<p>Feel free to experiment with Live Filters starting today &#8211; once you log in (or refresh if you’re still busily roadmapping as we update) you’ll notice the filter menu in the top right corner of the screen, next to the familiar layout and colors menus.</p>
+<p>For an overview of Live Filters, visit our <a href="http://support.roadmunk.com/creating-and-working-with-items-and-milestones/viewing-and-editing-items/filter-items">FAQ and Support</a> article describing the feature in detail.</p>
+<p>Happy roadmapping.</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/live-filters/">Live Filters</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Weekly Planning</title>
+		<link>https://roadmunk.com/blog/62-2/</link>
+		<pubDate>Wed, 02 Sep 2015 16:31:59 +0000</pubDate>
+		<dc:creator><![CDATA[Rhys Mohun]]></dc:creator>
+				<category><![CDATA[Updates]]></category>
+
+		<guid isPermaLink="false">http://roadmunkblog.wpengine.com/?p=62</guid>
+		<description><![CDATA[<p>Weekly Planning Roadmunk is thrilled to announce that we now support weekly planning. Even More Granularity With the increasing flexibility required by teams to meet the speed of agile and shifting priorities, the immediate future becomes just as important as the medium and long-term objectives that management demand. While it is important to keep the future in [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/62-2/">Weekly Planning</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3>Weekly Planning</h3>
+<p>Roadmunk is thrilled to announce that we now support weekly planning.</p>
+<h3>Even More Granularity</h3>
+<p>With the increasing flexibility required by teams to meet the speed of agile and shifting priorities, the immediate future becomes just as important as the medium and long-term objectives that management demand.</p>
+<!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Blog signup inline --><div id="om-ytoapcdbhazgdychkbmg-holder"></div><script>var ytoapcdbhazgdychkbmg,ytoapcdbhazgdychkbmg_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){ytoapcdbhazgdychkbmg_poll(function(){if(window['om_loaded']){if(!ytoapcdbhazgdychkbmg){ytoapcdbhazgdychkbmg=new OptinMonsterApp();return ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="https://a.optnmstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;ytoapcdbhazgdychkbmg=new OptinMonsterApp();ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster -->
+<p>While it is important to keep the future in mind we know, through speaking to hundreds of Product Managers, the true daily users want to see what lays in front of their teams. Now you can visualize plans down to the weekly level.</p>
+<div class="text-center"><img src="https://roadmunk.com/images/blog/tlweeks.png" alt="" /></div>
+<h3>Who is weekly planning for?</h3>
+<p>Weekly planning is applicable to all product owners and planners. Our recommendation is to lay out your immediate roadmap using the weekly method, while projects that sit further out can get broken down into months, quarters or 6-month views.</p>
+<div class="text-center"><img src="https://roadmunk.com/images/blog/slweeks.png" alt="" /></div>
+<h3>&#8220;When can I start planning in weeks?&#8221;</h3>
+<p>Weekly planning is available for all Roadmunk plans and will be available to all users immediately.</p>
+<p>Log in as usual and existing roadmaps will have the option to break into weeks. New roadmaps will have the same option.</p>
+<p>To learn more about weeks and get in touch with the team simply connect with us at: <a href="mailto:support@roadmunk.com">support@roadmunk.com</a></p>
+<p>Happy roadmapping!</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/62-2/">Weekly Planning</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Reviewer Mode</title>
+		<link>https://roadmunk.com/blog/reviewer-mode/</link>
+		<pubDate>Tue, 23 Jun 2015 19:19:36 +0000</pubDate>
+		<dc:creator><![CDATA[Rhys Mohun]]></dc:creator>
+				<category><![CDATA[Updates]]></category>
+
+		<guid isPermaLink="false">http://roadmunkblog.wpengine.com/?p=64</guid>
+		<description><![CDATA[<p>Reviewer mode is here! We&#8217;ve been exploring ways to collaborate and communicate with stakeholders. Consider that egg cracked. We are thrilled to introduce an all-new tier of Roadmunk user &#8211; the reviewer. The reviewer model is the next step in teamwork, ensuring that your strategic vision remains a collaborative effort with visibility for those who need it. We built the reviewer for organizations that have [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/reviewer-mode/">Reviewer Mode</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3>Reviewer mode is here!</h3>
+<p>We&#8217;ve been exploring ways to collaborate and communicate with stakeholders. Consider that egg cracked. We are thrilled to introduce an all-new tier of Roadmunk user &#8211; the reviewer.</p>
+<p>The reviewer model is the next step in teamwork, ensuring that your strategic vision remains a collaborative effort with visibility for those who need it.</p>
+<p>We built the reviewer for organizations that have tight protocols and specific security requirements. The following are the primary reasons and differentiators of the reviewers mode to other options we offer:</p>
+<ul>
+<li>Reviewers can navigate through all roadmap views and can download exports with customized options</li>
+<li>Reviewers can leverage Google SSO</li>
+<li>In the next iteration Reviewer will have the capability to comment on roadmap items</li>
+<li>Reviewer can be viewed as more secure as only those with the proper login information and permission would have access whereas URL is available to anyone who has the URL (hence the optional password)</li>
+</ul>
+<h3>Who is the Reviewer Model ideal for?</h3>
+<ul>
+<li>The reviewer model is perfect for companies who have executives, stakeholders or developers (really anyone) that want real-time, on-demand access into a roadmaps. (It&#8217;s also for PM&#8217;s who know editor permissions are a safely-guarded responsibility!)</li>
+<li>It&#8217;s great for ensuring roadmap integrity and securing access to plans.</li>
+<li>External sxtakeholders: if you have clients, partners, or affiliates that need access to information specific to them then this is the feature for you!</li>
+</ul>
+<h3>How do you begin using Reviewer Mode?</h3>
+<p>Reviewer will only be available to our Business, Professional, and Enterprise packages. Reviewers are priced at $5/user with volume discounts available for organization wide access (contact support@roadmunk.com for details on these discounts).</p>
+<p>If you have an existing Roadmunk account, simply head over to your account settings and into the billing section where you can add as many reviewer users as you need. To learn more about how to manage and add reviewers, <a href="http://support.roadmunk.com/creating-and-working-with-roadmaps/sharing-and-collaborating-on-roadmaps/add-viewers-to-your-roadmaps" target="_blank">we have an article for you right here.</a> Written with care.</p>
+<p>As always,</p>
+<p>Happy roadmapping.</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/reviewer-mode/">Reviewer Mode</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>JIRA Integration</title>
+		<link>https://roadmunk.com/blog/jira/</link>
+		<pubDate>Mon, 20 Apr 2015 20:02:45 +0000</pubDate>
+		<dc:creator><![CDATA[Rhys Mohun]]></dc:creator>
+				<category><![CDATA[Updates]]></category>
+
+		<guid isPermaLink="false">http://roadmunkblog.wpengine.com/?p=67</guid>
+		<description><![CDATA[<p>Useful roadmapping data can often be found sitting untouched in development tools, not getting the proper visibility and remaining pretty useless to the organization. There&#8217;s gold in them hills. So we got the shovels out and struck gold with Roadmunk&#8217;s brand-new JIRA integration! Pull JIRA issues into Roadmunk and plot them into your favorite view. Here are some things to know [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/jira/">JIRA Integration</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Useful roadmapping data can often be found sitting untouched in development tools, not getting the proper visibility and remaining pretty useless to the organization. There&#8217;s gold in them hills. So we got the shovels out and struck gold with Roadmunk&#8217;s brand-new JIRA integration! Pull JIRA issues into Roadmunk and plot them into your favorite view. Here are some things to know about our first version&#8217;s capabilities:</p>
+<ul>
+<li>Import up to 200 JIRA issues and related meta data per roadmap</li>
+<li>Ability to map JIRA and Roadmunk fields</li>
+<li>Currently we only support the cloud version of JIRA (Server is coming soon…)</li>
+<li>You can use your own JIRA login, but it is strongly recommended to use an administrative account to avoid permissions problems</li>
+<li>The description field will not be formatted as Roadmunk uses mark-down and JIRA uses HTML (we will be addressing in due time; it may be recommend to avoid mapping this field)</li>
+</ul>
+<!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Blog signup inline --><div id="om-ytoapcdbhazgdychkbmg-holder"></div><script>var ytoapcdbhazgdychkbmg,ytoapcdbhazgdychkbmg_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){ytoapcdbhazgdychkbmg_poll(function(){if(window['om_loaded']){if(!ytoapcdbhazgdychkbmg){ytoapcdbhazgdychkbmg=new OptinMonsterApp();return ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="https://a.optnmstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;ytoapcdbhazgdychkbmg=new OptinMonsterApp();ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster -->
+<h3>How to import JIRA Issues into Roadmunk</h3>
+<p><b>Step 1:</b> Navigate to the Table View and click on the JIRA icon.</p>
+<div class="text-center"><img src="https://roadmunk.com/images/blog/jirastep0.png" alt="" /></div>
+<p><b>Step 2:</b> Enter your login information to your JIRA Cloud Server account.</p>
+<div class="text-center"><img src="https://roadmunk.com/images/blog/jirastep1.png" alt="" /></div>
+<p><b>Step 3:</b> Using the three filters provided (Project, Status, Issue Type) you can narrow down which JIRA issues you’d like to import. Note: You can import from multiple projects into a single roadmap.</p>
+<div class="text-center"><img src="https://roadmunk.com/images/blog/jirastep2.png" alt="" /></div>
+<p>&nbsp;</p>
+<p><b>Step 4:</b> Choose which JIRA fields and data you’d like to import selecting “Add Field Mapping”.</p>
+<div class="text-center"><img src="https://roadmunk.com/images/blog/jirastep3.png" alt="" /></div>
+<p>&nbsp;</p>
+<p><b>Step 5:</b> Import away!</p>
+<div class="text-center"><img src="https://roadmunk.com/images/blog/jirastep4.png" alt="" /></div>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/jira/">JIRA Integration</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

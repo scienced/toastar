@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Sameena Velshi &#8211; Roadmunk Blog</title>
+	<atom:link href="https://roadmunk.com/blog/author/sameenavelshi/feed/" rel="self" type="application/rss+xml" />
+	<link>https://roadmunk.com/blog</link>
+	<description>Product Management and Product Roadmaps</description>
+	<lastBuildDate>Fri, 29 Jun 2018 19:44:12 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.3</generator>
+
+<image>
+	<url>https://roadmunk.com/blog/wp-content/uploads/2018/01/favicon.png</url>
+	<title>Sameena Velshi &#8211; Roadmunk Blog</title>
+	<link>https://roadmunk.com/blog</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>I’m building the High Line, not the Golden Gate Bridge</title>
+		<link>https://roadmunk.com/blog/im-building-high-line-not-golden-gate-bridge/</link>
+		<pubDate>Tue, 23 Aug 2016 17:17:51 +0000</pubDate>
+		<dc:creator><![CDATA[Sameena Velshi]]></dc:creator>
+				<category><![CDATA[Influencers]]></category>
+		<category><![CDATA[Product Strategy]]></category>
+		<category><![CDATA[product design]]></category>
+		<category><![CDATA[product development]]></category>
+		<category><![CDATA[product discovery]]></category>
+		<category><![CDATA[product management]]></category>
+		<category><![CDATA[product manager]]></category>
+		<category><![CDATA[product strategy]]></category>
+		<category><![CDATA[technology]]></category>
+		<category><![CDATA[ui]]></category>
+		<category><![CDATA[ux]]></category>
+
+		<guid isPermaLink="false">https://roadmunk.com/blog/?p=940</guid>
+		<description><![CDATA[<p>As a product manager, I’m trying to create both the experience and illusion of simplicity. </p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/im-building-high-line-not-golden-gate-bridge/">I’m building the High Line, not the Golden Gate Bridge</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>This is a bit of a cliché, but last time I was in San Francisco, I realized something important about my work as a product manager.</p>
+<h1>I’m not building the Golden Gate Bridge.</h1>
+<p>Not to knock the Golden Gate. It’s very efficient for getting from A to B. And it’s pretty. Google “Golden Gate,” and you’ll find thousands of landscape shots. Blue skies, rolling hills, miles of orange steel.</p>
+<p><img class="aligncenter wp-image-952 size-full" src="https://roadmunk.com/blog/wp-content/uploads/2016/08/goldengate.jpg" alt="golden gate bridge" width="900" height="598" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/08/goldengate.jpg 900w, https://roadmunk.com/blog/wp-content/uploads/2016/08/goldengate-300x199.jpg 300w, https://roadmunk.com/blog/wp-content/uploads/2016/08/goldengate-768x510.jpg 768w" sizes="(max-width: 900px) 100vw, 900px" /></p>
+<p>Seeing the Golden Gate up close, I was reminded of how software used to be. It got you from A to B—and didn’t do much else. It was big. It was “impressive.” It imposed itself on the landscape of your day. What you saw was what you got.</p>
+<p>Software used to be strictly business. But with the intertwining of B2B and B2C, the same user who needs a SaaS tool to manage complex business tasks probably Ubers home to watch Netflix. And she’s comparing her SaaS tools to Uber and Netflix. (At least, that’s what I do…)</p>
+<p>Software is now one element in an ecosystem. It’s not the defining feature in the terrain of your day. And it does a whole lot more than simply take you from A to B. To succeed, software products must offer a delightful experience. Which is why I’m adopting a more relevant bridge-related metaphor for my approach to product management.</p>
+<!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Blog signup inline --><div id="om-ytoapcdbhazgdychkbmg-holder"></div><script>var ytoapcdbhazgdychkbmg,ytoapcdbhazgdychkbmg_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){ytoapcdbhazgdychkbmg_poll(function(){if(window['om_loaded']){if(!ytoapcdbhazgdychkbmg){ytoapcdbhazgdychkbmg=new OptinMonsterApp();return ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="https://a.optnmstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;ytoapcdbhazgdychkbmg=new OptinMonsterApp();ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster -->
+<h1>I’m building the High Line.</h1>
+<p>For those of you who haven’t visited the <a href="http://www.thehighline.org/" target="_blank">High Line</a>, it’s a 1.45-mile-long park built along an elevated section of an old New York City railway. Walking the High Line, you travel through gardens and art projects. The first time I was there, I forgot that I was moving from one place to another. It felt like I was part of the city’s nervous system. Google “High Line,” and you’ll find thousands of photographs taken from eye-level along the pathway. People document the experience of being there.</p>
+<p><img class="wp-image-953 size-full aligncenter" src="https://roadmunk.com/blog/wp-content/uploads/2016/08/highline.jpg" alt="High Line Park, New York" width="736" height="450" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/08/highline.jpg 736w, https://roadmunk.com/blog/wp-content/uploads/2016/08/highline-300x183.jpg 300w" sizes="(max-width: 736px) 100vw, 736px" /></p>
+<h2>Functional AND Simple AND Beautiful</h2>
+<p>Users now expect an experience that’s more like the High Line. Take Uber. It’s designed to literally take you from A to B. Efficiency and simplicity are its selling points. But Uber doesn’t just shuttle you from place to place—it offers a delightful <em>experience</em> of efficiency. (It’s also using some pretty sophisticated algorithms.)</p>
+<p>That’s why Uber has been ingrained in our ecosystem. Products that require you to spend a perceived “least amount of time on them” while fulfilling your goal are absolute gold. The less time you perceive to be spending on a product, the more likely you are to use it. Just ask my Visa bill.</p>
+<p><img class="aligncenter wp-image-947" src="https://roadmunk.com/blog/wp-content/uploads/2016/08/uber-300x190.png" alt="building bridges" width="510" height="323" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/08/uber-300x190.png 300w, https://roadmunk.com/blog/wp-content/uploads/2016/08/uber-768x486.png 768w, https://roadmunk.com/blog/wp-content/uploads/2016/08/uber.png 782w" sizes="(max-width: 510px) 100vw, 510px" /></p>
+<p>The fact that these products become verbs—Slack me, Uber there, Google it—signals the degree to which they are ingrained in our ecosystem. They&#8217;re part of our language.</p>
+<p>To achieve this status, products require more than utility. There are thousands of cereals out there. In the past, oatmeal was enough to get you full. Now we spend a small fortune on the healthiest, heartiest, goji berry, chia seed, beautifully-packaged-so-it-looks-good-in-my- hipster-kitchen cereal. (Again, myself included.) The fancy cereal offers the experience of simplicity—of not being processed. A back-to-the-earth integrity. But making and delivering that cereal is anything but simple. It’s the same for software.</p>
+<h2>Simple for users, not for PMs</h2>
+<p>As a product manager, I’m trying to create both the experience and illusion of simplicity. When I think about building the Golden Gate Bridge, I picture huge cranes, tons of steel and thousands of workers covered in dirt. When I think about building the High Line, I envision children planting trees. Is that how it happened? Hell, no. But an illusion of simplicity makes you and your product more accessible to your customer base—even if it’s nowhere close to reality of building a product.</p>
+<blockquote><p>As a product manager, I’m trying to create both the experience and illusion of simplicity.</p></blockquote>
+<p>Creating the illusion of simplicity is what I call the “last mile” in design. If our products, on the front-end, were as complicated as they are on the back-end, no average user would want to use them. On the other hand, if they were as simple, on the back-end, as they appear on the front-end, they would never impress or delight us.</p>
+<p><img class="aligncenter wp-image-942 size-full" src="https://roadmunk.com/blog/wp-content/uploads/2016/08/buildingbridges.jpg" alt="I'm building the High Line, not the Brooklyn Bridge." width="510" height="323" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/08/buildingbridges.jpg 510w, https://roadmunk.com/blog/wp-content/uploads/2016/08/buildingbridges-300x190.jpg 300w" sizes="(max-width: 510px) 100vw, 510px" /></p>
+<p>You’re not developing a calculator. You’re talking about masking a convoluted series of gets, puts and posts while providing a seamless series of interactions for your consumers (and hopefully inspiring awe in your design colleagues). Here’s where the 80/20 principle does not apply. That last 20% (more like 5%, if you ask me) takes the longest and will envelop you with decision fatigue. And it’s the only way to reach that elusive state of product excellence.</p>
+<hr />
+<p><em>Like I&#8217;ve said, we want simplicity for our users. That&#8217;s why we offer customizable templates to kickstart your roadmap. <a href="https://roadmunk.com/roadmap-templates?utm_source=blog&amp;utm_content=bridges" target="_blank">Click here to try a template today</a>!</em></p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/im-building-high-line-not-golden-gate-bridge/">I’m building the High Line, not the Golden Gate Bridge</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Just added to your roadmap toolkit: File Attachments and Bulk Editing</title>
+		<link>https://roadmunk.com/blog/file-attachments-bulk-editing/</link>
+		<pubDate>Tue, 07 Jun 2016 22:36:49 +0000</pubDate>
+		<dc:creator><![CDATA[Sameena Velshi]]></dc:creator>
+				<category><![CDATA[Updates]]></category>
+		<category><![CDATA[product roadmap]]></category>
+		<category><![CDATA[product roadmaps]]></category>
+		<category><![CDATA[roadmap]]></category>
+		<category><![CDATA[roadmaps]]></category>
+
+		<guid isPermaLink="false">https://roadmunk.com/blog/?p=503</guid>
+		<description><![CDATA[<p>Our new features make flexibility and collaboration even smoother. Not to mention they’re just straight-up handy. </p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/file-attachments-bulk-editing/">Just added to your roadmap toolkit: File Attachments and Bulk Editing</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p><span style="font-weight: 400;">Building a roadmap isn’t a linear task—it’s a collective, ongoing process. And we just released two features that make flexibility and collaboration that much smoother. Not to mention they’re just straight-up handy. Take a look!</span></p>
+<h2><strong>File Attachments</strong></h2>
+<p>With <a href="http://support.roadmunk.com/creating-and-working-with-items-and-milestones/viewing-and-editing-items/add-view-and-download-item-attachments"><strong>File Attachments</strong></a>, your whole team gets the whole context—without ever leaving your roadmap. We updated our item card and added the ability to attach files. Centralize your planning by uploading external materials directly to your item cards. It could be notes, mocks, screenshots, videos—whatever is relevant to your strategy.</p>
+<p>To attach files to your roadmap, simply click “Attach Files” and select the materials you want to upload. You can also drag-and-drop your files over any item card.</p>
+<p><img class="wp-image-557 size-full aligncenter" src="https://roadmunk.com/blog/wp-content/uploads/2016/06/fileattach-reduced.gif" alt="fileattach-reduced" width="750" height="400" /></p>
+<p>Attachments can be uploaded in batches of up to 10 files, and there&#8217;s no limit on the total number of individual files you can attach to each item card. In a rush? Here&#8217;s a trick: drop a folder of up to 10 files onto your item card. The files will display individually in a list.</p>
+<p>You can attach up to 10MB per item card; overall storage limits vary by plan. Visit our <a href="https://roadmunk.com/pricing">Pricing Page</a> for full details on data allowances for File Attachments.</p>
+<!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Blog signup inline --><div id="om-ytoapcdbhazgdychkbmg-holder"></div><script>var ytoapcdbhazgdychkbmg,ytoapcdbhazgdychkbmg_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){ytoapcdbhazgdychkbmg_poll(function(){if(window['om_loaded']){if(!ytoapcdbhazgdychkbmg){ytoapcdbhazgdychkbmg=new OptinMonsterApp();return ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="https://a.optnmstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;ytoapcdbhazgdychkbmg=new OptinMonsterApp();ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster -->
+<h2><strong>Bulk Editing in Table View</strong></h2>
+<p>Why change items one-by-one when you can change them all at once? Plans evolve. Deadlines get pushed. Sometimes your entire roadmap needs an overhaul. We get that. And now you can integrate changes in a jif with our handy <a href="http://support.roadmunk.com/getting-started/create-and-share-your-first-roadmap/step-4-work-with-items-in-the-items-table"><strong>Bulk Editing</strong></a> feature. Edit multiple items at once, directly from Table View.</p>
+<p>To use Bulk Editing, select multiple items in Table View by simply clicking and dragging, or by clicking individual rows using the “checkmark” column on the far left of your table.</p>
+<p><img class="wp-image-564 size-full aligncenter" src="https://roadmunk.com/blog/wp-content/uploads/2016/06/bulkediting-reduced.gif" alt="bulkediting-reduced" width="750" height="400" /></p>
+<p>Once multiple rows have been selected, click any individual value to change its content. All other selected values in that field will be edited to match. You can bulk edit lists, dates and free-form text. Whatever needs to change!</p>
+<p><span style="font-weight: 400;">Want more detail on <strong>File Attachments</strong> or <strong>Bulk Editing</strong>? <a href="http://support.roadmunk.com/">Visit our knowledge base</a> for a detailed walkthrough on both features.</span></p>
+<p>Happy roadmapping! <img src="https://s.w.org/images/core/emoji/2.2.1/72x72/1f600.png" alt="😀" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/2.2.1/72x72/1f527.png" alt="🔧" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/file-attachments-bulk-editing/">Just added to your roadmap toolkit: File Attachments and Bulk Editing</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>The 10-minute morning routine that transformed my product strategy</title>
+		<link>https://roadmunk.com/blog/the-10-minute-morning-routine-that-transformed-my-product-strategy/</link>
+		<pubDate>Thu, 24 Mar 2016 19:47:55 +0000</pubDate>
+		<dc:creator><![CDATA[Sameena Velshi]]></dc:creator>
+				<category><![CDATA[Product Strategy]]></category>
+		<category><![CDATA[Roadmapping]]></category>
+		<category><![CDATA[habits]]></category>
+		<category><![CDATA[morning habits]]></category>
+		<category><![CDATA[prodmgmt]]></category>
+		<category><![CDATA[product management]]></category>
+		<category><![CDATA[product roadmap]]></category>
+		<category><![CDATA[product roadmaps]]></category>
+		<category><![CDATA[product strategy]]></category>
+		<category><![CDATA[roadmap]]></category>
+		<category><![CDATA[roadmapping]]></category>
+
+		<guid isPermaLink="false">https://roadmunk.com/blog/?p=297</guid>
+		<description><![CDATA[<p>Mornings can be rough. But this simple daily exercise can make a big impact on your approach to product strategy.</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/the-10-minute-morning-routine-that-transformed-my-product-strategy/">The 10-minute morning routine that transformed my product strategy</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>I’m one of those “don’t talk to me until after my coffee” people. Mornings are not my most productive (or cheerful) time. So I was pretty pleased when I discovered an achievable tweak to my morning routine that not only requires minimal effort (read: I don’t have to speak to anyone or type anything), but has also given me a fresh perspective on my daily approach to product management. Here it is:</p>
+<p><em>I sit with my product roadmap for 10 minutes before doing ANYTHING else.</em></p>
+<p>I don’t check my email. I don’t scan my Slack channels. I don’t talk to any colleagues. I stay far away from Trello and JIRA. I just take a few minutes to vibe out with my roadmap. (Side note: I’ve also been on a yoga kick for the past month, so this <em>might</em> be related?)</p>
+<p>As product managers, we often find ourselves in “urgent” mode. We want to keep our sights on the long-term vision—but a lot of our time is spent fighting fires. Since I started allocating a few minutes to my roadmap every morning, my days have been more grounded. I analyze both the granular (what’s each dev working on today? how close are we to that next release?) and the big picture (are we on track to make quarterly goals in line with our STRATEGY?). It’s given me a new sense of control and perspective over our approach to product management.</p>
+<!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Blog signup inline --><div id="om-ytoapcdbhazgdychkbmg-holder"></div><script>var ytoapcdbhazgdychkbmg,ytoapcdbhazgdychkbmg_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){ytoapcdbhazgdychkbmg_poll(function(){if(window['om_loaded']){if(!ytoapcdbhazgdychkbmg){ytoapcdbhazgdychkbmg=new OptinMonsterApp();return ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="https://a.optnmstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;ytoapcdbhazgdychkbmg=new OptinMonsterApp();ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster -->
+<p>My case is special. Since I’m the PM for <a href="https://roadmunk.com" target="_blank">roadmapping software</a>, when I spend 10 minutes with my roadmap, I’m <em>also</em> spending 10 minutes with my own product. Two birds, one stone. But there’s value to doing this exercise with <em>both</em> your roadmap and your product. Each approach has different benefits.</p>
+<ol>
+<li><strong>Spending 10 minutes with your roadmap every morning:</strong> This re-centres your plans. Are you going in the right direction? How should you tweak? Is obsession over everyday minutia draining your focus? Think of your roadmap as a feature, then assess how it’s working for your stakeholders and the company overall (in the same way you would assess how a product feature works for your users).</li>
+<li><strong>Spending 10 minutes with your product every morning:</strong> Don’t approach this exercise with any goals or intentions. Act like a customer. Start with a blank canvas and see what new ideas and inspirations spring to mind. How do you <em>feel</em> while engaging with your product? What would improve your experience? Fill in the blanks: “It would be awesome if I could…”</li>
+</ol>
+<p>Of course, we look at our products (which in my case, also means looking at my roadmap) about 100 times per day. But something different happened after I set aside some no-distractions time as part of my routine. From looking at my roadmap, I found new actionable ways to keep our plans track. And from looking at our product, I came up with concrete ideas to get people using our app on a more regular basis.</p>
+<p>You can do this on an occasional or haphazard basis. But the cool thing about making this part of your routine is that even though you’re doing the <em>same thing</em> over and over, different results emerge. Which means either I&#8217;m insane, or Einstein is wrong.</p>
+<p><img class="aligncenter wp-image-300 size-full" src="https://roadmunk.com/blog/wp-content/uploads/2016/03/einstein.png" alt="einstein" width="600" height="300" srcset="https://roadmunk.com/blog/wp-content/uploads/2016/03/einstein.png 600w, https://roadmunk.com/blog/wp-content/uploads/2016/03/einstein-300x150.png 300w" sizes="(max-width: 600px) 100vw, 600px" /></p>
+<hr />
+<p><em>If you&#8217;re interested in incorporating my (good) habits into your morning routine, check out our <a href="https://roadmunk.com/roadmap-templates?utm_source=blog&amp;utm_content=routine" target="_blank">template library</a> to get started with your own customizable roadmap.</em></p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/the-10-minute-morning-routine-that-transformed-my-product-strategy/">The 10-minute morning routine that transformed my product strategy</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

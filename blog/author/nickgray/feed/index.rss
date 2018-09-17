@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Nick Gray &#8211; Roadmunk Blog</title>
+	<atom:link href="https://roadmunk.com/blog/author/nickgray/feed/" rel="self" type="application/rss+xml" />
+	<link>https://roadmunk.com/blog</link>
+	<description>Product Management and Product Roadmaps</description>
+	<lastBuildDate>Fri, 29 Jun 2018 19:44:12 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.3</generator>
+
+<image>
+	<url>https://roadmunk.com/blog/wp-content/uploads/2018/01/favicon.png</url>
+	<title>Nick Gray &#8211; Roadmunk Blog</title>
+	<link>https://roadmunk.com/blog</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Product Updates: Numeric Fields + Milestone improvements for more flexible roadmapping</title>
+		<link>https://roadmunk.com/blog/numeric-fields/</link>
+		<pubDate>Thu, 30 Nov 2017 13:11:19 +0000</pubDate>
+		<dc:creator><![CDATA[Nick Gray]]></dc:creator>
+				<category><![CDATA[Updates]]></category>
+		<category><![CDATA[milestones]]></category>
+		<category><![CDATA[numeric fields]]></category>
+		<category><![CDATA[product management]]></category>
+		<category><![CDATA[product manager]]></category>
+		<category><![CDATA[product roadmap]]></category>
+		<category><![CDATA[product updates]]></category>
+		<category><![CDATA[roadmap]]></category>
+		<category><![CDATA[roadmapping]]></category>
+		<category><![CDATA[roadmunk]]></category>
+		<category><![CDATA[roadmunk features]]></category>
+
+		<guid isPermaLink="false">https://roadmunk.com/blog/?p=3744</guid>
+		<description><![CDATA[<p>We've added Numeric Fields and made Milestone improvements to help you visualize your strategy in even more detail.</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/numeric-fields/">Product Updates: Numeric Fields + Milestone improvements for more flexible roadmapping</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>We’re back with another release, and this time we’ve added optimizations to make Roadmunk more flexible to the way our users want to build and present roadmaps. We’ve added Numeric Fields. Plus Milestones are now more customizable.</p>
+<h1>Add numbers to your roadmaps</h1>
+<p><img class="aligncenter size-full wp-image-3748" src="https://roadmunk.com/blog/wp-content/uploads/2017/11/numeric_fields.png" alt="Numeric Fields - Table View" width="999" height="304" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/11/numeric_fields.png 999w, https://roadmunk.com/blog/wp-content/uploads/2017/11/numeric_fields-300x91.png 300w, https://roadmunk.com/blog/wp-content/uploads/2017/11/numeric_fields-768x234.png 768w" sizes="(max-width: 999px) 100vw, 999px" /></p>
+<p>You can now add numbers to your roadmap with our newest Field Type. Numeric Fields support three different formats:</p>
+<ul>
+<li>General numbers</li>
+<li>Percentages</li>
+<li>Currencies (dollars, euros, and pounds)</li>
+</ul>
+<p>Numeric Fields can be added to your roadmap within your Items Table. Click on the Add Field (+) icon in the top nav and select Create New Field.</p>
+<p>Within the New Field dialog, select “Numeric” in the &#8220;Type&#8221; drop-down. From here you can select a numeric format. Check out <a href="http://support.roadmunk.com/creating-and-working-with-fields/create-and-add-fields-to-a-roadmap" target="_blank"><strong>this article</strong></a> for a detailed walkthrough.</p>
+<p><img class="aligncenter size-full wp-image-3750" src="https://roadmunk.com/blog/wp-content/uploads/2017/11/numeric_fields-field_dialog.png" alt="Numeric Fields - Field Dialog" width="1762" height="822" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/11/numeric_fields-field_dialog.png 1762w, https://roadmunk.com/blog/wp-content/uploads/2017/11/numeric_fields-field_dialog-300x140.png 300w, https://roadmunk.com/blog/wp-content/uploads/2017/11/numeric_fields-field_dialog-768x358.png 768w, https://roadmunk.com/blog/wp-content/uploads/2017/11/numeric_fields-field_dialog-1024x478.png 1024w" sizes="(max-width: 1762px) 100vw, 1762px" /></p>
+<p><span style="font-weight: 400;">You can filter your roadmap using Numeric Fields. Items can be hidden or displayed based on the value entered into its Numeric Field. You can choose to only show items that are:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Lower than a numeric value</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Higher than a numeric value</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">In between two numeric values</span></li>
+</ul>
+<p><img class="alignnone size-full wp-image-3768" src="https://roadmunk.com/blog/wp-content/uploads/2017/11/num-filter-1.png" alt="" width="1774" height="947" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/11/num-filter-1.png 1774w, https://roadmunk.com/blog/wp-content/uploads/2017/11/num-filter-1-300x160.png 300w, https://roadmunk.com/blog/wp-content/uploads/2017/11/num-filter-1-768x410.png 768w, https://roadmunk.com/blog/wp-content/uploads/2017/11/num-filter-1-1024x547.png 1024w" sizes="(max-width: 1774px) 100vw, 1774px" /></p>
+<p><strong>User impact</strong>. Use a scale to indicate the impact an item will have on user happiness. For example: a feature that will improve the core experience for most users gets an impact score of 7. A 1-10 scale (10 being the most impactful) can help product teams prioritize which features to build first and which ones to push out a few months.</p>
+<p><strong>Effort estimates</strong>. A 1-10 scale can also be used to indicate the estimated effort required to complete roadmap items. Take into account time, number of tasks and amount of people required to get the job done. If a feature update requires a week of planning, no design work and two weeks of engineering, give it an effort score of 1.</p>
+<p><strong>Identify reach</strong>. Percentages can be used to identify how much of your user base will be affected (let’s say 25% for example) by a new performance update or feature release.</p>
+<p><strong>Convey confidence</strong>. You can also use percentages to indicate how confident you are in building and releasing a feature within the allotted time. The fewer unknowns or bottlenecks, the higher the confidence score.</p>
+<p><strong>Set budgets</strong>. Currency can be used in your roadmap to indicate the how much it will cost to complete items, like building a new feature.</p>
+<p><strong>Predict revenue</strong>. Add monetary values to your roadmap items to plan for projected revenue growth. For example: “Launching this feature will result in an additional $3,000 in MRR.”</p>
+<h1>Milestones have been improved for flexibility</h1>
+<p><img class="aligncenter size-full wp-image-3751" src="https://roadmunk.com/blog/wp-content/uploads/2017/11/milestones_improvement.gif" alt="Milestones Improvements" width="1200" height="291" /></p>
+<p><span style="font-weight: 400;">Milestones are a popular Roadmunk feature used to highlight important dates on a roadmap––like big releases, industry events, and key hires. We’ve tweaked Milestones to make them more customizable to how you want to create and present roadmaps.</span></p>
+<p><img class="alignnone size-full wp-image-3769" src="https://roadmunk.com/blog/wp-content/uploads/2017/11/milestones-only-1.png" alt="" width="1791" height="1235" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/11/milestones-only-1.png 1791w, https://roadmunk.com/blog/wp-content/uploads/2017/11/milestones-only-1-300x207.png 300w, https://roadmunk.com/blog/wp-content/uploads/2017/11/milestones-only-1-768x530.png 768w, https://roadmunk.com/blog/wp-content/uploads/2017/11/milestones-only-1-1024x706.png 1024w" sizes="(max-width: 1791px) 100vw, 1791px" /></p>
+<p><span style="font-weight: 400;">Milestone labels can be configured to only display dates for a less-cluttered view. And you can now filter your roadmaps to only show milestones. This can be configured within the Formats tab located in your roadmap’s top nav.</span></p>
+<p>For roadmaps with many Milestones, this functionality provides a clean view of important dates and deliverables.</p>
+<p><img class="alignnone size-full wp-image-3770" src="https://roadmunk.com/blog/wp-content/uploads/2017/11/milestones-pivot-1.png" alt="" width="1774" height="698" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/11/milestones-pivot-1.png 1774w, https://roadmunk.com/blog/wp-content/uploads/2017/11/milestones-pivot-1-300x118.png 300w, https://roadmunk.com/blog/wp-content/uploads/2017/11/milestones-pivot-1-768x302.png 768w, https://roadmunk.com/blog/wp-content/uploads/2017/11/milestones-pivot-1-1024x403.png 1024w" sizes="(max-width: 1774px) 100vw, 1774px" /></p>
+<p><span style="font-weight: 400;">Users can now pivot their roadmaps by milestone type to group all similar milestones (events, for example) together – like the example above.</span></p>
+<hr />
+<p><em>We’re so excited to launch these Roadmunk updates. If you’re not a Roadmunk user, <a href="https://app.roadmunk.com/login/?utm_source=blog&amp;utm_content=numericfields#/signup" target="_blank">sign up</a> to check out Numeric Fields, Milestones, and all of our features (plus our library of <a href="https://roadmunk.com/roadmap-templates?utm_source=blog&amp;utm_content=numericfields" target="_blank">25+ roadmap templates</a>).</em></p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/numeric-fields/">Product Updates: Numeric Fields + Milestone improvements for more flexible roadmapping</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Introducing Key Dates for more detailed visualizations of initiatives</title>
+		<link>https://roadmunk.com/blog/key-dates/</link>
+		<pubDate>Tue, 24 Oct 2017 15:08:24 +0000</pubDate>
+		<dc:creator><![CDATA[Nick Gray]]></dc:creator>
+				<category><![CDATA[Updates]]></category>
+		<category><![CDATA[key dates]]></category>
+		<category><![CDATA[milestones]]></category>
+		<category><![CDATA[product management]]></category>
+		<category><![CDATA[product manager]]></category>
+		<category><![CDATA[product roadmap]]></category>
+		<category><![CDATA[product updates]]></category>
+		<category><![CDATA[roadmapping]]></category>
+		<category><![CDATA[roadmunk]]></category>
+		<category><![CDATA[roadmunk features]]></category>
+
+		<guid isPermaLink="false">https://roadmunk.com/blog/?p=3601</guid>
+		<description><![CDATA[<p>We just launched a brand new feature so you can add even more visual detail to your roadmaps. Say hello to Key Dates.</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/key-dates/">Introducing Key Dates for more detailed visualizations of initiatives</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>At Roadmunk, we believe that roadmaps are communication tools and, to be more specific, <strong>visual communication tools</strong>. The journey that a roadmap is illustrating has to be crystal clear from beginning to end—be it how a new product will hit the market or how an organization’s IT infrastructure will evolve</p>
+<p>So, we’re launching <strong>a brand new feature</strong> to add an extra layer of visual detail to our users’ roadmaps: <strong>Key Dates</strong>.</p>
+<p>This new feature allows teams to align around important dates at a granular level. At its most simple, this feature can be used to call out important events within a roadmap item, like the due date of a deliverable. Key Dates also break up lengthy roadmap items to <strong>provide visibility into how progress is being benchmarked.</strong></p>
+<p>We&#8217;ve made adding Key Dates to a roadmap really simple. You can create and access Key Dates in the &#8220;Fields&#8221; tab of an item card. There are six icons that can be used to represent each Key Date.</p>
+<p><img class="alignnone size-full wp-image-3641 aligncenter" src="https://roadmunk.com/blog/wp-content/uploads/2017/10/key-dates-calendar-3.png" alt="" width="717" height="538" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/10/key-dates-calendar-3.png 717w, https://roadmunk.com/blog/wp-content/uploads/2017/10/key-dates-calendar-3-300x225.png 300w" sizes="(max-width: 717px) 100vw, 717px" /></p>
+<p><span style="font-weight: 400;">We understand that items get delayed, and <strong>we built Key Dates so that they’re relative to an item</strong>. If an entire item is dragged three months into the future, the key dates will move with the item.  </span></p>
+<p>We also built this feature with two more granular use cases in mind:</p>
+<p style="padding-left: 30px;">1. Visualizing the <strong>stages</strong> of a roadmap item.<br />
+2. Using Key Dates to mark <strong>decision points</strong>.</p>
+<h2>Using Key Dates to visualize an item’s stages</h2>
+<p>A common product management tactic is to bucket progress into stages, like design &gt; development &gt; QA &gt; release.</p>
+<p>Key Dates make it really easy to visualize stages within a roadmap item and to allocate windows of time for each stage’s completion. They also <strong>foster alignment around the expected completion of each stage</strong>.</p>
+<p>The roadmap example below showcases how Key Dates can be used to visualize stages.</p>
+<p><img class="alignnone size-full wp-image-3628" src="https://roadmunk.com/blog/wp-content/uploads/2017/10/keydates-phases.png" alt="" width="1501" height="538" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/10/keydates-phases.png 1501w, https://roadmunk.com/blog/wp-content/uploads/2017/10/keydates-phases-300x108.png 300w, https://roadmunk.com/blog/wp-content/uploads/2017/10/keydates-phases-768x275.png 768w, https://roadmunk.com/blog/wp-content/uploads/2017/10/keydates-phases-1024x367.png 1024w" sizes="(max-width: 1501px) 100vw, 1501px" /></p>
+<p>For the most crystal clear communication, we recommend attributing meaning to the icons. For example: only using ♦︎ for “Release” will make it easy for anyone viewing the roadmap to understand, at a glance, that the final goal of an item is for it to be released into the wild.</p>
+<h2>Using Key Dates as decision points</h2>
+<p><span style="font-weight: 400;">The second use case is employing Key Dates as decision points—or gates—within an item. <strong>Each Key Date indicates that a team needs to determine whether they can or cannot move forward</strong> based on the status of important deliverables, risk analysis, available resources, etc. An example of a phase-gate item is below.</span></p>
+<p><img class="alignnone size-full wp-image-3630" src="https://roadmunk.com/blog/wp-content/uploads/2017/10/keydates-phase-gate.png" alt="" width="1500" height="507" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/10/keydates-phase-gate.png 1500w, https://roadmunk.com/blog/wp-content/uploads/2017/10/keydates-phase-gate-300x101.png 300w, https://roadmunk.com/blog/wp-content/uploads/2017/10/keydates-phase-gate-768x260.png 768w, https://roadmunk.com/blog/wp-content/uploads/2017/10/keydates-phase-gate-1024x346.png 1024w" sizes="(max-width: 1500px) 100vw, 1500px" /></p>
+<h1>What Key Dates are not: Milestones</h1>
+<p><span style="font-weight: 400;">Milestones are a popular Roadmunk feature used to highlight important achievements on a roadmap—but we see them as the macro version of Key Dates.</span></p>
+<p><img class="alignnone size-full wp-image-3631" src="https://roadmunk.com/blog/wp-content/uploads/2017/10/keydates-milestones.png" alt="" width="1500" height="509" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/10/keydates-milestones.png 1500w, https://roadmunk.com/blog/wp-content/uploads/2017/10/keydates-milestones-300x102.png 300w, https://roadmunk.com/blog/wp-content/uploads/2017/10/keydates-milestones-768x261.png 768w, https://roadmunk.com/blog/wp-content/uploads/2017/10/keydates-milestones-1024x347.png 1024w" sizes="(max-width: 1500px) 100vw, 1500px" /></p>
+<p>Milestones are used to call out high-level dates that are important to an entire organization—like the launch of a new product. <strong>Key Dates are added to a roadmap for project-level alignment</strong>—a more micro roadmapping detail.</p>
+<hr />
+<p><em><span style="font-weight: 400;">We’re so excited to launch this brand new Roadmunk feature. To find out how to add Key Dates to your roadmap, check out this </span><a href="http://support.roadmunk.com/creating-and-working-with-roadmaps/add-key-dates-to-your-timeline"><b>how-to</b></a><span style="font-weight: 400;">. If you’re not a Roadmunk user, </span><a href="https://app.roadmunk.com/login/#/signup" target="_blank"><b>sign up</b></a><span style="font-weight: 400;"> to check out Key Dates and </span><a href="https://roadmunk.com/features" target="_blank"><b>all of our features</b></a><span style="font-weight: 400;"> (plus our library of 25+ </span><a href="https://roadmunk.com/roadmap-templates" target="_blank"><b>roadmap templates</b></a><span style="font-weight: 400;">).</span></em></p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/key-dates/">Introducing Key Dates for more detailed visualizations of initiatives</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Redesigning NBC News Digital from the outside in</title>
+		<link>https://roadmunk.com/blog/moritz-gimbel/</link>
+		<pubDate>Thu, 28 Sep 2017 16:35:48 +0000</pubDate>
+		<dc:creator><![CDATA[Nick Gray]]></dc:creator>
+				<category><![CDATA[Influencers]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[moritz gimbel]]></category>
+		<category><![CDATA[NBC]]></category>
+		<category><![CDATA[NBC News]]></category>
+		<category><![CDATA[product design]]></category>
+		<category><![CDATA[product management]]></category>
+		<category><![CDATA[product management career]]></category>
+		<category><![CDATA[product manager]]></category>
+		<category><![CDATA[product managers]]></category>
+		<category><![CDATA[redesign]]></category>
+		<category><![CDATA[ui]]></category>
+		<category><![CDATA[user experience]]></category>
+		<category><![CDATA[ux]]></category>
+
+		<guid isPermaLink="false">https://roadmunk.com/blog/?p=3446</guid>
+		<description><![CDATA[<p>NBC News is in the midst of a digital transformation. We get all the details from the man behind the initiative: their VP of Product &#038; Design, Moritz Gimbel.</p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/moritz-gimbel/">Redesigning NBC News Digital from the outside in</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>NBC News is in the middle of a digital transformation. They’re rolling out the best possible content experiences for both the old school and digital-savvy news consumer one step at a time. This initiative is being spearheaded by <a href="https://www.linkedin.com/in/mgimbel" target="_blank">Moritz Gimbel</a>, the organization’s VP of Product and Design. Moritz’s goal: continuing NBC News’ mission of serving quality news to every American. (You can read about the creation of new NBC brands <em><a href="https://www.nbcnews.com/mach" target="_blank">Mach</a></em>, <em><a href="https://www.nbcnews.com/better" target="_blank">Better</a></em> and the soon-to-be-launched <em>Think</em> <a href="https://medium.com/nbc-news-digital/welcome-to-the-new-mach-and-better-64fded55f73e" target="_blank">here</a>.)</p>
+<p>It’s been just over a year since Moritz joined NBC, and we spoke to him about his process of redesigning the storied news organization’s digital properties from the outside in, why audience loyalty is his number one KPI and how he’s improving the monetization efforts of sites like <a href="http://www.msnbc.com/" target="_blank">msnbc.com</a> and <a href="https://www.today.com/" target="_blank">today.com</a>. Here’s our interview with Moritz.</p>
+<p><img class="aligncenter wp-image-3467 size-large" src="https://roadmunk.com/blog/wp-content/uploads/2017/09/moritz-gimbel_divider-1-1024x62.png" alt="Moritz Gimbel - Divider" width="640" height="39" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/09/moritz-gimbel_divider-1-1024x62.png 1024w, https://roadmunk.com/blog/wp-content/uploads/2017/09/moritz-gimbel_divider-1-300x18.png 300w, https://roadmunk.com/blog/wp-content/uploads/2017/09/moritz-gimbel_divider-1-768x47.png 768w, https://roadmunk.com/blog/wp-content/uploads/2017/09/moritz-gimbel_divider-1.png 1500w" sizes="(max-width: 640px) 100vw, 640px" /></p>
+<p><strong><big>You’ve been at NBC for just over a year now. What first compelled you to join the organization?</big></strong></p>
+<p>NBC is an amazing news organization with an amazing legacy, and I think they have an opportunity to build a new and broader digital audience. It was really exciting to join a company that is successful in cable and television and hasn’t, maybe, done quite as much in the digital space yet. We’re building an incredible team under new leadership to advance our digital presence. That’s a thrilling journey to be part of.</p>
+<p><strong><big>What specific problems were you brought on to solve?</big></strong></p>
+<p>The first six months was very much internal. When I arrived, it was about building a product team, process and structure. That consumed much of my time because publishing companies are very editorial-focused and content-led—and they should be. But it sometimes means product design and technology is not necessarily developed in the way it could be. That was really the first challenge: creating that capability to build better and faster.</p>
+<p>We also wanted to create new properties and brands, and broaden the appeal of what we do. Currently in the main digital areas we have, we’re still very much an extension of our TV brands. And that’s a great legacy to be a part of. But we want to reach audiences beyond our regular viewers and build new digital-first brands.</p>
+<p><strong><big>One of your mandates is to build audience loyalty across NBC News’ portfolio, and you’ve been experimenting with different tactics by building new brands—namely <a href="https://www.nbcnews.com/mach" target="_blank">Mach</a> and <a href="https://www.nbcnews.com/better" target="_blank">Better</a>. Can you walk us through your strategy to keep audiences coming back for more content?</big></strong></p>
+<p>Our number one business goal is to develop deeper relationships with our customers. Loyalty is so important because if you grow your share of loyal audiences, your daily active visitors will multiply. Conserving readers and watchers is much more valuable for us as a business.</p>
+<blockquote><hr /><p><em>"We want to tell stories that don’t clickbait you into consumption."</em><br /><a href='https://twitter.com/intent/tweet?text=%22We%20want%20to%20tell%20stories%20that%20don%E2%80%99t%20clickbait%20you%20into%20consumption.%22&amp;via=RoadmunkApp&amp;related=RoadmunkApp&amp;url=https://roadmunk.com/blog/?p=3446' target='_blank' class='bctt-ctt-btn'></a><br /><hr /></blockquote>
+<p>If you aim purely for scale and write stories chasing SEO trends or social virality, that gets you distribution—to a degree. But we need to offer true value for people to come back to us and foster a relationship over time. That’s more monetizable (and frankly, better for society). We want to tell stories that don’t clickbait you into consumption.</p>
+<p>We don’t—for example—do auto-play. We switched off auto-play over a year ago, because those kinds of growth hacks don’t validate that you’re creating good content and serving your audience. We wanted to know if users were truly engaging with our content, rather than getting content thrown at them.</p>
+<p>For our new brands like Mach and Better, we want to build digital-first brands that have a voice, that have an identity, that cover niche topics extremely well. Some of the more digital-first brands started doing this awhile ago; we’re not claiming to invent this. But if you look at Mach—covering science, space and innovation—we found a very specific audience and serve them deeply over time. We did a bunch of testing around this when we first launched pop-up verticals. We didn’t give them a new design and website, but rather, we wrote stories with a particular angle and monitored over time what the consumption patterns were. That’s how brands like Mach and Better evolved.</p>
+<p><img class="aligncenter wp-image-3472 size-large" src="https://roadmunk.com/blog/wp-content/uploads/2017/09/moritz-gimbel_divider-2-1024x62.png" alt="Moritz Gimbel - Divider" width="640" height="39" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/09/moritz-gimbel_divider-2-1024x62.png 1024w, https://roadmunk.com/blog/wp-content/uploads/2017/09/moritz-gimbel_divider-2-300x18.png 300w, https://roadmunk.com/blog/wp-content/uploads/2017/09/moritz-gimbel_divider-2-768x47.png 768w, https://roadmunk.com/blog/wp-content/uploads/2017/09/moritz-gimbel_divider-2.png 1500w" sizes="(max-width: 640px) 100vw, 640px" /></p>
+<p><strong><big>How do you balance serving great content experiences with the need to monetize that same content through advertising?</big></strong></p>
+<p>Our ambition is to have the best consumption experience for our content as possible. The idea is that our advertising over time should become more immersive and frictionless. We don&#8217;t do pop-ups. As I said, we don&#8217;t do auto-play for video. We&#8217;re trying to balance user experience and monetization, and that&#8217;s why loyalty is so important.</p>
+<p>If you build loyalty and people come to you multiple times a day or week, you don&#8217;t have to cram that much monetization into one visit or click. You can look holistically at your revenue per user. It’s a more sustainable way of building business over time.</p>
+<blockquote><hr /><p><em>"The idea is that our advertising over time should become more immersive and frictionless."</em><br /><a href='https://twitter.com/intent/tweet?text=%22The%20idea%20is%20that%20our%20advertising%20over%20time%20should%20become%20more%20immersive%20and%20frictionless.%22&amp;via=RoadmunkApp&amp;related=RoadmunkApp&amp;url=https://roadmunk.com/blog/?p=3446' target='_blank' class='bctt-ctt-btn'></a><br /><hr /></blockquote>
+<p>Better ad units are part of that. Our new designs have much better ad integration, because they have modular page designs. We no longer work in templates with rigid pixel-locked scale; everything is a modular component. Our new ad units respond to the containers around them. So it means we can have many more page layouts, because ads actually scale with layouts.</p>
+<p><strong><big>You’re currently in the process of a huge redesign, and I’ve read that you’re taking an approach that you refer to as “designing from the outside in”—why have you chosen this approach?</big></strong></p>
+<p>Having done a few redesigns and burned myself by starting with the inside—which is often the home page and article page—I&#8217;ve learned that the reverse is better. Start with the periphery of your portfolio. Take smaller brands that are on the fringe—smaller audience, younger brands.</p>
+<p>There&#8217;s less expectation from users on how these things work, so you can introduce new user experiences and design schemas without users freaking out. Because whenever you redesign something, no matter how good you do it, the first reaction generally is, &#8220;I don&#8217;t like it. I was used to this thing that I love.”</p>
+<p>By going outside in, taking new brands or smaller parts of your sites and apps, you&#8217;re slowly validating that what you&#8217;re doing is right—and get early data. Then, you work towards the center, which are more frequently consumed content types. Going outside in is a more iterative, discovery- and test-based approach to product launches.</p>
+<p>For example, our article page (which will become the article page for everything else we do) we have very good initial data on what&#8217;s working. Where&#8217;s recirculation going? How&#8217;s ad viewability? Now, we can optimize and scale. And then, brand by brand, roll out across the whole network.</p>
+<p><strong><big>You’re building and designing new systems for the end-user, but you also need to equally consider the needs of NBC’s staff—your reporters and editors. How are they influencing your product decisions?</big></strong></p>
+<p>A publishing company has two products: content and packaging. I&#8217;m in charge of packaging, and the editorial staff is in charge of content, obviously. But these things have to go hand-in-hand.</p>
+<p>In an ideal world, all decisions and design discovery are done together. But I think a lot about scale and the editorial staff thinks a lot about speed. They want to iterate minute-by-minute, and for me, it&#8217;s fast to iterate on a day-by-day basis. It&#8217;s a tricky relationship.</p>
+<blockquote><hr /><p><em>"We’re trying to balance user experience and monetization, and that’s why loyalty is so important."</em><br /><a href='https://twitter.com/intent/tweet?text=%22We%E2%80%99re%20trying%20to%20balance%20user%20experience%20and%20monetization%2C%20and%20that%E2%80%99s%20why%20loyalty%20is%20so%20important.%22&amp;via=RoadmunkApp&amp;related=RoadmunkApp&amp;url=https://roadmunk.com/blog/?p=3446' target='_blank' class='bctt-ctt-btn'></a><br /><hr /></blockquote>
+<p>The most innovation is actually driven by observing and working closely with our audience and our editors; bringing them into the design and discovery process as much as possible. For instance, we tested our new article page with editors and audience. We picked key individuals in the newsroom and had them see how members of our audience consume content—what they pay attention to.</p>
+<p>And then we observed how editors put an article together and how the article renders with better or worse images, how they put quotes and charts into the article. It&#8217;s very similar to what you would do externally. It&#8217;s really hard to get right and requires buy-in from both product and editorial.</p>
+<p><img class="aligncenter wp-image-3467 size-large" src="https://roadmunk.com/blog/wp-content/uploads/2017/09/moritz-gimbel_divider-1-1024x62.png" alt="Moritz Gimbel - Divider" width="640" height="39" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/09/moritz-gimbel_divider-1-1024x62.png 1024w, https://roadmunk.com/blog/wp-content/uploads/2017/09/moritz-gimbel_divider-1-300x18.png 300w, https://roadmunk.com/blog/wp-content/uploads/2017/09/moritz-gimbel_divider-1-768x47.png 768w, https://roadmunk.com/blog/wp-content/uploads/2017/09/moritz-gimbel_divider-1.png 1500w" sizes="(max-width: 640px) 100vw, 640px" /></p>
+<p><strong><big>You built a Slack bot to help reporters access data. Can you tell me about that?</big></strong></p>
+<p>We have an integration in our internal Slack, where you can ask basic stats for an article. It’s just a conversational way of getting data that you would get from a dashboard otherwise. It&#8217;s been pretty successful, because when you’re in a reporter’s mindset of communicating in Slack and writing in a document, to go to a third place and understand a dashboard, it&#8217;s a real contextual switch. They just want one specific piece of information, so the Slack bot is a way to just ask for that.</p>
+<p>It&#8217;s early days. We&#8217;re actually building out not just for Slack, but for multiple messaging services. We&#8217;re building out an API layer that is between our content management tool and specific clients, which would allow us to easily integrate internal and external bots. Building these services internally that can extract content and data efficiently allows you to then build better user experiences for internal and external users.</p>
+<p><strong><big>You’ve built a living style guide as a foundation for your new design system. Based on what I’ve read, you have accessible components in <a href="https://www.sketchapp.com/" target="_blank">Sketch</a> and built a layer onto <a href="https://facebook.github.io/react/" target="_blank">React</a>. Can you give some insight into your approach here?</big></strong></p>
+<p>When we first built the new front-end framework, we had to do something very fast with our existing engineering staff. No one had worked in React before, so I brought on someone I worked with at Bloomberg who helped us create a simpler library and framework that is React-like. (Now, we&#8217;re going fully React/Redux.)</p>
+<blockquote><hr /><p><em>"Going outside in is a more iterative, discovery- and test-based approach to product launches."</em><br /><a href='https://twitter.com/intent/tweet?text=%22Going%20outside%20in%20is%20a%20more%20iterative%2C%20discovery-%20and%20test-based%20approach%20to%20product%20launches.%22&amp;via=RoadmunkApp&amp;related=RoadmunkApp&amp;url=https://roadmunk.com/blog/?p=3446' target='_blank' class='bctt-ctt-btn'></a><br /><hr /></blockquote>
+<p>In terms of the living style guide, this is like designing from outside in. When you redesign so many properties in so many places, you end up with these monster style guides that no one ever goes back to. And they&#8217;re always out of date, because by the time you’ve released or tested something, it&#8217;s already changed three times.</p>
+<p>So we basically built a way to map real client code back into a style guide that automatically updates. If you want to find a style and extract that code and build a new version in a different color on a different breakpoint for a different property, that living style guide will always be in sync. There’s no longer this stale paper or digital file that you go to. It’s linked directly with the front-end client.</p>
+<p><strong><big>What has been the hardest part of this entire process?</big></strong></p>
+<p>The hardest, but also most interesting, part is building one system for all brands. In the past, all our brands had their own CMS, front-end client, design system; they evolved independently. But to build audience loyalty and engagement, we need to circulate content and users through our entire network of sites.</p>
+<blockquote><hr /><p><em>"A publishing company has two products: content and packaging."</em><br /><a href='https://twitter.com/intent/tweet?text=%22A%20publishing%20company%20has%20two%20products%3A%20content%20and%20packaging.%22&amp;via=RoadmunkApp&amp;related=RoadmunkApp&amp;url=https://roadmunk.com/blog/?p=3446' target='_blank' class='bctt-ctt-btn'></a><br /><hr /></blockquote>
+<p>I oversee product for MSNBC, NBC News Properties, Today Digital, new verticals and more. Currently, all of which are somewhat separate. The challenge is bringing MSNBC, Today Digital and the main NBC News sites onto this new platform with a unified design language, front-end client, ad library, analytics, publishing workflow and more. Everything is shared, but these sites don&#8217;t look the same. If you go to Today, which is a lifestyle audience, it’s very different from MSNBC. So obviously, those two brands need to be distinguished visually. But in terms of storytelling tools and publishing there doesn&#8217;t need to be a difference between the article and the way the video player works or how navigation is structured.</p>
+<p>Working with multiple newsrooms and multiple brands; getting all of their requirements and ideas; solving their problems, but always rolling it back up into one system, that&#8217;s really the Holy Grail. And if we get that right, we’ll be in a place where everyone in the network has their own unique property that tells their stories and publishes their content in a way they like. It will be a more unified, efficient way of packaging and distributing our content. Getting that right is the hardest and most exciting thing.</p>
+<p><img class="aligncenter wp-image-3472 size-large" src="https://roadmunk.com/blog/wp-content/uploads/2017/09/moritz-gimbel_divider-2-1024x62.png" alt="Moritz Gimbel - Divider" width="640" height="39" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/09/moritz-gimbel_divider-2-1024x62.png 1024w, https://roadmunk.com/blog/wp-content/uploads/2017/09/moritz-gimbel_divider-2-300x18.png 300w, https://roadmunk.com/blog/wp-content/uploads/2017/09/moritz-gimbel_divider-2-768x47.png 768w, https://roadmunk.com/blog/wp-content/uploads/2017/09/moritz-gimbel_divider-2.png 1500w" sizes="(max-width: 640px) 100vw, 640px" /></p>
+<p><strong><big>How are you measuring the success of the redesign?</big></strong></p>
+<p>I spoke about loyalty and engagement, so those are our business KPIs. And we&#8217;re trying to roll up both content and product analytics into those KPIs. Another challenge of being in product management in publishing is that your data is sort of not clean. If your product is a utility, like a ride sharing app, there&#8217;s maybe weather and time of day or time of year. But those are relatively obvious, predictable things to look at.</p>
+<p>For us, news flow changes every hour, every day. Sometimes, you see difference in consumption that you could interpret as differences with your product. But in reality, your product had nothing to do with it. Maybe there was a crazy story, or your video ended up being promoted on a major portal, and that&#8217;s why it spiked. Understanding that analytics challenge is pretty complex. We&#8217;re trying to combat this with having different analytic suites that look at different things, and, as a group, always discussing how both sides affect our performance.</p>
+<p><strong><big>What are you most excited about in rolling out this redesign?</big></strong></p>
+<p>I&#8217;m super excited to roll out in stages over the next few months. So we&#8217;re not doing one big release. We&#8217;re actually having maybe three, four, five individual releases towards the end of the year, and I think nothing gives a product manager more of a rush than seeing your thing out in the wild and looking at the data of how people interact with it.</p>
+<p>I&#8217;m also excited about launching our new article page for our news brands. In the vertical test case, it&#8217;s performing extremely well. People read longer. They scroll deeper. They engage more. They share more. So I&#8217;m eager to launch the article page when we feel comfortable that it&#8217;s ready.</p>
+<hr />
+<p><em><strong>A Roadmunk reminder: </strong>Managing a major redesign for your own product? We definitely have a <a href="https://roadmunk.com/roadmap-templates?utm_source=blog&amp;utm_content=moritzgimbel" target="_blank">roadmap template</a> to help you with that. </em></p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/moritz-gimbel/">Redesigning NBC News Digital from the outside in</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Managing up as a newbie product manager</title>
+		<link>https://roadmunk.com/blog/managing-up/</link>
+		<pubDate>Thu, 15 Jun 2017 18:19:54 +0000</pubDate>
+		<dc:creator><![CDATA[Nick Gray]]></dc:creator>
+				<category><![CDATA[Culture]]></category>
+		<category><![CDATA[culture]]></category>
+		<category><![CDATA[growth]]></category>
+		<category><![CDATA[managing up]]></category>
+		<category><![CDATA[new product manager]]></category>
+		<category><![CDATA[product management]]></category>
+		<category><![CDATA[product management career]]></category>
+		<category><![CDATA[product management goals]]></category>
+		<category><![CDATA[product manager]]></category>
+		<category><![CDATA[product managers]]></category>
+		<category><![CDATA[product strategy]]></category>
+		<category><![CDATA[startup]]></category>
+		<category><![CDATA[startup culture]]></category>
+		<category><![CDATA[team building]]></category>
+
+		<guid isPermaLink="false">https://roadmunk.com/blog/?p=2393</guid>
+		<description><![CDATA[<p>Stepping into a new product manager role is intimidating. Reporting directly to the CEO is even scarier. Here are some practical steps to manage up. </p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/managing-up/">Managing up as a newbie product manager</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p><span style="font-weight: 400;">I’ve been Roadmunk’s newest product manager for 120 days (give-or-take). And while it’s been a career-changing gig full of growth, it’s also been&#8230; peculiar. I say peculiar for a couple of reasons: </span></p>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">I joined a product organization as a product manager for a tool for other product managers. Feels like some weird Inception shit sometimes.</span></li>
+<li style="font-weight: 400;">Roadmunk is a small product organization, so <i><span style="font-weight: 400;">every day</span></i><span style="font-weight: 400;"> I report to and work with our CEO, <a href="https://www.linkedin.com/in/latifnanji/" target="_blank">Latif Nanji</a>. It’s to the point where I feel like my notebooks are filled with more of his “notes” than mine. Take this lovely uh, diagram for example.</span></li>
+</ol>
+<p><img class="alignnone size-large wp-image-2402 aligncenter" src="https://roadmunk.com/blog/wp-content/uploads/2017/06/managing_up-Latif_note-1024x636.jpg" alt="Managing up as a newbie product manager - Latif's notes" width="640" height="398" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/06/managing_up-Latif_note-1024x636.jpg 1024w, https://roadmunk.com/blog/wp-content/uploads/2017/06/managing_up-Latif_note-300x186.jpg 300w, https://roadmunk.com/blog/wp-content/uploads/2017/06/managing_up-Latif_note-768x477.jpg 768w" sizes="(max-width: 640px) 100vw, 640px" /></p>
+<p><span style="font-weight: 400;">Working directly with Latif has been one of the most intriguing (and challenging) parts of my first 120 days at Roadmunk. The reason: <strong>I have to manage up A LOT</strong>. Latif was a PM before he founded Roadmunk, so he’s still a PM at heart. It’s intimidating to step into a new PM role and report not only to a CEO, but an experienced PM-turned-CEO. I’ve had to prove to Latif he doesn’t have to own product decisions; I can. <strong>I can take his learnings and insights and turn them into actionable results for the product team</strong>.</span></p>
+<blockquote>
+<p style="text-align: left;"><hr /><p><em>To be at the CEO’s level of decision-making, I had to see eye-to-eye with him.</em><br /><a href='https://twitter.com/intent/tweet?text=To%20be%20at%20the%20CEO%E2%80%99s%20level%20of%20decision-making%2C%20I%20had%20to%20see%20eye-to-eye%20with%20him.&amp;via=RoadmunkApp&amp;related=RoadmunkApp&amp;url=https://roadmunk.com/blog/?p=2393' target='_blank' class='bctt-ctt-btn'></a><br /><hr /></p>
+</blockquote>
+<p><span style="font-weight: 400;">I won’t say I’ve managed up 100% in four months, but I recently had a breakthrough when pitching Latif a new user onboarding initiative. Research, competitive analysis, options, reasons why, a proposed solution—the whole package. The conversation ended with him stating, “Why are you talking to me about this? You have all the answers. Go ahead!” Huh? What the hell just happened? </span></p>
+<p><span style="font-weight: 400;">This interaction got me wondering what I did right. So I collected my own thoughts on how I got to the point of Latif finally trusting me to own product decisions. <strong>These are some practical steps I’ve taken to manage up in my first 4 months here at Roadmunk</strong>.</span></p>
+<p><img class="alignnone size-full wp-image-2432" src="https://roadmunk.com/blog/wp-content/uploads/2017/06/managing_up-Nick_Latif_1.jpg" alt="Managing up as a newbie product manager - Nick and Latif" width="1500" height="1000" /></p>
+<h2><span style="font-weight: 400;">1. Staying n’sync </span></h2>
+<p><span style="font-weight: 400;">Don’t judge me for the boy band reference. To be at the CEO’s level of decision-making, I had to see eye-to-eye with him. That meant <strong>frequent communication</strong>. We (Product and Latif) have a weekly sync every Monday on product strategy. Each sync I define a weekly goal for the product team to align on and achieve. Also walk-and-talks. It’s refreshing to grab Latif, step outside for fresh air and sync up on strategic initiatives and product vision. </span></p>
+<p><span style="font-weight: 400;">A great part about working every day, all day with the CEO is I get the latest information. I get a true reflection of how our company operates at every level. From new hires to departments to even the board level. These syncs show Latif <strong>I’ve extracted insights from what he regularly shares with me</strong> and <strong>I can distill that information to our product team</strong>. I can turn his jumble of input (and believe me, it can be a </span><i><span style="font-weight: 400;">jumble</span></i><span style="font-weight: 400;">) into actionable output for us to move forward with. </span></p>
+<!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Blog signup inline --><div id="om-ytoapcdbhazgdychkbmg-holder"></div><script>var ytoapcdbhazgdychkbmg,ytoapcdbhazgdychkbmg_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){ytoapcdbhazgdychkbmg_poll(function(){if(window['om_loaded']){if(!ytoapcdbhazgdychkbmg){ytoapcdbhazgdychkbmg=new OptinMonsterApp();return ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="https://a.optnmstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;ytoapcdbhazgdychkbmg=new OptinMonsterApp();ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster -->
+<h2><span style="font-weight: 400;">2. Sharing the workload </span></h2>
+<p><span style="font-weight: 400;">Another way I’ve managed up is by putting things on my table that I know are big time sinks for Latif. He’s a very hands-on CEO; he likes to meet with customers and be roped into customer inquiries of larger accounts. But I know that’s a huge time sink for him. So what I’ve done in the background is I started joining more of those customer conversations so that I can take that load off of him. </span></p>
+<p><span style="font-weight: 400;">Taking away some of that responsibility (and making it explicitly clear) shows Latif that<strong> I can do what he can do</strong>. That stamp of approval doesn’t always need to come from you Latif, I can create that stamp instead bud.</span></p>
+<p><img class="alignnone size-full wp-image-2427" src="https://roadmunk.com/blog/wp-content/uploads/2017/06/managing_up-Nick_Latif_2.jpg" alt="Managing up as a newbie product manager - Nick and Latif" width="1500" height="1000" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/06/managing_up-Nick_Latif_2.jpg 1500w, https://roadmunk.com/blog/wp-content/uploads/2017/06/managing_up-Nick_Latif_2-300x200.jpg 300w, https://roadmunk.com/blog/wp-content/uploads/2017/06/managing_up-Nick_Latif_2-768x512.jpg 768w, https://roadmunk.com/blog/wp-content/uploads/2017/06/managing_up-Nick_Latif_2-1024x683.jpg 1024w" sizes="(max-width: 1500px) 100vw, 1500px" /></p>
+<h2><span style="font-weight: 400;">3. Just say no</span></h2>
+<p><span style="font-weight: 400;">There are like a million posts on saying no. “Learn how to say no as a PM.” “Saying no is important for PMs.” “Why saying no will make you the best PM EVER!” The sheer number of them can make someone jaded to this insight. But honestly, learning to say no (and confidently) is a key component of how I gained Latif’s trust. </span></p>
+<p><span style="font-weight: 400;">For example, Latif and I had a meeting with our marketing team about an upcoming promotional event. Latif jumped the gun in terms of what could be achieved on product’s side before the event. Had I been too scared to say anything—and say no, that’s not possible—our marketing team would have a very different perspective of our product vision.</span></p>
+<blockquote>
+<p style="text-align: left;"><hr /><p><em>As PMs, we should be a wealth of product knowledge—especially at startups.</em><br /><a href='https://twitter.com/intent/tweet?text=As%20PMs%2C%20we%20should%20be%20a%20wealth%20of%20product%20knowledge%E2%80%94especially%20at%20startups.&amp;via=RoadmunkApp&amp;related=RoadmunkApp&amp;url=https://roadmunk.com/blog/?p=2393' target='_blank' class='bctt-ctt-btn'></a><br /><hr /></p>
+</blockquote>
+<p><span style="font-weight: 400;"><strong>My job as the product manager is to align everyone, INCLUDING our CEO</strong>. Being able to say, “No, that’s not happening,” and explain why, is part of how I show Latif that I can speak to product vision and ensure alignment no matter who I’m speaking with. </span></p>
+<h2><span style="font-weight: 400;">4. Pushing the needle forward (i.e. extra initiative)</span></h2>
+<p><span style="font-weight: 400;">To be blunt with you, my plate is full everyday at Roadmunk. Like brimming to the rim full. If my plate can only contain 100%, I’ll still put 150% on my plate. If I get 90% of that done, I’m not a happy camper. Hit about 120% or more, then you </span><i><span style="font-weight: 400;">may</span></i><span style="font-weight: 400;"> see some pearly whites. </span></p>
+<p><span style="font-weight: 400;">I’ve built a cadence of work that I share daily with Latif. <strong>I’ll put more than I can chew off on my plate</strong> and during our daily standups, I’ll voice exactly what I did yesterday and what I plan on tackling today. Even when it seems like a shit show, this process shows Latif I can get shit done. No excuses.</span></p>
+<h2><span style="font-weight: 400;">5. Earning my fellow Roadmunkers&#8217; trust</span></h2>
+<p><span style="font-weight: 400;">I think the biggest way I’ve gained Latif’s trust is by showing him that I can communicate with other Roadmunk departments. I firmly believe <strong>PMs should be THE main point of contact for each department regarding anything product-related</strong>. As PMs, we should be a wealth of product knowledge—especially at startups.</span></p>
+<p><span style="font-weight: 400;">I made it a point to build <strong>inter-departmental relationships</strong>. I established myself as a trustworthy (and reliable) repository of product info for my fellow Roadmunkers. (Having a clear roadmap definitely helped here; <a href="https://roadmunk.com/roadmap-templates?utm_source=blog&amp;utm_content=managingup" target="_blank">try a template out</a>.) Proving myself to other departments gave me more ammo when working with Latif because it provided him with a better consensus of me. Sure, he has his opinions about me, but how did everyone else feel? Affirmation from others gives Latif confidence to offload more stuff onto me.</span></p>
+<p><img class="alignnone size-full wp-image-2443" src="https://roadmunk.com/blog/wp-content/uploads/2017/06/managing_up-Nick_Latif_3.jpg" alt="Managing up as a newbie product manager - Nick and Latif" width="1500" height="1000" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/06/managing_up-Nick_Latif_3.jpg 1500w, https://roadmunk.com/blog/wp-content/uploads/2017/06/managing_up-Nick_Latif_3-300x200.jpg 300w, https://roadmunk.com/blog/wp-content/uploads/2017/06/managing_up-Nick_Latif_3-768x512.jpg 768w, https://roadmunk.com/blog/wp-content/uploads/2017/06/managing_up-Nick_Latif_3-1024x683.jpg 1024w" sizes="(max-width: 1500px) 100vw, 1500px" /></p>
+<h1><span style="font-weight: 400;">Opinions straight from the squirrel (a.k.a. Latif)</span></h1>
+<p><span style="font-weight: 400;">I can go on about how I think I managed up to Latif, but I thought opinions straight from the squirrel’s mouth would </span><i><span style="font-weight: 400;">probably </span></i><span style="font-weight: 400;">be valuable. (Context: I’ve fondly nicknamed him the squirrel because this man connects idea to idea like a really energetic squirrel.) Bugging him a few times, I got him to divulge his real opinions about how I’ve developed our working relationship so far.</span></p>
+<p><img class="alignnone size-full wp-image-2408 aligncenter" src="https://roadmunk.com/blog/wp-content/uploads/2017/06/managing_up-slack-1.png" alt="Managing up as a newbie product manager - Slack conversation" width="662" height="480" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/06/managing_up-slack-1.png 662w, https://roadmunk.com/blog/wp-content/uploads/2017/06/managing_up-slack-1-300x218.png 300w" sizes="(max-width: 662px) 100vw, 662px" /></p>
+<p><span style="font-weight: 400;">For more context’s sake, Latif has 3 things he looks for in a new PM:</span></p>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Emotional intelligence</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">An inherent capability to hold a ton of information and dispense it accordingly</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">An ability to sell the product you’re making</span></li>
+</ol>
+<p><span style="font-weight: 400;">So it seems like I was able to hit those three points for Latif, but when exactly did he realize that?</span></p>
+<p><img class="alignnone size-full wp-image-2410 aligncenter" src="https://roadmunk.com/blog/wp-content/uploads/2017/06/managing_up-slack-2.png" alt="Managing up as a newbie product manager - Slack conversation" width="663" height="518" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/06/managing_up-slack-2.png 663w, https://roadmunk.com/blog/wp-content/uploads/2017/06/managing_up-slack-2-300x234.png 300w" sizes="(max-width: 663px) 100vw, 663px" /></p>
+<p><span style="font-weight: 400;">Alright, so he technically had an answer. My ‘journey’ to prove myself was (and still is) an ongoing process. And while Latif’s attributed my path to several different factors, I had to find out if he was influenced by my inter-departmental relationships from these past few months. </span></p>
+<p><img class="alignnone size-full wp-image-2413 aligncenter" src="https://roadmunk.com/blog/wp-content/uploads/2017/06/managing_up-slack-3.png" alt="Managing up as a newbie product manager - Slack conversation" width="657" height="420" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/06/managing_up-slack-3.png 657w, https://roadmunk.com/blog/wp-content/uploads/2017/06/managing_up-slack-3-300x192.png 300w" sizes="(max-width: 657px) 100vw, 657px" /></p>
+<p><span style="font-weight: 400;">I feel like this is the point I should be swelling with pride, but it can’t be all praise.</span> <span style="font-weight: 400;">There must be something I could have done to better gain Latif’s trust. On my end I think I definitely could have started talking to customers sooner. A lot of the time I’m able to influence Latif when I have customer information to back up my decisions.</span></p>
+<p><img class="alignnone size-full wp-image-2414 aligncenter" src="https://roadmunk.com/blog/wp-content/uploads/2017/06/managing_up-slack-4.png" alt="Managing up as a newbie product manager - Slack conversation" width="656" height="400" srcset="https://roadmunk.com/blog/wp-content/uploads/2017/06/managing_up-slack-4.png 656w, https://roadmunk.com/blog/wp-content/uploads/2017/06/managing_up-slack-4-300x183.png 300w" sizes="(max-width: 656px) 100vw, 656px" /></p>
+<p><span style="font-weight: 400;">While I was taking correct steps to prove myself to Latif, it would have definitely helped to have dove head first into the product management space before starting my gig. Learn the ins &amp; outs of the space and see what product managers </span><i><span style="font-weight: 400;">really</span></i><span style="font-weight: 400;"> do, beforehand.</span></p>
+<h1><span style="font-weight: 400;">The key to managing up: manage in all directions</span></h1>
+<p><span style="font-weight: 400;">As Latif mentioned, being a PM not only means managing up to eager, energetic (and squirrelish) upper management, but it also means <strong>managing horizontally</strong>. Managing one damn direction is hard enough, why we gotta deal with both? Unfortunately, it comes with the territory. But managing horizontally is one of the best ways to show upper management that you can grasp those difficult product decisions.  </span></p>
+<p><span style="font-weight: 400;">To newbie PMs learning to manage up, I say: ask me over LinkedIn ;). But in all seriousness, <strong>prepare to do extra legwork</strong>. I haven’t gotten there completely (duh—it’s been just over 4 months), but I’m getting there. Just take a deep plunge into as many business aspects as you can because that’s your job. Understand every aspect between metrics, customers, blockers, departments, markets and strategies. Use this information to make those damn decisions and earn that trust. </span></p>
+<p>The post <a rel="nofollow" href="https://roadmunk.com/blog/managing-up/">Managing up as a newbie product manager</a> appeared first on <a rel="nofollow" href="https://roadmunk.com/blog">Roadmunk Blog</a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

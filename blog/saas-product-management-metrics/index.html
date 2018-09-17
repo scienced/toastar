@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="title" content="Roadmunk Blog - Product Management and Product Roadmaps">
+<meta name="description" content="In-depth features, interviews, tips, and advice for modern product managers. Subscribe to Roadmunk's blog and stay up to date on the latest product management trends.">
+<link rel="shortcut icon" href="../wp-content/themes/roadmunk_v2/assets/img/favicon.ico">
+<title>A guide to SaaS metrics for product managers - Roadmunk Blog</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://roadmunk.com/blog/xmlrpc.php">
+
+<!-- This site is optimized with the Yoast SEO plugin v4.4 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="We break down the why, how and when of SaaS metrics most relevant to product managers."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="index.html" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="We break down the why, how and when of SaaS metrics most relevant to product managers." />
+<meta name="twitter:title" content="A guide to SaaS metrics for product managers - Roadmunk Blog" />
+<meta name="twitter:site" content="@roadmunkapp" />
+<meta name="twitter:image" content="../wp-content/uploads/2017/07/SaaS_product_management_metrics-feature.gif" />
+<meta name="twitter:creator" content="@roadmunkapp" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='https://js.hs-scripts.com' />
+<link rel='dns-prefetch' href='https://a.optnmnstr.com' />
+<link rel='dns-prefetch' href='https://s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Roadmunk Blog &raquo; Feed" href="../feed/index.rss" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/roadmunk.com\/blog\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.3"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='et1-bloodfm-menu-icon-css'  href='../wp-content/plugins/delete-all-comments-of-website/include/sweetalert-ver=1.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bcct_custom_style-css'  href='../wp-content/uploads/bcttstyle-ver=1.0.css' type='text/css' media='all' />
+<link rel='stylesheet' id='roadmunk-style-css'  href='../wp-content/themes/roadmunk_v2/style-ver=4.7.3.css' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-style-css'  href='../wp-content/themes/roadmunk_v2/public/css/custom.min-ver=4.7.3.css' type='text/css' media='all' />
+<link rel='stylesheet' id='et-googleFonts-css'  href='https://fonts.googleapis.com/css?family=Source+Sans+Pro&amp;ver=4.7.3' type='text/css' media='all' />
+<script type='text/javascript' src='../wp-content/plugins/delete-all-comments-of-website/include/sweetalert-dev-ver=1.js'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery-ver=1.12.4.js'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery-migrate.min-ver=1.4.1.js'></script>
+<script type='text/javascript' src='../wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker-ver=1.5.1.js'></script>
+<script type='text/javascript' data-cfasync="false" id="omapi-script" async="async" src='https://a.optnmnstr.com/app/js/api.min.js?ver=1.1.6.1'></script>
+<link rel='https://api.w.org/' href='../wp-json/index.json' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc.php-rsd.xml" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.7.3" />
+<link rel='shortlink' href='index.html' />
+<link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embed-url=https---roadmunk.com-blog-saas-product-management-metrics-.json" />
+<link rel="alternate" type="text/xml+oembed" href="../wp-json/oembed/1.0/embed-url=https---roadmunk.com-blog-saas-product-management-metrics-&amp;format=xml.xml" />
+
+<!-- Google Tag Manager for WordPress by DuracellTomi - http://duracelltomi.com -->
+<script data-cfasync="false" type="text/javascript">
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || []
+	dataLayer.push({"pagePostType":"post","pagePostType2":"single-post","pageCategory":["product-strategy"],"pageAttributes":["metrics","product-management","product-management-metrics","product-manager","product-managers","product-strategy","saas","saas-metrics","saas-product-management-metrics"],"pagePostAuthor":"Tarif Rahman"});
+</script>
+<script data-cfasync="false">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NZM6BLH');</script>
+<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager for WordPress by DuracellTomi -->	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-37519519-1', 'auto');
+		ga('send', 'pageview');
+
+		</script>
+
+<!-- Facebook Open Graph protocol plugin NEEDS an admin or app ID to work, please visit the plugin settings page! -->
+<link rel="icon" href="../wp-content/uploads/2018/01/favicon.png" sizes="32x32" />
+<link rel="icon" href="../wp-content/uploads/2018/01/favicon.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="../wp-content/uploads/2018/01/favicon.png" />
+<meta name="msapplication-TileImage" content="https://roadmunk.com/blog/wp-content/uploads/2018/01/favicon.png" />
+</head>
+
+<body class="post-template-default single single-post postid-2563 single-format-standard group-blog">
+	<div class="search-modal">
+		<form method="get" class="search-form compact-form" action="../index.html">
+			<input type="search" class="search-field" placeholder="Enter keyword..." autocomplete="off" value="" name="s">
+			<button type="submit" class="search-submit compact-submit"><span class="fa fa-search"></span></button>
+		</form>
+		<span class="search-toggle fa fa-times"></span>
+	</div>
+
+	<div class="menu-modal">
+		<div class="menu-modal-header">
+			<img class="logo" src="../wp-content/themes/roadmunk_v2/assets/img/roadmunk-logo-b.png" alt="Roadmunk"/>
+			<span class="menu-toggle fa fa-times"></span>
+		</div>
+		<div id="navbar-mobile" class="navbar"><ul id="menu-main-nav" class="nav navbar-nav navbar-nav-mobile"><li id="menu-item-571" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-571"><a title="Roadmapping" href="../category/roadmapping/index.html">Roadmapping</a></li>
+<li id="menu-item-661" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-661"><a title="Product Strategy" href="../category/product-strategy/index.html">Product Strategy</a></li>
+<li id="menu-item-3595" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3595"><a title="Podcast" href="../category/podcast/index.html">Podcast</a></li>
+<li id="menu-item-636" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-636"><a title="Culture" href="../category/culture/index.html">Culture</a></li>
+<li id="menu-item-637" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-637"><a title="Influencers" href="../category/influencers/index.html">Influencers</a></li>
+<li id="menu-item-574" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-574"><a title="Updates" href="../category/updates/index.html">Updates</a></li>
+<li class="menu-item menu-item-free-trial"><a href="https://app.roadmunk.com/login/#/signup" title="Create a Roadmap"><button type="button" class="btn btn-trial">Create a Roadmap</button></a></li></ul></div>	</div>
+
+	
+	<span id="roadmunk_main_link">
+		<a href="../../index.html" target="_blank">
+			<img src="../wp-content/themes/roadmunk_v2/assets/img/roadmunk-back.svg" alt="Go To Roadmunk.com"/>
+			<img id="website-hover" src="../wp-content/themes/roadmunk_v2/assets/img/roadmunk-back-hover.svg" alt="Go To Roadmunk.com"/>
+		</a>
+	</span><!--//roadmunk_main_link-->
+
+	<div class="container main-container">
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<a class="navbar-brand" href="../index.html">
+						<img src="../wp-content/themes/roadmunk_v2/assets/img/roadmunk-blog.svg" alt="Roadmunk Logo" />
+					</a>
+				</div>
+				<button type="button" class="navbar-toggle">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<ul id="menu-roadmunk-1" class="menu-roadmunk-search-mobile nav visible-xs-inline-block visible-sm-inline-block">
+					<li class="menu-item menu-item-search">
+						<a href="#" title="Search Roadmunk"><img data-alt-src="https://roadmunk.com/blog/wp-content/themes/roadmunk_v2/assets/img/search_b.png" src="../wp-content/themes/roadmunk_v2/assets/img/search.png"></a>
+					</li>
+				</ul>
+				<ul id="menu-main-nav-1" class="nav navbar-nav"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-571"><a title="Roadmapping" href="../category/roadmapping/index.html">Roadmapping</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-661"><a title="Product Strategy" href="../category/product-strategy/index.html">Product Strategy</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3595"><a title="Podcast" href="../category/podcast/index.html">Podcast</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-636"><a title="Culture" href="../category/culture/index.html">Culture</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-637"><a title="Influencers" href="../category/influencers/index.html">Influencers</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-574"><a title="Updates" href="../category/updates/index.html">Updates</a></li>
+</ul>				<ul class="nav navbar-nav navbar-nav-extra">
+					<li class="menu-item menu-item-search">
+						<a href="#" title="Search Roadmunk">
+							<img class="img-bottom" src="../wp-content/themes/roadmunk_v2/assets/img/search_b.png">
+							<img class="img-top" src="../wp-content/themes/roadmunk_v2/assets/img/search.png">
+						</a>
+					</li>
+					<li class="menu-item menu-item-free-trial">
+						<a href="https://app.roadmunk.com/login/#/signup" title="Start Roadmapping"><button type="button" class="btn btn-trial">Start Roadmapping</button></a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+			
+				<div class="row">
+					<div class="site-main-inner col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+						<div class="floating-icons">
+	<li><a class="entry-social-twitter round" href="https://twitter.com/intent/tweet?text=A+guide+to+SaaS+metrics+for+product+managers&amp;url=https%3A%2F%2Froadmunk.com%2Fblog%2Fsaas-product-management-metrics%2F&amp;via=RoadmunkApp" target="_blank">Share on Twitter</a></li>
+		<li><a class="entry-social-facebook round" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Froadmunk.com%2Fblog%2Fsaas-product-management-metrics%2F" target="_blank">Share on Facebook</a></li>
+		<li><a class="entry-social-linkedin round" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Froadmunk.com%2Fblog%2Fsaas-product-management-metrics%2F&amp;title=A%20guide%20to%20SaaS%20metrics%20for%20product%20managers" target="_blank">Share on Linkedin</a></li></div>
+<article id="post-2563" class="post-2563 post type-post status-publish format-standard has-post-thumbnail hentry category-product-strategy tag-metrics tag-product-management tag-product-management-metrics tag-product-manager tag-product-managers tag-product-strategy tag-saas tag-saas-metrics tag-saas-product-management-metrics">
+	<div class="entry-category"><span class="byline byline-cat"> <a href="../category/product-strategy/index.html" alt="View all posts in Product Strategy">Product Strategy</a> | 
+		<span class='span-reading-time'> 15 min read</span>
+		</span></div>
+	<header class="entry-header-featured">
+		<h1 class="entry-title">A guide to SaaS metrics for product managers</h1>		<a href="index.html" title="A guide to SaaS metrics for product managers">
+			<img width="751" height="400" src="../wp-content/uploads/2017/07/SaaS_product_management_metrics-feature.gif" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="SaaS product management metrics - Feature image" />		</a>
+		<div class="entry-meta-featured">
+			<div class="entry-auth-share clearfix">
+					<div id="entry-auth-share-l">
+						<span class="byline byline-author byline-author-image"><img alt='' src='../wp-content/uploads/2017/07/Tarif_headshot-150x150.jpg' class='avatar avatar-32 photo' height='32' width='32' /></span>
+						<span class="byline byline-author"> <span class="author vcard"><a class="url fn n" href="../author/tarif/index.html">Tarif Rahman</a></span></span>			
+					</div>
+					<div id="entry-auth-share-r">
+						
+	<div class="entry-social">
+		<a class="entry-social-twitter" href="https://twitter.com/intent/tweet?text=A+guide+to+SaaS+metrics+for+product+managers&amp;url=https%3A%2F%2Froadmunk.com%2Fblog%2Fsaas-product-management-metrics%2F&amp;via=RoadmunkApp" target="_blank">Share on Twitter</a>
+		<a class="entry-social-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Froadmunk.com%2Fblog%2Fsaas-product-management-metrics%2F" target="_blank">Share on Facebook</a>
+		<a class="entry-social-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Froadmunk.com%2Fblog%2Fsaas-product-management-metrics%2F&amp;title=A%20guide%20to%20SaaS%20metrics%20for%20product%20managers" target="_blank">Share on Linkedin</a>
+	</div>
+					</div>
+				</div>		</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p><span style="font-weight: 400;">While not the most glamorous part of a product manager’s job, tracking metrics reveal blindspots, foster stakeholder confidence and offer vital product (and organizational) health checks for PMs. However, with a seemingly endless selection of metrics, the measurement process can appear intimidating and *</span><i><span style="font-weight: 400;">whoosh</span></i><span style="font-weight: 400;">* just go over your head. </span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">At a SaaS company, metrics can be even more muddled for PMs. Since SaaS business models aren’t super traditional and revenue/growth is measured in recurring units, there’s a ‘special’ subset of metrics for PMs to manage. But SaaS PMs don’t only have to worry about which metrics to measure, they have to ask themselves: <strong>w</strong><strong>hen will these metrics be valuable?</strong> Remember the </span><a href="https://ondigitalmarketing.com/learn/odm/foundations/5-customer-segments-technology-adoption/" target="_blank"><span style="font-weight: 400;">Technology Adoption Lifecycle Model</span></a><span style="font-weight: 400;">? (We’ve talked about it <a href="https://roadmunk.com/blog/product-management-design-principles/" target="_blank">here</a> and <a href="../../roadmapping/how-to-create-a-product-roadmap/index.html" target="_blank">here</a> before.) Where your product falls on this model impacts which metrics you should monitor.</span></p>
+<p><img class="aligncenter size-full wp-image-2952" src="../wp-content/uploads/2017/07/SaaS_product_management-technology_adoption_model.png" alt="SaaS product management metrics - Technology adoption lifecycle model" width="570" height="221" srcset="../wp-content/uploads/2017/07/SaaS_product_management-technology_adoption_model.png 570w, ../wp-content/uploads/2017/07/SaaS_product_management-technology_adoption_model-300x116.png 300w" sizes="(max-width: 570px) 100vw, 570px" /></p>
+<p><span style="font-weight: 400;">Being a SaaS company ourselves, we want to help. We narrowed down the list of <strong>metrics</strong> <strong>most relevant to SaaS PMs</strong>, but also explore why they’re useful, how to calculate them and when they matter most for your product. </span></p>
+<p><span style="font-weight: 400;">Here are the metrics we break down:</span></p>
+<ul>
+<li><a href="#CLV"><strong>Customer Lifetime Value</strong></a></li>
+<li><a href="#CAC"><strong>Customer Acquisition Cost</strong></a></li>
+<li><a href="#ACV"><strong>Annual Contract Value</strong></a></li>
+<li><strong><a href="#MRR">Monthly Recurring Revenue (or Annual Recurring Revenue)</a></strong></li>
+<li><a href="#churn"><strong>Churn</strong></a></li>
+<li><a href="#quick"><strong>Quick Ratio</strong></a></li>
+<li><a href="#retention"><strong>Retention</strong></a></li>
+<li><a href="#conversion"><strong>Conversion Rate</strong></a></li>
+<li><strong><a href="#leadvelocity">Lead Velocity Rate</a></strong></li>
+</ul>
+<hr />
+<h1 id="CLV">Customer Lifetime Value</h1>
+<p><span style="font-weight: 400;">Known by many terms, <strong>customer lifetime value</strong> (LTV, CLTV, CLV, total customer value) is a benchmark for determining future spending and real customer worth. LTV is literally </span><b>how much revenue a customer will bring during their time as a paying customer</b><span style="font-weight: 400;">. This metric is helpful to SaaS PMs when deciding how much to spend on obtaining new customers, how much to dish out to keep existing customers or where to allocate resources.<br />
+</span><br />
+<strong><big>Calculations<br />
+</big></strong></p>
+<p><span style="font-weight: 400;">Calculating this metric can be a big feat thanks to so many variables coming into play. Let’s break down the simplest method of calculating this metric:</span></p>
+<ol>
+<li><b>How much does your average customer pay? <span style="font-weight: 400;">Use customers’ average expenditure as the starting point for your LTV.</span></b></li>
+<li><strong>Next, calculate how often your average customer pays</strong>. <span style="font-weight: 400;">i.e. What is the average number of purchases you get in the same timeframe as step 1?</span></li>
+<li><strong>Finally, average lifetime of your customer.</strong> <span style="font-weight: 400;">How long does the average customer stay as a paying customer? (Note: unit of time should be consistent with steps 1 &amp; 2)</span></li>
+</ol>
+<p><span style="font-weight: 400;">Once you’ve got those three factors, plug and chug into the formula below to get LTV.<br />
+</span><br />
+<img class="aligncenter size-full wp-image-2953" src="../wp-content/uploads/2017/07/SaaS_product_managment_metrics-CLV.png" alt="SaaS product management metrics - Customer lifetime value equation" width="713" height="196" srcset="../wp-content/uploads/2017/07/SaaS_product_managment_metrics-CLV.png 713w, ../wp-content/uploads/2017/07/SaaS_product_managment_metrics-CLV-300x82.png 300w" sizes="(max-width: 713px) 100vw, 713px" /></p>
+<p><span style="font-weight: 400;">While this formula streamlines the process, there’s a problem. The formula gives all revenue without considering </span><i><span style="font-weight: 400;">any</span></i><span style="font-weight: 400;"> costs. Let&#8217;s be real; there <em>are</em> costs involved with getting/keeping customers. If you want a more accurate LTV, consider </span><b>average profit margin per customer</b><span style="font-weight: 400;"> and include it in the formula like so:</span></p>
+<p><img class="aligncenter size-full wp-image-3041" src="../wp-content/uploads/2017/07/SaaS_product_management_metrics-CLV-2.png" alt="SaaS product management metrics - CLV equation 2" width="904" height="188" srcset="../wp-content/uploads/2017/07/SaaS_product_management_metrics-CLV-2.png 904w, ../wp-content/uploads/2017/07/SaaS_product_management_metrics-CLV-2-300x62.png 300w, ../wp-content/uploads/2017/07/SaaS_product_management_metrics-CLV-2-768x160.png 768w" sizes="(max-width: 904px) 100vw, 904px" /></p>
+<p><span style="font-weight: 400;">Accounting for average profit margin addresses money spent to keep customers around during their ‘lifetime.’ While this tightens the formula, it’s still an average. It covers ALL your customers no matter who they are. To make this metric even more valuable, consider <strong>customer segments</strong>.</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">At a SaaS organization, you’ll probably have different tiers of customers/subscriptions, so an aggregate LTV <em>probably</em> isn&#8217;t useful. Real value pops up when you calculate LTV of your enterprise customers vs. business subscribers vs. professional users or long-time customers vs. newer customers (or any other categorization you see fit).</span></p>
+<p><img class="aligncenter size-full wp-image-2955" src="../wp-content/uploads/2017/07/SaaS_product_management_metrics-CLV_graph.png" alt="SaaS product management metrics - CLV graph" width="678" height="327" srcset="../wp-content/uploads/2017/07/SaaS_product_management_metrics-CLV_graph.png 678w, ../wp-content/uploads/2017/07/SaaS_product_management_metrics-CLV_graph-300x145.png 300w" sizes="(max-width: 678px) 100vw, 678px" /></p>
+<p><span style="font-weight: 400;">There’s no specific formula to split LTV by user segment. All you do is apply the regular LTV formula to the segmented customers you want to study. From there, identify which segments are most profitable, so you can analyze the amount you’re willing to spend to capture different types of customers. </span><span style="font-weight: 400;"><br />
+</span><br />
+<strong><big>When is this metric useful for SaaS PMs?</big></strong></p>
+<p><span style="font-weight: 400;">Frankly, LTV only becomes relevant to SaaS PMs the longer a product is in market. Looking at the Technology Adoption Lifecycle Model, your LTV is a major KPI once in the </span><b>Early Adopters</b><span style="font-weight: 400;"> phase—just before the chasm. </span></p>
+<p><span style="font-weight: 400;">SaaS PMs with products in the Innovators phase should be less concerned with LTV because your metrics should still be quite high-level. Your product is still relatively new, so growth rates and revenue are the focus. You don’t know what the hell your average customer’s lifetime is! </span></p>
+<p><span style="font-weight: 400;">Product-market fit and metrics like LTV become vital (thanks to a better understanding of your customer base) in the Early Adopters phase. LTV influences product strategy since SaaS PMs use this metric to pinpoint which features to develop based on customer segments they want to prioritize and what product areas they’re willing to invest the team’s time/money/energy.  </span></p>
+<!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Blog signup inline --><div id="om-ytoapcdbhazgdychkbmg-holder"></div><script>var ytoapcdbhazgdychkbmg,ytoapcdbhazgdychkbmg_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){ytoapcdbhazgdychkbmg_poll(function(){if(window['om_loaded']){if(!ytoapcdbhazgdychkbmg){ytoapcdbhazgdychkbmg=new OptinMonsterApp();return ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="https://a.optnmstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;ytoapcdbhazgdychkbmg=new OptinMonsterApp();ytoapcdbhazgdychkbmg.init({"u":"25630.595075","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster -->
+<hr />
+<h1 id="CAC">Customer Acquisition Cost</h1>
+<p><span style="font-weight: 400;"><b>Customer acquisition cost</b> (CAC) is exactly what it sounds like. <strong>How much you spend to acquire a new customer</strong>. We’re talking costs of <i>every</i> effort to convert leads to customers. Sales collateral, marketing campaign costs, automation software costs, sales &amp; marketing team salaries. Basically, all that sales &amp; marketing team budgeting? It’s included in CAC.<br />
+</span><br />
+<strong><big>Calculations</big></strong></p>
+<p><span style="font-weight: 400;">At the simplest level, you calculate CAC by taking </span><b>all costs acquiring new customers</b><span style="font-weight: 400;"> and dividing it by the </span><b>number of new customers you’ve gained</b><span style="font-weight: 400;"> (for a specific time period). </span></p>
+<p><img class="aligncenter size-full wp-image-2956" src="../wp-content/uploads/2017/07/SaaS_product_management_metrics-Customer_acquisition_cost.png" alt="SaaS product management metrics - Customer acquisition cost calculation" width="321" height="264" srcset="../wp-content/uploads/2017/07/SaaS_product_management_metrics-Customer_acquisition_cost.png 321w, ../wp-content/uploads/2017/07/SaaS_product_management_metrics-Customer_acquisition_cost-300x247.png 300w" sizes="(max-width: 321px) 100vw, 321px" /></p>
+<p><span style="font-weight: 400;">That’s the CAC calculation in its most rudimentary form. You can dive even deeper by calculating CACs for </span><b>specific campaigns</b><span style="font-weight: 400;"> (cost per clicks, SEM/SEO campaigns, free trials, etc.). Just divide the costs incurred for that campaign, by the number of customers acquired due to the campaign. </span></p>
+<p><span style="font-weight: 400;">If you want a more granular outlook, you might determine </span><b>CAC per stage of your marketing/sales funnel</b><span style="font-weight: 400;">. You&#8217;d calculate costs associated with each funnel stage and number of customers acquired in that corresponding stage.<br />
+</span><br />
+<strong><big>When is this metric useful for SaaS PMs?<br />
+</big></strong><br />
+<span style="font-weight: 400;">This metric revolves around marketing and sales costs, so why should a PM care? Well, alone CAC answers the question: </span><b>are we spending too much to get customers?</b><span style="font-weight: 400;"> Tracking CAC lets a SaaS PM adjust, pivot, swerve, do whatever needs to be done to improve product strategy. By itself, CAC is a beneficial metric for a PM at any point along the Technology Adoption Lifecycle Model in terms of </span><b>budgeting, planning or resource allocation</b><span style="font-weight: 400;">.</span></p>
+<p><img class="aligncenter size-full wp-image-2957" src="../wp-content/uploads/2017/07/SaaS_product_management_metrics-CAC_vs_CLV.png" alt="SaaS product management metrics - CAC vs. CLV diagram" width="742" height="336" srcset="../wp-content/uploads/2017/07/SaaS_product_management_metrics-CAC_vs_CLV.png 742w, ../wp-content/uploads/2017/07/SaaS_product_management_metrics-CAC_vs_CLV-300x136.png 300w" sizes="(max-width: 742px) 100vw, 742px" /></p>
+<p><span style="font-weight: 400;">However, CAC’s real power is unlocked when </span><b>combined with LTV </b><span style="font-weight: 400;">because that’s when you can truly evaluate ROI. As seen in the diagram above, if CAC is greater than LTV umm… you have a genuine problem. If CAC’s lower than LTV, congrats! Your product strategy contributes to a solid business model. </span></p>
+<p><span style="font-weight: 400;">Sure—by itself, this metric highlights spending habits. But without a comparison to LTV, it’s pretty meaningless. Combine the two and see how ROI is faring and use that comparison to offer transparency on whether or not your product strategy generates more than it costs. </span></p>
+<hr />
+<h1 id="ACV">Annual Contract Value</h1>
+<p><span style="font-weight: 400;">Working our way down from lifetime to yearly metrics, another valuable metric is <b>annual contract value</b> (or ACV). Essentially, it’s the <strong>average annual revenue you receive per customer contract</strong>.<br />
+</span><br />
+<strong><big>Calculations</big></strong></p>
+<p><span style="font-weight: 400;">There seems to be a lot of confusion about how to calculate ACV. Should one-time fees be included? How do you handle multiple contract types? Is this the same as <a href="#MRR">annual recurring revenue (ARR)</a>? It’s a little all over the place.</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">We find the easiest way to calculate ACV is to </span><b>remember it is an average</b><span style="font-weight: 400;">. So even if you have multiple contract types, you’re finding the average monetary value of your customer contracts.</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">For instance, say Company X has one customer contract type of $1,200 for the year, paid in monthly increments of $100. Whether customers signed up for one year or five, the ACV is $1,200 until Company X changes that pricing. Say Company X introduces two new types of contracts: a yearly contract of $3,000 and another one for $1,500. For ACV, you take all three contract values for the year and average them. And that’s it. The formula boils down to this:</span></p>
+<p><img class="aligncenter size-full wp-image-2958" src="../wp-content/uploads/2017/07/SaaS_product_management_metrics-ACV.png" alt="SaaS product management metrics - Annual contract value equation" width="337" height="96" srcset="../wp-content/uploads/2017/07/SaaS_product_management_metrics-ACV.png 337w, ../wp-content/uploads/2017/07/SaaS_product_management_metrics-ACV-300x85.png 300w" sizes="(max-width: 337px) 100vw, 337px" /></p>
+<p><span style="font-weight: 400;">Your ACV also excludes one-time fees. If you’re interested in including them, then the metric you might be looking for is </span><b>Total Contract Value (TCV)</b><span style="font-weight: 400;">: the sum of the different contract values for a year, plus any additional one-time fees. Revisiting Company X, if we want Company X’s TCV for the year, add the values ($1,200 + $3,000 + $1,500) plus any additional one-time fees associated with each contract.</span><span style="font-weight: 400;"><br />
+</span><br />
+<strong><big>When is this metric useful for SaaS PMs?</big></strong></p>
+<p><span style="font-weight: 400;">ACV is one of those metrics you can calculate any time as a SaaS PM. I mean, you probably aren’t putting out a product into the market without some sort of pricing, so it should be something you can calculate—whether your product is new to the market or is being adopted by Laggards.</span></p>
+<p><span style="font-weight: 400;">ACV is similar to CAC in the sense that it’s not very useful by itself, but </span><b>when combined with other metrics it becomes insightful data</b><span style="font-weight: 400;">. If you haven’t crossed the chasm, use ACV to measure sales and revenue (ACV multiplied by number of customers = sales data).</span></p>
+<p><span style="font-weight: 400;">As your product extends into the market, <strong>compare ACV against CAC</strong>. You can evaluate if your chosen price points will actually pay off costs of acquiring customers. Knowing how ACV compares to costs will impact SaaS PM’s decisions on resource allocation and product pricing.</span></p>
+<p><img class="aligncenter size-full wp-image-2959" src="../wp-content/uploads/2017/07/SaaS_product_management_metrics-ACV_vs_CAC.png" alt="SaaS product management metrics - ACV vs. CAC diagram" width="588" height="386" srcset="../wp-content/uploads/2017/07/SaaS_product_management_metrics-ACV_vs_CAC.png 588w, ../wp-content/uploads/2017/07/SaaS_product_management_metrics-ACV_vs_CAC-300x197.png 300w" sizes="(max-width: 588px) 100vw, 588px" /></p>
+<hr />
+<h1 id="MRR">Monthly Recurring Revenue (or Annual Recurring Revenue)</h1>
+<p><span style="font-weight: 400;">A key differentiator between SaaS businesses and traditional software product orgs, is the fact that revenue doesn’t come in one-off purchases. Revenue comes in recurring increments on a monthly or annual basis. <strong>Monthly recurring revenue</strong> (MRR) or <strong>annual recurring revenue</strong> (ARR) are the metrics meant to track these recurring revenue streams.</span></p>
+<p><strong><big>Calculations<br />
+</big></strong></p>
+<p><span style="font-weight: 400;">There&#8217;s a bunch of MRR calculations. The most common method though is summing all customer revenue for the month.</span></p>
+<p><img class="aligncenter size-full wp-image-2960" src="../wp-content/uploads/2017/07/SaaS_product_management_metrics-Monthly_recurring_revenue.png" alt="SaaS product management metrics - Monthly recurring revenue equation" width="381" height="132" srcset="../wp-content/uploads/2017/07/SaaS_product_management_metrics-Monthly_recurring_revenue.png 381w, ../wp-content/uploads/2017/07/SaaS_product_management_metrics-Monthly_recurring_revenue-300x104.png 300w" sizes="(max-width: 381px) 100vw, 381px" /></p>
+<p><span style="font-weight: 400;">However, this equation can be tedious if you&#8217;ve got many, many customers. An alternative way of calculating is to use </span><i><span style="font-weight: 400;">another</span></i><span style="font-weight: 400;"> common metric: </span><b>average revenue per user</b><strong>/account</strong><span style="font-weight: 400;"><strong> </strong>(or ARPU/ARPA). If you have the ARPU/ARPA for the month you can multiply that value by total number of customers to generate an average MRR.  </span></p>
+<p><img class="aligncenter size-full wp-image-2961" src="../wp-content/uploads/2017/07/SaaS_product_management_metrics-MRR_2.png" alt="SaaS product management metrics - Monthly recurring revenue 2" width="359" height="145" srcset="../wp-content/uploads/2017/07/SaaS_product_management_metrics-MRR_2.png 359w, ../wp-content/uploads/2017/07/SaaS_product_management_metrics-MRR_2-300x121.png 300w" sizes="(max-width: 359px) 100vw, 359px" /></p>
+<p><span style="font-weight: 400;">Many people would argue though that this doesn’t calculate </span><i><span style="font-weight: 400;">true </span></i><span style="font-weight: 400;">MRR. True MRR considers <strong>ALL monthly recurring revenue</strong> including any charges per user, upgrades, downgrades, lost MRR, etc. What you should definitely NOT include are one-time fees, because, well, that defeats the purpose of calculating a </span><i><span style="font-weight: 400;">recurring </span></i><span style="font-weight: 400;">metric. This formula below includes all recurring elements:</span></p>
+<p><img class="aligncenter size-full wp-image-2962" src="../wp-content/uploads/2017/07/SaaS_product_management_metrics-MRR_3.png" alt="SaaS product management metrics - Monthly recurring revenue 3" width="852" height="54" srcset="../wp-content/uploads/2017/07/SaaS_product_management_metrics-MRR_3.png 852w, ../wp-content/uploads/2017/07/SaaS_product_management_metrics-MRR_3-300x19.png 300w, ../wp-content/uploads/2017/07/SaaS_product_management_metrics-MRR_3-768x49.png 768w" sizes="(max-width: 852px) 100vw, 852px" /></p>
+<p><span style="font-weight: 400;">To clarify the equation, let’s define these various MRR metrics that are involved:</span></p>
+<ul>
+<li><b>New MRR: </b><span style="font-weight: 400;">MRR gained from new customers</span></li>
+<li><b>Expansion MRR: </b><span style="font-weight: 400;">Additional MRR gained from existing customers who upgrade</span></li>
+<li><b>Churned MRR: <span style="font-weight: 400;">MRR that is lost due to churn or customer downgrades</span></b></li>
+</ul>
+<p><span style="font-weight: 400;">Using the formula above will give you the ‘true’ MRR of your organization. If you&#8217;re looking for new MRR earned this month (i.e. </span><b>Net New MRR</b><span style="font-weight: 400;">), eliminate MRR at the beginning of the month and use the formula below:</span></p>
+<p><img class="aligncenter size-full wp-image-2963" src="../wp-content/uploads/2017/07/SaaS_product_management_metrics-MRR_4.png" alt="SaaS product management metrics - Net new MRR" width="584" height="54" srcset="../wp-content/uploads/2017/07/SaaS_product_management_metrics-MRR_4.png 584w, ../wp-content/uploads/2017/07/SaaS_product_management_metrics-MRR_4-300x28.png 300w" sizes="(max-width: 584px) 100vw, 584px" /></p>
+<p><span style="font-weight: 400;">Everything we’ve said about MRR, applies to ARR as well. They’re calculated exactly the same way just for different time periods. If you’re measuring in monthly increments and want to analyze annually, all you’d have to do is <strong>multiply MRR amounts by 12</strong> to get ARR.</span></p>
+<p><img class="aligncenter size-full wp-image-2964" src="../wp-content/uploads/2017/07/SaaS_product_management_metrics-MRR_graph.png" alt="SaaS product management metrics - MRR graph" width="417" height="343" srcset="../wp-content/uploads/2017/07/SaaS_product_management_metrics-MRR_graph.png 417w, ../wp-content/uploads/2017/07/SaaS_product_management_metrics-MRR_graph-300x247.png 300w" sizes="(max-width: 417px) 100vw, 417px" /></p>
+<p><strong><big>When is this metric useful for SaaS PMs?</big></strong></p>
+<p><span style="font-weight: 400;">Seeing as MRR and ARR are telling signs for whether or not your SaaS organization is generating revenue, these metrics should be on a SaaS PMs radar</span> <i><span style="font-weight: 400;">at all times</span></i><span style="font-weight: 400;">.</span><span style="font-weight: 400;"> If there are any metrics a SaaS PM should be monitoring when entering the product market, they should be MRR and ARR. These metrics are glimpses into how your product is selling.</span></p>
+<p><img class="aligncenter size-full wp-image-2965" src="../wp-content/uploads/2017/07/SaaS_product_management_metrics-MRR_graph_2.png" alt="SaaS product management metrics - MRR graph 2" width="897" height="419" srcset="../wp-content/uploads/2017/07/SaaS_product_management_metrics-MRR_graph_2.png 897w, ../wp-content/uploads/2017/07/SaaS_product_management_metrics-MRR_graph_2-300x140.png 300w, ../wp-content/uploads/2017/07/SaaS_product_management_metrics-MRR_graph_2-768x359.png 768w" sizes="(max-width: 897px) 100vw, 897px" /></p>
+<p><span style="font-weight: 400;">As you move along the Technology Adoption Lifecycle Model, MRR and ARR evolve into a SaaS organization’s <strong>primary indicators for growth</strong>. SaaS PMs can develop certain product features and experiences using MRR/ARR (specifically fighting churned MRR/ARR) as justification for these decisions. </span></p>
+<hr />
+<h1 id="churn">Churn</h1>
+<p><span style="font-weight: 400;">Simply put, </span><b>churn</b><span style="font-weight: 400;"> is </span><b>customers you’ve lost in a specific period of time</b><span style="font-weight: 400;">. Tracking this metric forces you as a PM to re-evaluate your product strategy (and possibly do a reset). If churn is high, something about your product is turning away users. Consider it a healthy dose of reality about what you as a PM are doing right or wrong.<br />
+</span><br />
+<strong><big>Calculations<br />
+</big></strong><br />
+<span style="font-weight: 400;">There are apparently </span><a href="http://blog.profitwell.com/the-complete-saas-guide-to-calculating-churn-rate-and-keeping-it-simple" target="_blank"><span style="font-weight: 400;">43 different ways to calculate churn rate for SaaS companies</span></a><span style="font-weight: 400;">. That&#8217;s a lot. But at the root of all 43 ways, churn rate is </span><b>lost customers divided by total number of customers</b><span style="font-weight: 400;">. <em>But </em>that’s if you asked for a churn rate for your company’s entire lifespan. That’s not really valuable to anyone. Hone in on a specific period and look specifically at how customers churn during that particular time.  </span></p>
+<p><img class="aligncenter size-full wp-image-2966" src="../wp-content/uploads/2017/07/SaaS_product_management_metrics-Churn.png" alt="SaaS product management metrics - Churn equation" width="267" height="307" srcset="../wp-content/uploads/2017/07/SaaS_product_management_metrics-Churn.png 267w, ../wp-content/uploads/2017/07/SaaS_product_management_metrics-Churn-261x300.png 261w" sizes="(max-width: 267px) 100vw, 267px" /></p>
+<p><span style="font-weight: 400;">We should note that we’ve been talking about </span><b>customer churn rate </b><span style="font-weight: 400;">so far (a.k.a. logo churn rate). But we can also measure churn in the form of lost revenue too. </span></p>
+<p><span style="font-weight: 400;">Enter </span><b>gross revenue churn</b><span style="font-weight: 400;">. This metric measures how much revenue is lost in a specific period of time due to customers opting out of your product or service. Offering the same outlook as your customer churn rate, gross revenue churn puts the metric into a financial perspective for anyone who loves dealing with dollah, dollah bills instead of customer numbers. You calculate it exactly the same way as your customer churn, except replace number of customers with revenue:</span></p>
+<p><img class="aligncenter size-full wp-image-2967" src="../wp-content/uploads/2017/07/SaaS_product_management_metrics-Gross_revenue_churn.png" alt="SaaS product management metrics - Gross revenue churn equation" width="474" height="231" srcset="../wp-content/uploads/2017/07/SaaS_product_management_metrics-Gross_revenue_churn.png 474w, ../wp-content/uploads/2017/07/SaaS_product_management_metrics-Gross_revenue_churn-300x146.png 300w" sizes="(max-width: 474px) 100vw, 474px" /><br />
+<strong><big>When is this metric useful for SaaS PMs?</big></strong></p>
+<p><span style="font-weight: 400;">No matter where your product falls in the Adoption Lifecycle, if customers are leaving, that’s something you need to monitor. Chances are churn will become a real issue once you’ve entered the <strong>Early Adopters</strong> phase. That’s when you’ve developed a solid audience and you’re trying to reach that majority audience by crossing the chasm. As PMs, if you’re seeing your customers churning </span><i><span style="font-weight: 400;">before</span></i><span style="font-weight: 400;"> the chasm, your chances of making it across that chasm to the majority are slim to none.<br />
+</span><br />
+<span style="font-weight: 400;">Your early adopters are </span><i><span style="font-weight: 400;">much</span></i><span style="font-weight: 400;"> more forgiving than your majority audiences because they’ve opted into a product they know is less developed and potentially buggy. So if you piss off your early adopters enough that they drop your product, you’ll experience greater pushback with your majority audiences. As a SaaS PM, make churn a primary concern once your early adopters start to ramp up and always keep an eye on the churn rate while moving further into the market. </span></p>
+<hr />
+<h1 id="quick">Quick Ratio</h1>
+<p><span style="font-weight: 400;">Without using accounting jargon, </span><b>quick ratio</b><span style="font-weight: 400;"> compares </span><b>how many dollars are coming in versus how many dollars are going out</b><span style="font-weight: 400;">. By compacting several metrics into a single ratio, quick ratio is a no-nonsense reflection of company growth and team performance—including the product team.</span></p>
+<p><strong><big>Calculations<br />
+</big></strong></p>
+<p><span style="font-weight: 400;">In layman’s terms, quick ratio is <strong>revenue growth over revenue loss</strong>.</span></p>
+<p><img class="aligncenter size-full wp-image-2968" src="../wp-content/uploads/2017/07/SaaS_product_management_metrics-Quick_ratio.png" alt="SaaS product management metrics - Quick ratio equation" width="236" height="218" /></p>
+<p><span style="font-weight: 400;">To be more PM-friendly, we can break that formula down further into </span><b>MRR</b><span style="font-weight: 400;"> (monthly recurring revenue) metrics.</span></p>
+<p><span style="font-weight: 400;">Calculate revenue growth by summing your </span><b>new MRR</b><span style="font-weight: 400;"> and </span><b>expansion MRR</b><span style="font-weight: 400;">. </span><span style="font-weight: 400;">On the flip side, revenue loss totals your </span><b>churned MRR</b><span style="font-weight: 400;"> and </span><b>contraction MRR </b><span style="font-weight: 400;">(lost revenue due to downgrades in your time period). So the previous formula gets updated like so:</span></p>
+<p><img class="aligncenter size-full wp-image-2969" src="../wp-content/uploads/2017/07/SaaS_product_management_metrics-Quick_ratio_2.png" alt="SaaS product management metrics - Quick ratio 2" width="402" height="156" srcset="../wp-content/uploads/2017/07/SaaS_product_management_metrics-Quick_ratio_2.png 402w, ../wp-content/uploads/2017/07/SaaS_product_management_metrics-Quick_ratio_2-300x116.png 300w" sizes="(max-width: 402px) 100vw, 402px" /></p>
+<p><span style="font-weight: 400;">At the end you’ll have a single number to make a ton of conclusions from. Looking at the quick ratios of the SaaS industry, we’ve got some advice for what ratio you want:</span></p>
+<ul>
+<li><b>Quick Ratio &gt; 4</b><span style="font-weight: 400;">: Our CEO, <a href="https://www.linkedin.com/in/latifnanji/" target="_blank">Latif</a>, sees this value as the gold star standard. He describes companies with a quick ratio of 4 as world-class companies because it means for every $4 of revenue, only $1 is lost (i.e. you’re growing substantially).</span></li>
+<li><b>3 &lt; Quick Ratio &lt; 4: <span style="font-weight: 400;">This is the range most companies fall within. It’s common to be within this range, especially if you’re before the chasm. It demonstrates good growth, but also indicates room for improvement (your costs might be too high!). </span></b></li>
+<li><b>Quick Ratio &lt; 2: </b><span style="font-weight: 400;">You’re </span><i><span style="font-weight: 400;">probably</span></i><span style="font-weight: 400;"> struggling. Anything lower and you’ve got a major issue. Falling in this range suggests that churn is heavy and it’s time to rethink your product strategy. </span></li>
+</ul>
+<p><span style="font-weight: 400;">A quick ratio isn’t called quick for nothing. With one glance you get a much-needed reality check on the performance of your product (and company). </span></p>
+<p><strong><big>When is this metric useful for SaaS PMs?</big></strong></p>
+<p><span style="font-weight: 400;">Quick ratio can be calculated at any stage along the Technology Adoption Lifecycle Model. If SaaS PMs are most concerned with growth and high-level statistics at your product’s earlier stages, it makes sense to throw quick ratio into the mix early on because it’s a <strong>high-level overview of your product based on growth metrics</strong>. But as discussed earlier, churn is usually not a huge concern until the Early Adopters phase. So while quick ratio can be calculated earlier, it might not be as relevant until churn becomes a larger concern. </span></p>
+<hr />
+<h1 id="retention">Retention</h1>
+<p><span style="font-weight: 400;">Since we talked about lost customers, we need to talk about loyal customers. </span><b>Retention rate</b><span style="font-weight: 400;">—<strong>how many existing customers stay as customers</strong>—is an indicator of product management success and a presence of solid services that keep customers around. Comparing retention rate to churn rate can offer a fresh perspective on how many customers are sticking around vs. saying their goodbyes. </span><span style="font-weight: 400;"><br />
+</span><br />
+<strong><big>Calculations</big></strong></p>
+<p><span style="font-weight: 400;">Think of retention rate as the antithesis of churn rate. With churn rate you calculate the rate of lost customers, whereas with retention, you calculate the opposite: </span><b>how many customers stayed</b><span style="font-weight: 400;">. If you measure the percentage of lost customers for churn, you’re measuring </span><b>the percentage of kept customers </b><span style="font-weight: 400;">for retention. Ultimately, the formulae end up being very similar.</span></p>
+<p><img class="aligncenter size-full wp-image-2970" src="../wp-content/uploads/2017/07/SaaS_product_management_metrics-Retention.png" alt="SaaS product management metrics - Retention rate equation" width="572" height="339" srcset="../wp-content/uploads/2017/07/SaaS_product_management_metrics-Retention.png 572w, ../wp-content/uploads/2017/07/SaaS_product_management_metrics-Retention-300x178.png 300w" sizes="(max-width: 572px) 100vw, 572px" /></p>
+<p><span style="font-weight: 400;">Think of retention rate as a success barometer for product initiatives or strategies that have been put in place. Once you know what’s working and not, you can move forward with a stronger idea of what features are sticking. </span><span style="font-weight: 400;"><br />
+</span><br />
+<strong><big>When is this metric useful for SaaS PMs?</big></strong></p>
+<p><span style="font-weight: 400;">Since we’re dealing with the “opposite” of the churn rate here, it makes sense to start measuring your retention rate around the same time. As mentioned in our discussion of churn rate, measuring metrics related to your customers don’t become super relevant until you’ve entered the <strong>Early Adopters</strong> phase. </span></p>
+<p><span style="font-weight: 400;">It’s when you’re crossing the chasm, knowing how your customers are reacting to your product becomes really important. Retention rate, however, becomes a major KPI as you </span><b>enter your majority audiences.</b><span style="font-weight: 400;"> It’s in these phases when the audience is the least forgiving. If you’ve crossed over the chasm and you’re finding receptive audiences </span><i><span style="font-weight: 400;">choosing</span></i><span style="font-weight: 400;"> to stay with your product, you might just have a winning product strategy on your hands. </span></p>
+<hr />
+<h1 id="conversion">Conversion Rate</h1>
+<p><span style="font-weight: 400;">Since we’re talking about metrics that measure success, let’s talk </span><b>conversion rates</b><span style="font-weight: 400;">. It’s the rate at which you turn a “maybe” or a straight-up “no” into a “yes.” Conversions occur throughout the marketing/sales funnel (as we see in the diagram below). For SaaS PMs’ sakes, let’s chat visitor to customer (free trial or paid) conversion rates.</span></p>
+<p><img class="aligncenter size-full wp-image-3039" src="../wp-content/uploads/2017/07/SaaS_product_management_metrics-Funnel.png" alt="SaaS product management metrics - Conversion funnel" width="646" height="410" srcset="../wp-content/uploads/2017/07/SaaS_product_management_metrics-Funnel.png 646w, ../wp-content/uploads/2017/07/SaaS_product_management_metrics-Funnel-300x190.png 300w" sizes="(max-width: 646px) 100vw, 646px" />Just like retention, conversion rates are temperature checks of <strong>how successful your product strategy is</strong> and <strong>how well your</strong> <strong>product strategy aligns with product marketing and demand generation</strong>. A high conversion rate is a green light to your current product strategy, but also a benchmark for future improvements. Low conversion rates uncover flaws and a need for rejigging of your strategy.</p>
+<p><strong><big>Calculations</big></strong></p>
+<p><span style="font-weight: 400;">For whatever your desired action (in a SaaS PM’s case, a conversion from visitor to customer), you take </span><b>number of customers that completed that action</b><span style="font-weight: 400;"> and divide by </span><b>number of “visitors” to that action</b><span style="font-weight: 400;"> and voila—you’ve got yourself a conversion rate. (Always remember to make sure you&#8217;re choosing a consistent time range for your calculation.)</span></p>
+<p><img class="aligncenter size-full wp-image-2972" src="../wp-content/uploads/2017/07/SaaS_product_management_metrics-Conversion.png" alt="SaaS product management metrics - Conversion rate equation" width="574" height="179" srcset="../wp-content/uploads/2017/07/SaaS_product_management_metrics-Conversion.png 574w, ../wp-content/uploads/2017/07/SaaS_product_management_metrics-Conversion-300x94.png 300w" sizes="(max-width: 574px) 100vw, 574px" /></p>
+<p><span style="font-weight: 400;">Conversion rates are also relative. Yes, there may be industry standards for what a good conversion rate is. But as a PM you have a say in what’s considered successful. Think of conversion rate as a way of quantifying the efforts your team has put into capturing customers.</span><span style="font-weight: 400;"><br />
+</span><br />
+<strong><big>When is this metric useful for SaaS PMs?</big></strong></p>
+<p><span style="font-weight: 400;">Sales and growth rates are the most important metrics for SaaS PMs with products just entering the market. And conversion rates perfectly fit into that data mould. Conversion rate is the type of high-level growth data that PMs with <strong>a new product in market are most interested in</strong> (i.e. products in the Innovators and Early Adopters phases). Focus on conversions from the start of your product’s journey and beyond to consistently study whether your product (and product marketing) is hitting the mark with your audiences.</span></p>
+<hr />
+<h1 id="leadvelocity">Lead Velocity Rate</h1>
+<p><span style="font-weight: 400;">Now, measuring MRR/ARR is great for monitoring growth and all, but the issue is that those metrics are lagging indicators. Any revenue metric you’re measuring for SaaS is based on past data—not real-time data. That’s where </span><b>lead velocity rate</b><span style="font-weight: 400;"> (LVR) steps in. LVR is <strong>your organization’s growth in terms of qualified leads</strong>. </span></p>
+<p><span style="font-weight: 400;">While MRR/ARR tell you how you’ve grown, they’re pretty crappy at forecasting the future; lead velocity is </span><b>real-time</b><span style="font-weight: 400;">, so it’s a reliable predictor for future revenue and growth. The key though: </span><b>measure only </b><b><i>qualified </i></b><b>leads</b><span style="font-weight: 400;">.</span></p>
+<p><strong><big>Calculations<br />
+</big></strong></p>
+<p><span style="font-weight: 400;">To calculate lead velocity, you enlist your basic growth formula, with qualified leads as your input. </span></p>
+<p><img class="aligncenter size-full wp-image-2973" src="../wp-content/uploads/2017/07/SaaS_product_management_metrics-Lead_velocity_rate.png" alt="SaaS product management metrics - Lead velocity rate equation" width="821" height="356" srcset="../wp-content/uploads/2017/07/SaaS_product_management_metrics-Lead_velocity_rate.png 821w, ../wp-content/uploads/2017/07/SaaS_product_management_metrics-Lead_velocity_rate-300x130.png 300w, ../wp-content/uploads/2017/07/SaaS_product_management_metrics-Lead_velocity_rate-768x333.png 768w" sizes="(max-width: 821px) 100vw, 821px" /></p>
+<p><span style="font-weight: 400;">From this formula you’ll get a percentage of your qualified lead growth month over month (or whatever time period you’re measuring). This number is a snapshot of whether your leads are growing or declining, allowing SaaS PMs to plan accordingly to capture (or maintain) leads. </span></p>
+<p><strong><big>When is this metric useful for SaaS PMs?</big></strong></p>
+<p><span style="font-weight: 400;">LVR is extremely relevant in the <strong>Innovators</strong> or <strong>Early Adopters</strong> phases. Since it’s a real-time indicator of growth, PMs can confidently guesstimate revenue for future stages (and adjust their product strategy based on this forecasting).</span></p>
+<p><span style="font-weight: 400;">Besides being able to predict future revenue more accurately, a SaaS PM can take <strong>immediate action regarding product strategy and/or product marketing</strong> if they see significant changes in LVR. Because the metric is real-time, a shift could signal that features being released aren’t sticky enough or that product marketing campaigns aren’t all that they’re cracked-up-to-be. Either way, a PM can adjust their strategy immediately by being on top of this metric.</span></p>
+<hr />
+<p><em>If you&#8217;re finding metrics impacting your product strategy (and you should), a roadmap might be the perfect tool to keep track of shifting priorities. <a href="../../roadmap-templates-utm_source=blog&amp;utm_content=saasmetrics.html" target="_blank">Check out our template library to start building your own roadmap</a>.</em></p>
+			</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+			<div class="row"><div class="author-section-top">Author</div></div>
+	<div class="row author-section">
+		<div class="col-sm-2 col-xs-12">
+			<div class="author-image author-image-article">
+				<img src="../wp-content/uploads/2017/07/Tarif_headshot-150x150.jpg" alt="tarif"/>
+			</div>
+		</div>
+		<div class="col-sm-6 col-xs-12">
+			<div class="author-meta author-meta-article">
+				<h2><a href="../author/tarif/index.html">Tarif Rahman</a></h2>
+				<p>Tarif is the Digital Content Specialist at Roadmunk. He's got a penchant for storytelling, enjoys bringing creativity to the tech world, and has an aversion to Netflix (don't judge).</p>
+			</div>
+		</div>
+		<div class="col-sm-4 col-xs-12">
+			<div class="entry-social entry-social-article"><a class="entry-social-linkedin" href="https://www.linkedin.com/in/tarifrahman/" target="_blank">Share on Linkedin</a></div>		</div>
+	</div><!--//row-->
+	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+					</div>
+				</div><!--row-->
+				<div class="related-posts row">
+					<h4>Related Posts</h4>							<div class="col-xs-12 col-sm-4">
+								
+<article id="post-3995" class="post row post-3995 type-post status-publish format-standard has-post-thumbnail hentry category-podcast tag-amazon tag-gustavo-melo tag-podcast tag-product-culture tag-product-management tag-product-management-podcast tag-product-manager tag-product-managers tag-product-team tag-product-to-product">
+	<div class="entry-image col-xs-12 ">
+			    <a href="../gustavo-melo/index.html" title="Product to Product: Amazon&#8217;s Gustavo Melo on reversing a tense team culture">
+	    	<img width="1501" height="801" src="../wp-content/uploads/2018/05/s2e6-gustavo-2.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Product to Product - Gustavo Melo" srcset="../wp-content/uploads/2018/05/s2e6-gustavo-2.png 1501w, ../wp-content/uploads/2018/05/s2e6-gustavo-2-300x160.png 300w, ../wp-content/uploads/2018/05/s2e6-gustavo-2-768x410.png 768w, ../wp-content/uploads/2018/05/s2e6-gustavo-2-1024x546.png 1024w" sizes="(max-width: 1501px) 100vw, 1501px" />	    </a>
+			</div><!--//entry-image-->
+		<div class="entry-wrapper col-xs-12 ">
+		<div class="entry-category small"><span class="byline byline-cat"> <a href="../category/podcast/index.html" alt="View all posts in Podcast">Podcast</a> | 
+		<span class='span-reading-time'> 18 min read</span>
+		</span></div>
+		<div class="entry-meta">
+			<h1 class="entry-title entry-title-sm"><a href="../gustavo-melo/index.html" rel="bookmark">Product to Product: Amazon&#8217;s Gustavo Melo on reversing a tense team culture</a></h1>			<div class="entry-auth-share clearfix">
+				<div id="entry-auth-share-l">
+					<span class="byline byline-author"> <span class="author vcard"><a class="url fn n" href="../author/tarif/index.html">Tarif Rahman</a></span></span>
+				</div>
+		  </div>		</div><!-- .entry-meta -->
+	</div><!--//entry-meta-->
+	
+</article><!-- #post-## -->							</div>
+										<div class="col-xs-12 col-sm-4">
+								
+<article id="post-3969" class="post row post-3969 type-post status-publish format-standard has-post-thumbnail hentry category-podcast tag-ben-mills tag-benjamin-mills tag-head-of-product tag-podcast tag-product-leadership tag-product-management tag-product-management-career tag-product-management-podcast tag-product-manager tag-product-managers tag-product-team-lead tag-product-to-product tag-venmo">
+	<div class="entry-image col-xs-12 ">
+			    <a href="../ben-mills/index.html" title="Product to Product: Venmo&#8217;s Ben Mills on the messiness of leading a product team">
+	    	<img width="1501" height="801" src="../wp-content/uploads/2018/05/s2e5-benjamin.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Product to Product - Ben Mills" srcset="../wp-content/uploads/2018/05/s2e5-benjamin.png 1501w, ../wp-content/uploads/2018/05/s2e5-benjamin-300x160.png 300w, ../wp-content/uploads/2018/05/s2e5-benjamin-768x410.png 768w, ../wp-content/uploads/2018/05/s2e5-benjamin-1024x546.png 1024w" sizes="(max-width: 1501px) 100vw, 1501px" />	    </a>
+			</div><!--//entry-image-->
+		<div class="entry-wrapper col-xs-12 ">
+		<div class="entry-category small"><span class="byline byline-cat"> <a href="../category/podcast/index.html" alt="View all posts in Podcast">Podcast</a> | 
+		<span class='span-reading-time'> 21 min read</span>
+		</span></div>
+		<div class="entry-meta">
+			<h1 class="entry-title entry-title-sm"><a href="../ben-mills/index.html" rel="bookmark">Product to Product: Venmo&#8217;s Ben Mills on the messiness of leading a product team</a></h1>			<div class="entry-auth-share clearfix">
+				<div id="entry-auth-share-l">
+					<span class="byline byline-author"> <span class="author vcard"><a class="url fn n" href="../author/tarif/index.html">Tarif Rahman</a></span></span>
+				</div>
+		  </div>		</div><!-- .entry-meta -->
+	</div><!--//entry-meta-->
+	
+</article><!-- #post-## -->							</div>
+										<div class="col-xs-12 col-sm-4">
+								
+<article id="post-3953" class="post row post-3953 type-post status-publish format-standard has-post-thumbnail hentry category-podcast tag-brian-donohue tag-intercom tag-michelle-fitzpatrick tag-podcast tag-product-conviction tag-product-management tag-product-management-podcast tag-product-manager tag-product-managers tag-product-strategy tag-product-to-product">
+	<div class="entry-image col-xs-12 ">
+			    <a href="../brian-donohue-michelle-fitzpatrick/index.html" title="Product to Product: Intercom&#8217;s Brian Donohue &#038; Michelle Fitzpatrick on building your product conviction">
+	    	<img width="1501" height="801" src="../wp-content/uploads/2018/04/s2e4-brian-michelle.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="roduct to Product - Brian Donohue and Michelle Fitzpatrick" srcset="../wp-content/uploads/2018/04/s2e4-brian-michelle.png 1501w, ../wp-content/uploads/2018/04/s2e4-brian-michelle-300x160.png 300w, ../wp-content/uploads/2018/04/s2e4-brian-michelle-768x410.png 768w, ../wp-content/uploads/2018/04/s2e4-brian-michelle-1024x546.png 1024w" sizes="(max-width: 1501px) 100vw, 1501px" />	    </a>
+			</div><!--//entry-image-->
+		<div class="entry-wrapper col-xs-12 ">
+		<div class="entry-category small"><span class="byline byline-cat"> <a href="../category/podcast/index.html" alt="View all posts in Podcast">Podcast</a> | 
+		<span class='span-reading-time'> 25 min read</span>
+		</span></div>
+		<div class="entry-meta">
+			<h1 class="entry-title entry-title-sm"><a href="../brian-donohue-michelle-fitzpatrick/index.html" rel="bookmark">Product to Product: Intercom&#8217;s Brian Donohue &#038; Michelle Fitzpatrick on building your product conviction</a></h1>			<div class="entry-auth-share clearfix">
+				<div id="entry-auth-share-l">
+					<span class="byline byline-author"> <span class="author vcard"><a class="url fn n" href="../author/tarif/index.html">Tarif Rahman</a></span></span>
+				</div>
+		  </div>		</div><!-- .entry-meta -->
+	</div><!--//entry-meta-->
+	
+</article><!-- #post-## -->							</div>
+							</div>
+				<div class="row">
+					<div class="comments-wrapper col-xs-12">
+											</div>
+				</div>
+					</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+<a href="#" id="back-to-top" title="Back to top">&uarr;</a>
+
+<footer class="footer-main text-center">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 col-sm-offset-1 col-sm-4">
+				<span class="links"><h3><a href="../../index.html" target="_blank" style="margin-top:20px;">ROADMUNK HOME</a></h3></span>
+				<h3><a href="../../company.html" target="_blank">CONTACT US</a></h3>
+				<p>&copy; 2012 - 2018 ROADMUNK</p>
+			</div>
+			<div class="col-xs-12 col-sm-offset-3 col-sm-4">
+				<div class="social-footer">
+					
+		<div class="entry-social">
+			<a class="entry-social-footer-twitter" href="https://twitter.com/RoadmunkApp" target="_blank">Share on Twitter</a>
+			<a class="entry-social-footer-facebook" href="https://www.facebook.com/roadmunkapp/" target="_blank">Share on Facebook</a>
+			<a class="entry-social-footer-linkedin" href="https://www.linkedin.com/company/roadmunk" target="_blank">Share on Linkedin</a>
+		</div>				</div>
+			</div>
+		</div>
+	</div><!--//container-->
+</footer>
+
+</div> <!-- /container -->
+
+<script src="https://my.hellobar.com/8017b704ff36e7c871f49fbaf71bf0b9b83e47fb.js" type="text/javascript" async="async"></script>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZM6BLH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- DO NOT COPY THIS SNIPPET! &mdash; HubSpot Identification Code -->
+<script type="text/javascript">
+(function(d,w) {
+w._hsq = w._hsq || [];
+w._hsq.push(["setContentType", "blog-post"]);
+})(document, window);
+</script>
+<!-- End of HubSpot Identification Code &mdash; DO NOT COPY THIS SNIPPET! -->
+
+<!-- Start of Async HubSpot Analytics Code for WordPress v1.2.1 -->
+<script type="text/javascript" id="hs-script-loader" async defer src="https://js.hs-scripts.com/2108146.js"></script>
+<!-- End of Async HubSpot Analytics Code -->
+<!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Podcast Popup --><div id="om-yt6cvuonqjhgqmwlccq0-holder"></div><script>var yt6cvuonqjhgqmwlccq0,yt6cvuonqjhgqmwlccq0_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){yt6cvuonqjhgqmwlccq0_poll(function(){if(window['om_loaded']){if(!yt6cvuonqjhgqmwlccq0){yt6cvuonqjhgqmwlccq0=new OptinMonsterApp();return yt6cvuonqjhgqmwlccq0.init({"u":"25630.670437","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="https://a.optnmstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;yt6cvuonqjhgqmwlccq0=new OptinMonsterApp();yt6cvuonqjhgqmwlccq0.init({"u":"25630.670437","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster --><div style="position:absolute;overflow:hidden;clip:rect(0 0 0 0);height:1px;width:1px;margin:-1px;padding:0;border:0"><div class="omapi-shortcode-helper">[if lte IE 8]</div><div class="omapi-shortcode-parsed">[if lte IE 8]</div></div>	    <script type="text/javascript">var ytoapcdbhazgdychkbmg_shortcode = true;var yt6cvuonqjhgqmwlccq0_shortcode = true;</script>
+	    <script type='text/javascript'>
+/* <![CDATA[ */
+var leadin_wordpress = {"userRole":"visitor","pageType":"post","leadinPluginVersion":"6.1.2"};
+/* ]]> */
+</script>
+<script type='text/javascript' async defer src='https://js.hs-scripts.com/1984688.js?ver=4.7.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ajaxpagination = {"ajaxurl":"https:\/\/roadmunk.com\/blog\/wp-admin\/admin-ajax.php","query_vars":"{\"page\":\"\",\"name\":\"saas-product-management-metrics\"}"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../wp-content/themes/roadmunk_v2/public/js/script.min-ver=4.7.3.js'></script>
+<script type='text/javascript' src='../wp-content/themes/roadmunk_v2/public/js/theme.min-ver=4.7.3.js'></script>
+<script type='text/javascript' src='../wp-content/plugins/mousewheel-smooth-scroll/js/wpmss-step=100&amp;speed=400&amp;ver=1.php'></script>
+<script type='text/javascript' src='../wp-includes/js/wp-embed.min-ver=4.7.3.js'></script>
+	    <script type="text/javascript">var omapi_localized = { ajax: 'https://roadmunk.com/blog/wp-admin/admin-ajax.php?optin-monster-ajax-route=1', nonce: '7a6b04c857' };</script>
+	    </div><!--container-->
+</body>
+</html>
